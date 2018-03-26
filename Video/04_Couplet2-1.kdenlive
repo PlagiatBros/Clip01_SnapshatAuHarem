@@ -711,6 +711,10 @@
   <property name="length">00:04:11:05</property>
   <property name="eof">pause</property>
   <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0134_C0000.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -753,10 +757,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">5604735529</property>
   <property name="kdenlive:file_hash">f7c0adb0953aed98701c13058f2178f5</property>
@@ -825,6 +825,10 @@
   <property name="length">00:03:30:08</property>
   <property name="eof">pause</property>
   <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0143_C0001.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -867,10 +871,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">4692771041</property>
   <property name="kdenlive:file_hash">9f6e41c981f7658d7aa446ca21b52691</property>
@@ -939,6 +939,10 @@
   <property name="length">00:01:53:17</property>
   <property name="eof">pause</property>
   <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0148_C0002.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -981,10 +985,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">2536962009</property>
   <property name="kdenlive:file_hash">302d091637657ca34b70898f916f892b</property>
@@ -1053,6 +1053,10 @@
   <property name="length">00:01:17:19</property>
   <property name="eof">pause</property>
   <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0152_C0003.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -1095,10 +1099,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">1735623353</property>
   <property name="kdenlive:file_hash">135377d0fb800f4c0227e31eacc02d7f</property>
@@ -1167,6 +1167,10 @@
   <property name="length">00:11:46:01</property>
   <property name="eof">pause</property>
   <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0212_C0004.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -1209,10 +1213,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">15752546401</property>
   <property name="kdenlive:file_hash">66fdce4b25a5795b28b8edb5cd4585a3</property>
@@ -1281,6 +1281,10 @@
   <property name="length">00:03:23:14</property>
   <property name="eof">pause</property>
   <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0236_C0005.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -1323,10 +1327,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">4542172841</property>
   <property name="kdenlive:file_hash">91feebd31e13c0397d7c7f4aa158eeea</property>
@@ -1395,6 +1395,10 @@
   <property name="length">00:04:15:02</property>
   <property name="eof">pause</property>
   <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0243_C0006.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -1437,10 +1441,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">5691189833</property>
   <property name="kdenlive:file_hash">138855e87eadd367db96162201652602</property>
@@ -1509,6 +1509,10 @@
   <property name="length">00:02:51:03</property>
   <property name="eof">pause</property>
   <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -1551,10 +1555,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">3817991081</property>
   <property name="kdenlive:file_hash">e89f437a6cab322b45877ac37506466d</property>
@@ -1623,6 +1623,10 @@
   <property name="length">00:01:15:16</property>
   <property name="eof">pause</property>
   <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1130_C0003.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -1665,10 +1669,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">1688212137</property>
   <property name="kdenlive:file_hash">9e3b238311cbd7c98462643bd5208d2f</property>
@@ -1743,7 +1743,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">2357</property>
+  <property name="kdenlive:docproperties.position">3118</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1755,9 +1755,9 @@
   <property name="kdenlive:docproperties.version">0.95</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">0</property>
-  <property name="kdenlive:docproperties.zoneout">100</property>
-  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:docproperties.zonein">3093</property>
+  <property name="kdenlive:docproperties.zoneout">3143</property>
+  <property name="kdenlive:docproperties.zoom">1</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -1767,6 +1767,26 @@
   <property name="kdenlive:guide.137,583">DebutTrap</property>
   <property name="kdenlive:guide.137">Snare</property>
   <property name="kdenlive:guide.142,625">Fuck</property>
+  <property name="kdenlive:docproperties.renderaudioquality">160</property>
+  <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
+  <property name="kdenlive:docproperties.renderendguide">0</property>
+  <property name="kdenlive:docproperties.renderexportaudio">0</property>
+  <property name="kdenlive:docproperties.renderguide">0</property>
+  <property name="kdenlive:docproperties.renderplay">0</property>
+  <property name="kdenlive:docproperties.renderprofile">MP4 - the dominating format (H264/AAC)</property>
+  <property name="kdenlive:docproperties.renderquality">23</property>
+  <property name="kdenlive:docproperties.renderratio">1</property>
+  <property name="kdenlive:docproperties.renderrescale">0</property>
+  <property name="kdenlive:docproperties.renderrescaleheight">180</property>
+  <property name="kdenlive:docproperties.renderrescalewidth">320</property>
+  <property name="kdenlive:docproperties.renderscanning">0</property>
+  <property name="kdenlive:docproperties.renderspeed">2</property>
+  <property name="kdenlive:docproperties.renderstartguide">0</property>
+  <property name="kdenlive:docproperties.rendertcoverlay">0</property>
+  <property name="kdenlive:docproperties.rendertctype">0</property>
+  <property name="kdenlive:docproperties.rendertwopass">0</property>
+  <property name="kdenlive:docproperties.renderurl">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Rendus/TestChutePQ.mp4</property>
+  <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="xml_retain">1</property>
   <entry out="4287" producer="1" in="0"/>
   <entry out="3211" producer="4" in="0"/>
@@ -2883,8 +2903,10 @@
  <playlist id="playlist23">
   <property name="kdenlive:track_name">TravellingMoyen</property>
   <property name="kdenlive:locked_track">1</property>
-  <blank length="2596"/>
-  <entry out="5092" producer="8_playlist23" in="4201"/>
+  <blank length="2699"/>
+  <entry out="4534" producer="8_playlist23" in="4304"/>
+  <blank length="136"/>
+  <entry out="5092" producer="8_playlist23" in="4671"/>
  </playlist>
  <producer id="9_playlist9" title="Anonymous Submission" out="5047" in="0">
   <property name="length">00:03:30:08</property>
@@ -3007,7 +3029,13 @@
   <blank length="1168"/>
   <entry out="4340" producer="9_playlist9" in="4101"/>
   <blank length="759"/>
-  <entry out="4100" producer="9_playlist9" in="1885"/>
+  <entry out="2026" producer="9_playlist9" in="1885"/>
+  <blank length="480"/>
+  <entry out="2557" producer="9_playlist9" in="2507"/>
+  <blank length="33"/>
+  <entry out="2676" producer="9_playlist9" in="2591"/>
+  <blank length="107"/>
+  <entry out="4100" producer="9_playlist9" in="2784"/>
   <filter id="filter7">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -3135,10 +3163,18 @@
   <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist10">
-  <property name="kdenlive:track_name">Video 9</property>
+  <property name="kdenlive:track_name">TrallingProchePasMal</property>
   <property name="kdenlive:locked_track">1</property>
   <blank length="1659"/>
-  <entry out="1682" producer="10_playlist10" in="0"/>
+  <entry out="594" producer="10_playlist10" in="0"/>
+  <blank length="585"/>
+  <entry out="1213" producer="10_playlist10" in="1180"/>
+  <blank length="27"/>
+  <entry out="1270" producer="10_playlist10" in="1241"/>
+  <blank length="17"/>
+  <entry out="1304" producer="10_playlist10" in="1288"/>
+  <blank length="92"/>
+  <entry out="1682" producer="10_playlist10" in="1397"/>
   <blank length="296"/>
   <entry out="2728" producer="10_playlist10" in="1979"/>
   <filter id="filter8">
@@ -3401,9 +3437,9 @@
  <playlist id="playlist12">
   <property name="kdenlive:track_name">Video 11</property>
   <property name="kdenlive:locked_track">1</property>
-  <blank length="1576"/>
+  <blank length="1205"/>
   <entry out="3457" producer="12_playlist12" in="3223"/>
-  <blank length="785"/>
+  <blank length="1156"/>
   <entry out="4304" producer="12_playlist12" in="3458"/>
   <entry out="7053" producer="12_playlist12" in="4310"/>
   <filter id="filter10">
@@ -3910,12 +3946,20 @@
   <property name="meta.media.color_trc">1</property>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist16">
   <property name="kdenlive:track_name">Video 15</property>
   <property name="kdenlive:locked_track">1</property>
-  <blank length="1683"/>
-  <entry out="1603" producer="13_playlist16" in="0"/>
+  <blank length="2978"/>
+  <entry out="1302" producer="13_playlist16" in="1295"/>
+  <blank length="18"/>
+  <entry out="1330" producer="13_playlist16" in="1321"/>
+  <blank length="47"/>
+  <entry out="1393" producer="13_playlist16" in="1378"/>
+  <blank length="91"/>
+  <entry out="1603" producer="13_playlist16" in="1485"/>
  </playlist>
  <producer id="13_playlist17" title="Anonymous Submission" out="4885" in="0">
   <property name="length">00:03:23:14</property>
@@ -4029,12 +4073,18 @@
   <property name="meta.media.color_trc">1</property>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist17">
   <property name="kdenlive:track_name">Video 16</property>
   <property name="kdenlive:locked_track">1</property>
-  <blank length="2048"/>
-  <entry out="2807" producer="13_playlist17" in="1604"/>
+  <blank length="2993"/>
+  <entry out="2559" producer="13_playlist17" in="2549"/>
+  <blank length="10"/>
+  <entry out="2616" producer="13_playlist17" in="2570"/>
+  <blank length="107"/>
+  <entry out="2807" producer="13_playlist17" in="2724"/>
  </playlist>
  <producer id="13_playlist18" title="Anonymous Submission" out="4885" in="0">
   <property name="length">00:03:23:14</property>
@@ -4154,8 +4204,14 @@
  <playlist id="playlist18">
   <property name="kdenlive:track_name">Video 17</property>
   <property name="kdenlive:locked_track">1</property>
-  <blank length="1683"/>
-  <entry out="4885" producer="13_playlist18" in="2808"/>
+  <blank length="2986"/>
+  <entry out="4119" producer="13_playlist18" in="4111"/>
+  <blank length="19"/>
+  <entry out="4167" producer="13_playlist18" in="4139"/>
+  <blank length="34"/>
+  <entry out="4230" producer="13_playlist18" in="4202"/>
+  <blank length="62"/>
+  <entry out="4885" producer="13_playlist18" in="4293"/>
  </playlist>
  <producer id="14_playlist19" title="Anonymous Submission" out="6121" in="0">
   <property name="length">00:04:15:02</property>
@@ -4269,6 +4325,8 @@
   <property name="meta.media.color_trc">1</property>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist19">
   <property name="kdenlive:track_name">Video 18</property>
@@ -4397,6 +4455,69 @@
   <blank length="2045"/>
   <entry out="6121" producer="14_playlist20" in="3007"/>
  </playlist>
+ <producer id="slowmotion:15:4:1:0" out="1026" in="0">
+  <property name="length">1027</property>
+  <property name="eof">pause</property>
+  <property name="resource">4:src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">24</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1920</property>
+  <property name="meta.media.1.codec.height">1080</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.frame_rate">2400</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
+  <property name="meta.media.1.codec.name">prores</property>
+  <property name="meta.media.1.codec.long_name">ProRes</property>
+  <property name="meta.media.1.codec.bit_rate">176139791</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2017-11-24T11:17:56.000000Z</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
+  <property name="meta.attr.1.stream.timecode.markup">11:17:56:09</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">s32</property>
+  <property name="meta.media.2.codec.sample_rate">48000</property>
+  <property name="meta.media.2.codec.channels">2</property>
+  <property name="meta.media.2.codec.name">pcm_s24le</property>
+  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.2.codec.bit_rate">2304000</property>
+  <property name="meta.attr.2.stream.creation_time.markup">2017-11-24T11:17:56.000000Z</property>
+  <property name="meta.attr.2.stream.language.markup">eng</property>
+  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.2.stream.timecode.markup">11:17:56:09</property>
+  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
+  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM2</property>
+  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
+  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
+  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
+  <property name="meta.attr.creation_time.markup">2017-11-24T11:17:56.000000Z</property>
+  <property name="meta.attr.timecode.markup">11:17:56:09</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">4</property>
+  <property name="warp_resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="kdenlive:originalurl">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
  <producer id="15_playlist21" title="Anonymous Submission" out="4106" in="0">
   <property name="length">00:02:51:03</property>
   <property name="eof">pause</property>
@@ -4515,8 +4636,9 @@
  <playlist id="playlist21">
   <property name="kdenlive:track_name">Video 20</property>
   <property name="kdenlive:locked_track">0</property>
-  <blank length="2080"/>
-  <entry out="4106" producer="15_playlist21" in="0"/>
+  <blank length="3102"/>
+  <entry out="227" producer="slowmotion:15:4:1:0" in="224"/>
+  <entry out="954" producer="15_playlist21" in="912"/>
  </playlist>
  <producer id="16_playlist22" title="Anonymous Submission" out="1815" in="0">
   <property name="length">00:01:15:16</property>
@@ -4630,10 +4752,12 @@
   <property name="meta.media.color_trc">1</property>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <playlist id="playlist22">
   <property name="kdenlive:track_name">Video 21</property>
-  <property name="kdenlive:locked_track">0</property>
+  <property name="kdenlive:locked_track">1</property>
   <blank length="2450"/>
   <entry out="1815" producer="16_playlist22" in="0"/>
  </playlist>
@@ -4656,12 +4780,12 @@
   <track producer="playlist13" hide="both"/>
   <track producer="playlist14" hide="both"/>
   <track producer="playlist15" hide="both"/>
-  <track producer="playlist16" hide="both"/>
-  <track producer="playlist17" hide="both"/>
-  <track producer="playlist18" hide="both"/>
+  <track producer="playlist16" hide="audio"/>
+  <track producer="playlist17" hide="audio"/>
+  <track producer="playlist18" hide="audio"/>
   <track producer="playlist19" hide="both"/>
   <track producer="playlist20" hide="both"/>
-  <track producer="playlist21" hide="both"/>
+  <track producer="playlist21" hide="audio"/>
   <track producer="playlist22" hide="both"/>
   <transition id="transition0">
    <property name="a_track">0</property>
@@ -4855,7 +4979,7 @@
    <property name="combine">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition24">
+  <transition id="transition25">
    <property name="a_track">0</property>
    <property name="b_track">3</property>
    <property name="compositing">0</property>
@@ -4864,7 +4988,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition25">
+  <transition id="transition26">
    <property name="a_track">0</property>
    <property name="b_track">4</property>
    <property name="compositing">0</property>
@@ -4873,7 +4997,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition26">
+  <transition id="transition27">
    <property name="a_track">0</property>
    <property name="b_track">5</property>
    <property name="compositing">0</property>
@@ -4882,7 +5006,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition27">
+  <transition id="transition28">
    <property name="a_track">0</property>
    <property name="b_track">6</property>
    <property name="compositing">0</property>
@@ -4891,7 +5015,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition28">
+  <transition id="transition29">
    <property name="a_track">0</property>
    <property name="b_track">7</property>
    <property name="compositing">0</property>
@@ -4900,7 +5024,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition29">
+  <transition id="transition30">
    <property name="a_track">0</property>
    <property name="b_track">8</property>
    <property name="compositing">0</property>
@@ -4909,7 +5033,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition30">
+  <transition id="transition31">
    <property name="a_track">0</property>
    <property name="b_track">9</property>
    <property name="compositing">0</property>
@@ -4918,7 +5042,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition31">
+  <transition id="transition32">
    <property name="a_track">0</property>
    <property name="b_track">10</property>
    <property name="compositing">0</property>
@@ -4927,7 +5051,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition32">
+  <transition id="transition33">
    <property name="a_track">0</property>
    <property name="b_track">11</property>
    <property name="compositing">0</property>
@@ -4936,7 +5060,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition33">
+  <transition id="transition34">
    <property name="a_track">0</property>
    <property name="b_track">12</property>
    <property name="compositing">0</property>
@@ -4945,7 +5069,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition34">
+  <transition id="transition35">
    <property name="a_track">0</property>
    <property name="b_track">13</property>
    <property name="compositing">0</property>
@@ -4954,7 +5078,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition35">
+  <transition id="transition36">
    <property name="a_track">0</property>
    <property name="b_track">14</property>
    <property name="compositing">0</property>
@@ -4963,7 +5087,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition36">
+  <transition id="transition37">
    <property name="a_track">0</property>
    <property name="b_track">15</property>
    <property name="compositing">0</property>
@@ -4972,7 +5096,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition37">
+  <transition id="transition38">
    <property name="a_track">0</property>
    <property name="b_track">16</property>
    <property name="compositing">0</property>
@@ -4981,7 +5105,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition38">
+  <transition id="transition39">
    <property name="a_track">0</property>
    <property name="b_track">17</property>
    <property name="compositing">0</property>
@@ -4990,7 +5114,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition39">
+  <transition id="transition40">
    <property name="a_track">0</property>
    <property name="b_track">18</property>
    <property name="compositing">0</property>
@@ -4999,7 +5123,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition40">
+  <transition id="transition41">
    <property name="a_track">0</property>
    <property name="b_track">19</property>
    <property name="compositing">0</property>
@@ -5008,7 +5132,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition41">
+  <transition id="transition42">
    <property name="a_track">0</property>
    <property name="b_track">20</property>
    <property name="compositing">0</property>
@@ -5017,7 +5141,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition42">
+  <transition id="transition43">
    <property name="a_track">0</property>
    <property name="b_track">21</property>
    <property name="compositing">0</property>
@@ -5026,7 +5150,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition43">
+  <transition id="transition44">
    <property name="a_track">0</property>
    <property name="b_track">22</property>
    <property name="compositing">0</property>
@@ -5035,7 +5159,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition44">
+  <transition id="transition45">
    <property name="a_track">0</property>
    <property name="b_track">23</property>
    <property name="compositing">0</property>
@@ -5044,7 +5168,7 @@
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition45">
+  <transition id="transition46">
    <property name="a_track">0</property>
    <property name="b_track">24</property>
    <property name="compositing">0</property>
