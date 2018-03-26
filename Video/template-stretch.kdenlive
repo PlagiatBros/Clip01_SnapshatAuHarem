@@ -33,7 +33,11 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
+<<<<<<< HEAD
+  <property name="kdenlive:docproperties.position">1104</property>
+=======
   <property name="kdenlive:docproperties.position">3443</property>
+>>>>>>> bcb53878961f9aed1657a16495636f94d98b113a
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
