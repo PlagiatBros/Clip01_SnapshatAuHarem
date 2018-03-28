@@ -427,7 +427,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">3105</property>
+  <property name="kdenlive:docproperties.position">2018</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -439,9 +439,9 @@
   <property name="kdenlive:docproperties.version">0.95</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">2254</property>
-  <property name="kdenlive:docproperties.zoneout">2927</property>
-  <property name="kdenlive:docproperties.zoom">8</property>
+  <property name="kdenlive:docproperties.zonein">2253</property>
+  <property name="kdenlive:docproperties.zoneout">2932</property>
+  <property name="kdenlive:docproperties.zoom">5</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -470,8 +470,9 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">/home/bordun/Clip01_SnapshatAuHarem/2018-03-27_Refrain1.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">/home/bordun/Clip01_SnapshatAuHarem/2018-03-28_Refrain1.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
+  <property name="kdenlive:guide.94,875">Guide</property>
   <property name="xml_retain">1</property>
   <entry out="4287" producer="1" in="0"/>
   <entry out="8136" producer="3" in="0"/>
@@ -607,21 +608,21 @@
  <playlist id="playlist4">
   <property name="kdenlive:track_name">Video 2</property>
   <blank length="2270"/>
-  <entry out="2770" producer="3_playlist4" in="2707">
-   <filter id="pan_zoom" out="2770" in="2707">
+  <entry out="2770" producer="3_playlist4" in="2721">
+   <filter id="pan_zoom" out="2770" in="2721">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
     <property name="tag">affine</property>
     <property name="kdenlive_ix">1</property>
-    <property name="transition.geometry">0/-162:2496x1404:100</property>
+    <property name="transition.geometry">-33/-261:2688x1512:100</property>
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
-    <property name="disable"/>
+    <property name="disable">0</property>
    </filter>
   </entry>
-  <blank length="94"/>
+  <blank length="108"/>
   <entry out="2960" producer="3_playlist4" in="2878">
    <filter id="filter0">
     <property name="background">colour:0x00000000</property>
@@ -1037,10 +1038,10 @@
   <entry out="489" producer="5_playlist6" in="454"/>
   <blank length="42"/>
   <entry out="703" producer="5_playlist6" in="639"/>
-  <blank length="87"/>
-  <entry out="1409" producer="5_playlist6" in="1368"/>
-  <blank length="86"/>
-  <entry out="1528" producer="5_playlist6" in="1450"/>
+  <blank length="96"/>
+  <entry out="1398" producer="5_playlist6" in="1368"/>
+  <blank length="102"/>
+  <entry out="1528" producer="5_playlist6" in="1464"/>
  </playlist>
  <producer id="slowmotion:11:0,9:1:0" out="2554" in="0">
   <property name="length">2555</property>
@@ -1168,10 +1169,23 @@
  </producer>
  <playlist id="playlist7">
   <property name="kdenlive:track_name">Vidéo 3</property>
-  <blank length="2317"/>
-  <entry out="1992" producer="slowmotion:11:0,9:1:0" in="1973"/>
-  <blank length="94"/>
-  <entry out="535" producer="3_playlist7" in="462"/>
+  <blank length="2304"/>
+  <entry out="1992" producer="slowmotion:11:0,9:1:0" in="1960">
+   <filter id="filter1" out="1992" in="1959">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="transition.geometry">-292/-215:2496x1404:100</property>
+    <property name="transition.distort">0</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable">0</property>
+   </filter>
+  </entry>
+  <blank length="98"/>
+  <entry out="535" producer="3_playlist7" in="466"/>
  </playlist>
  <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="5728" in="0">
   <track producer="black_track"/>

@@ -654,7 +654,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">2421</property>
+  <property name="kdenlive:docproperties.position">2298</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -666,9 +666,9 @@
   <property name="kdenlive:docproperties.version">0.95</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">1480</property>
-  <property name="kdenlive:docproperties.zoneout">2405</property>
-  <property name="kdenlive:docproperties.zoom">4</property>
+  <property name="kdenlive:docproperties.zonein">1484</property>
+  <property name="kdenlive:docproperties.zoneout">2304</property>
+  <property name="kdenlive:docproperties.zoom">3</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -693,7 +693,7 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">/home/bordun/Clip01_SnapshatAuHarem/untitled.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">/home/bordun/Clip01_SnapshatAuHarem/2018-03-27_Couplet1.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="xml_retain">1</property>
   <entry out="4287" producer="1" in="0"/>
@@ -1078,11 +1078,13 @@
   <blank length="1893"/>
   <entry out="805" producer="4_playlist10" in="764"/>
   <entry out="890" producer="4_playlist10" in="832"/>
-  <blank length="251"/>
-  <entry out="1679" producer="8_playlist10" in="1674"/>
-  <entry out="3375" producer="slowmotion:8:0,5:1:0" in="3360"/>
+  <blank length="253"/>
+  <entry out="1682" producer="8_playlist10" in="1680"/>
+  <entry out="1682" producer="8_playlist10" in="1680"/>
+  <entry out="1682" producer="8_playlist10" in="1680"/>
+  <entry out="3375" producer="slowmotion:8:0,5:1:0" in="3365"/>
   <entry out="1412" producer="slowmotion:8:1,2:1:0" in="1407"/>
-  <entry out="1724" producer="8" in="1695"/>
+  <entry out="1725" producer="8" in="1695"/>
  </playlist>
  <producer id="4_playlist7" title="Anonymous Submission" out="2260" in="0">
   <property name="length">00:01:34:05</property>
@@ -1217,12 +1219,9 @@
    </filter>
   </entry>
   <blank length="93"/>
-  <entry out="1109" producer="4_playlist7" in="857"/>
-  <entry out="1115" producer="4_playlist7" in="1114"/>
-  <blank length="1"/>
-  <entry out="1117" producer="4_playlist7" in="1117"/>
-  <blank length="1"/>
-  <entry out="1116" producer="4_playlist7" in="1116"/>
+  <entry out="1068" producer="4_playlist7" in="857"/>
+  <entry out="1109" producer="4_playlist7" in="1070"/>
+  <entry out="1114" producer="4_playlist7" in="1114"/>
  </playlist>
  <producer id="3_playlist4" title="Anonymous Submission" out="2299" in="0">
   <property name="length">00:01:35:20</property>
@@ -1566,6 +1565,12 @@
     <property name="kdenlive_info"/>
    </filter>
   </entry>
+  <blank length="42"/>
+  <entry out="1" producer="10" in="1"/>
+  <blank length="2"/>
+  <entry out="0" producer="10" in="0"/>
+  <blank length="2"/>
+  <entry out="0" producer="10" in="0"/>
  </playlist>
  <producer id="slowmotion:4:1,9:1:0" out="1189" in="0">
   <property name="length">1190</property>
@@ -2288,8 +2293,8 @@
     <property name="reverse">0</property>
    </filter>
   </entry>
-  <blank length="127"/>
-  <entry out="3048" producer="slowmotion:8:0,5:1:0" in="3016"/>
+  <blank length="125"/>
+  <entry out="3048" producer="slowmotion:8:0,5:1:0" in="3014"/>
   <blank length="21"/>
   <entry out="546" producer="8_playlist6" in="539"/>
   <entry out="1109" producer="8_playlist6" in="1102">
