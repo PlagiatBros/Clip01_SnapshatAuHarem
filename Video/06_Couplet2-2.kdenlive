@@ -1857,7 +1857,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">3712</property>
+  <property name="kdenlive:docproperties.position">3716</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2475,7 +2475,9 @@
   <property name="kdenlive:track_name">Video 4</property>
   <property name="kdenlive:locked_track">0</property>
   <blank length="969"/>
-  <entry out="2677" producer="5_playlist0" in="0"/>
+  <entry out="2518" producer="5_playlist0" in="0"/>
+  <blank length="55"/>
+  <entry out="2677" producer="5_playlist0" in="2574"/>
   <entry out="2720" producer="5_playlist0" in="2676"/>
   <entry out="3737" producer="5_playlist0" in="2723"/>
   <filter id="filter3">
@@ -2609,8 +2611,8 @@
   <property name="kdenlive:locked_track">0</property>
   <blank length="687"/>
   <entry out="2600" producer="6_playlist6" in="0"/>
-  <blank length="173"/>
-  <entry out="2899" producer="6_playlist6" in="2774"/>
+  <blank length="238"/>
+  <entry out="2899" producer="6_playlist6" in="2839"/>
   <blank length="24"/>
   <entry out="2972" producer="6_playlist6" in="2924"/>
   <blank length="25"/>
