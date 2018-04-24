@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt title="Anonymous Submission" version="6.5.0" root="/home/bordun/Clip01_SnapshatAuHarem/Video" producer="main bin" LC_NUMERIC="fr_FR.UTF-8">
+<mlt title="Anonymous Submission" version="6.5.0" root="/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video" modified="1" producer="main bin" LC_NUMERIC="fr_FR.UTF-8">
  <profile width="1920" frame_rate_den="1" height="1080" display_aspect_num="16" display_aspect_den="9" frame_rate_num="24" colorspace="709" sample_aspect_den="1" description="HD 1080p 24 fps" progressive="1" sample_aspect_num="1"/>
  <producer id="1" title="Anonymous Submission" out="4287" in="0">
   <property name="length">00:02:58:16</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem/Audio/Snapchat_au_Harem.flac</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Audio/Snapchat_au_Harem.flac</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -59,7 +59,7 @@
  <producer id="29" title="Anonymous Submission" out="2289" in="0">
   <property name="length">00:01:35:10</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0216_C0025.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0216_C0025.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -122,7 +122,7 @@
  <producer id="30" title="Anonymous Submission" out="1766" in="0">
   <property name="length">00:01:13:15</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0212_C0024.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0212_C0024.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -184,7 +184,7 @@
  <producer id="31" title="Anonymous Submission" out="2372" in="0">
   <property name="length">00:01:38:21</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0209_C0023.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0209_C0023.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -247,7 +247,7 @@
  <producer id="32" title="Anonymous Submission" out="1656" in="0">
   <property name="length">00:01:09:01</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0207_C0022.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0207_C0022.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -310,7 +310,7 @@
  <producer id="36" out="2938" in="0">
   <property name="length">00:02:02:11</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0157_C0018.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0157_C0018.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -371,7 +371,7 @@
  <producer id="37" title="Anonymous Submission" out="2511" in="0">
   <property name="length">00:01:44:16</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0153_C0017.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0153_C0017.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -433,7 +433,7 @@
  <producer id="38" title="Anonymous Submission" out="669" in="0">
   <property name="length">00:00:27:22</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0152_C0016.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0152_C0016.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -495,7 +495,7 @@
  <producer id="39" title="Anonymous Submission" out="1138" in="0">
   <property name="length">00:00:47:11</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0144_C0015.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0144_C0015.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -557,7 +557,7 @@
  <producer id="40" out="530" in="0">
   <property name="length">00:00:22:03</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0143_C0014.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0143_C0014.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -618,7 +618,7 @@
  <producer id="42" title="Anonymous Submission" out="1012" in="0">
   <property name="length">00:00:42:05</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0139_C0012.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0139_C0012.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -680,7 +680,7 @@
  <producer id="43" out="1320" in="0">
   <property name="length">00:00:55:01</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0138_C0011.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0138_C0011.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -741,7 +741,7 @@
  <producer id="44" title="Anonymous Submission" out="861" in="0">
   <property name="length">00:00:35:22</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0136_C0010.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0136_C0010.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -803,7 +803,7 @@
  <producer id="45" out="1267" in="0">
   <property name="length">00:00:52:20</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0135_C0009.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0135_C0009.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -864,7 +864,7 @@
  <producer id="46" title="Anonymous Submission" out="3737" in="0">
   <property name="length">00:02:35:18</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0058_C0004.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/04-06_Couplet2/CAM2_2017-11-25_0058_C0004.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -926,7 +926,7 @@
  <producer id="47" title="Anonymous Submission" out="8682" in="0">
   <property name="length">00:06:01:19</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0259_C0026.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0259_C0026.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -988,7 +988,7 @@
  <producer id="48" title="Anonymous Submission" out="5556" in="0">
   <property name="length">00:03:51:13</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0328_C0001.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0328_C0001.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1144,7 +1144,7 @@
  <producer id="1_playlist2" title="Anonymous Submission" out="4287" in="0">
   <property name="length">00:02:58:16</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem/Audio/Snapchat_au_Harem.flac</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Audio/Snapchat_au_Harem.flac</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -1185,7 +1185,7 @@
  <producer id="30_playlist3" title="Anonymous Submission" out="1766" in="0">
   <property name="length">00:01:13:15</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0212_C0024.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0212_C0024.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1256,7 +1256,7 @@
  <producer id="32_playlist10" title="Anonymous Submission" out="1656" in="0">
   <property name="length">00:01:09:01</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0207_C0022.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0207_C0022.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1333,7 +1333,7 @@
  <producer id="37_playlist7" title="Anonymous Submission" out="2511" in="0">
   <property name="length">00:01:44:16</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0153_C0017.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0153_C0017.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1413,7 +1413,7 @@
  <producer id="slowmotion:44:0,94:1:0" out="916" in="0">
   <property name="length">917</property>
   <property name="eof">pause</property>
-  <property name="resource">0,94:/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0136_C0010.mov</property>
+  <property name="resource">0,94:/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0136_C0010.mov</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
@@ -1460,7 +1460,7 @@
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="warp_speed">0,94</property>
-  <property name="warp_resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0136_C0010.mov</property>
+  <property name="warp_resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0136_C0010.mov</property>
   <property name="mlt_service">timewarp</property>
   <property name="meta.media.frame_rate_num">24</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -1474,7 +1474,7 @@
  <producer id="44_playlist4" title="Anonymous Submission" out="861" in="0">
   <property name="length">00:00:35:22</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0136_C0010.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0136_C0010.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1510,7 +1510,7 @@
  <producer id="29_playlist5" title="Anonymous Submission" out="2289" in="0">
   <property name="length">00:01:35:10</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0216_C0025.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0216_C0025.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1615,7 +1615,7 @@
  <producer id="46_playlist8" title="Anonymous Submission" out="3737" in="0">
   <property name="length">00:02:35:18</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0058_C0004.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/04-06_Couplet2/CAM2_2017-11-25_0058_C0004.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1744,7 +1744,7 @@
  <producer id="slowmotion:39:1,32:1:0" out="862" in="0">
   <property name="length">863</property>
   <property name="eof">pause</property>
-  <property name="resource">1,32:/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0144_C0015.mov</property>
+  <property name="resource">1,32:/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0144_C0015.mov</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
@@ -1791,7 +1791,7 @@
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="warp_speed">1,32</property>
-  <property name="warp_resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0144_C0015.mov</property>
+  <property name="warp_resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0144_C0015.mov</property>
   <property name="mlt_service">timewarp</property>
   <property name="meta.media.frame_rate_num">24</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -1837,7 +1837,7 @@
  <producer id="48_playlist13" title="Anonymous Submission" out="5556" in="0">
   <property name="length">00:03:51:13</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0328_C0001.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0328_C0001.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1919,7 +1919,7 @@
  <producer id="47_playlist9" title="Anonymous Submission" out="8682" in="0">
   <property name="length">00:06:01:19</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0259_C0026.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0259_C0026.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1982,7 +1982,7 @@
  <producer id="slowmotion:47:0,5:1:0" out="17365" in="0">
   <property name="length">17366</property>
   <property name="eof">pause</property>
-  <property name="resource">0,5:/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0259_C0026.mov</property>
+  <property name="resource">0,5:/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0259_C0026.mov</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
@@ -2029,7 +2029,7 @@
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="warp_speed">0,5</property>
-  <property name="warp_resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0259_C0026.mov</property>
+  <property name="warp_resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0259_C0026.mov</property>
   <property name="mlt_service">timewarp</property>
   <property name="meta.media.frame_rate_num">24</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -2087,7 +2087,7 @@
  <producer id="47_playlist11" title="Anonymous Submission" out="8682" in="0">
   <property name="length">00:06:01:19</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0259_C0026.mov</property>
+  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0259_C0026.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
