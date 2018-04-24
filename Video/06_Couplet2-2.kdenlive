@@ -1737,6 +1737,10 @@
   <property name="length">00:05:39:01</property>
   <property name="eof">pause</property>
   <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-25_0904_C0015.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -1779,10 +1783,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">7564389609</property>
   <property name="kdenlive:file_hash">260f4d967ff432f80e7391eb6465c3fd</property>
@@ -1857,7 +1857,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">3592</property>
+  <property name="kdenlive:docproperties.position">3716</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1871,7 +1871,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">0</property>
   <property name="kdenlive:docproperties.zoneout">100</property>
-  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:docproperties.zoom">4</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -2473,9 +2473,13 @@
  </producer>
  <playlist id="playlist0">
   <property name="kdenlive:track_name">Video 4</property>
-  <property name="kdenlive:locked_track">1</property>
+  <property name="kdenlive:locked_track">0</property>
   <blank length="969"/>
-  <entry out="3737" producer="5_playlist0" in="0"/>
+  <entry out="2518" producer="5_playlist0" in="0"/>
+  <blank length="55"/>
+  <entry out="2677" producer="5_playlist0" in="2574"/>
+  <entry out="2720" producer="5_playlist0" in="2676"/>
+  <entry out="3737" producer="5_playlist0" in="2723"/>
   <filter id="filter3">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -2604,9 +2608,15 @@
  </producer>
  <playlist id="playlist6">
   <property name="kdenlive:track_name">Video 5</property>
-  <property name="kdenlive:locked_track">1</property>
+  <property name="kdenlive:locked_track">0</property>
   <blank length="687"/>
-  <entry out="4335" producer="6_playlist6" in="0"/>
+  <entry out="2600" producer="6_playlist6" in="0"/>
+  <blank length="238"/>
+  <entry out="2899" producer="6_playlist6" in="2839"/>
+  <blank length="24"/>
+  <entry out="2972" producer="6_playlist6" in="2924"/>
+  <blank length="25"/>
+  <entry out="4335" producer="6_playlist6" in="2998"/>
   <filter id="filter4">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -2735,9 +2745,11 @@
  </producer>
  <playlist id="playlist7">
   <property name="kdenlive:track_name">Video 6</property>
-  <property name="kdenlive:locked_track">1</property>
+  <property name="kdenlive:locked_track">0</property>
   <blank length="2167"/>
-  <entry out="2664" producer="7_playlist7" in="0"/>
+  <entry out="1174" producer="7_playlist7" in="0"/>
+  <blank length="398"/>
+  <entry out="2664" producer="7_playlist7" in="1573"/>
   <filter id="filter5">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -2999,7 +3011,7 @@
   <property name="kdenlive:track_name">TravellingMoyen</property>
   <property name="kdenlive:locked_track">1</property>
   <blank length="2596"/>
-  <entry out="5092" producer="8_playlist23" in="4201"/>
+  <entry out="5018" producer="8_playlist23" in="4201"/>
  </playlist>
  <producer id="9_playlist9" title="Anonymous Submission" out="5047" in="0">
   <property name="length">00:03:30:08</property>
@@ -3118,11 +3130,13 @@
  </producer>
  <playlist id="playlist9">
   <property name="kdenlive:track_name">TravellingProcheCalme</property>
-  <property name="kdenlive:locked_track">1</property>
+  <property name="kdenlive:locked_track">0</property>
   <blank length="1168"/>
   <entry out="4340" producer="9_playlist9" in="4101"/>
   <blank length="759"/>
-  <entry out="4100" producer="9_playlist9" in="1885"/>
+  <entry out="3059" producer="9_playlist9" in="1885"/>
+  <blank length="347"/>
+  <entry out="4100" producer="9_playlist9" in="3407"/>
   <filter id="filter7">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -3251,11 +3265,13 @@
  </producer>
  <playlist id="playlist10">
   <property name="kdenlive:track_name">Video 9</property>
-  <property name="kdenlive:locked_track">1</property>
+  <property name="kdenlive:locked_track">0</property>
   <blank length="1659"/>
   <entry out="1682" producer="10_playlist10" in="0"/>
-  <blank length="296"/>
-  <entry out="2728" producer="10_playlist10" in="1979"/>
+  <blank length="265"/>
+  <entry out="1988" producer="10_playlist10" in="1948"/>
+  <blank length="32"/>
+  <entry out="2728" producer="10_playlist10" in="2021"/>
   <filter id="filter8">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -3387,8 +3403,10 @@
   <property name="kdenlive:locked_track">0</property>
   <blank length="2399"/>
   <entry out="942" producer="11_playlist11" in="0"/>
-  <blank length="110"/>
-  <entry out="1866" producer="11_playlist11" in="1053"/>
+  <blank length="265"/>
+  <entry out="1248" producer="11_playlist11" in="1208"/>
+  <blank length="32"/>
+  <entry out="1866" producer="11_playlist11" in="1281"/>
   <filter id="filter9">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -3523,7 +3541,10 @@
   <blank length="785"/>
   <entry out="4177" producer="12_playlist12" in="3458"/>
   <blank length="172"/>
-  <entry out="7053" producer="12_playlist12" in="4355"/>
+  <entry out="4432" producer="12_playlist12" in="4355"/>
+  <entry out="4457" producer="12_playlist12" in="4433"/>
+  <blank length="33"/>
+  <entry out="7053" producer="12_playlist12" in="4491"/>
   <filter id="filter10">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -3654,7 +3675,10 @@
   <property name="kdenlive:track_name">Video 12</property>
   <property name="kdenlive:locked_track">0</property>
   <blank length="3466"/>
-  <entry out="9314" producer="12_playlist13" in="7918"/>
+  <entry out="8017" producer="12_playlist13" in="7918"/>
+  <entry out="8042" producer="12_playlist13" in="8018"/>
+  <blank length="26"/>
+  <entry out="9314" producer="12_playlist13" in="8069"/>
   <filter id="filter11">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -3919,8 +3943,8 @@
   <property name="kdenlive:locked_track">1</property>
   <blank length="1504"/>
   <entry out="15241" producer="12_playlist15" in="13494"/>
-  <blank length="333"/>
-  <entry out="16944" producer="12_playlist15" in="15575"/>
+  <blank length="365"/>
+  <entry out="16944" producer="12_playlist15" in="15607"/>
  </playlist>
  <producer id="13_playlist16" title="Anonymous Submission" out="4885" in="0">
   <property name="length">00:03:23:14</property>
@@ -4761,7 +4785,8 @@
   <property name="kdenlive:track_name">Video 21</property>
   <property name="kdenlive:locked_track">0</property>
   <blank length="2450"/>
-  <entry out="1815" producer="16_playlist22" in="0"/>
+  <entry out="1209" producer="16_playlist22" in="0"/>
+  <entry out="1815" producer="16_playlist22" in="1210"/>
  </playlist>
  <producer id="17_playlist24" title="Anonymous Submission" out="8136" in="0">
   <property name="length">00:05:39:01</property>
@@ -4882,6 +4907,8 @@
   <property name="kdenlive:track_name">FloorDrains</property>
   <blank length="3385"/>
   <entry out="510" producer="17_playlist24" in="450"/>
+  <blank length="225"/>
+  <entry out="6417" producer="17_playlist24" in="6412"/>
  </playlist>
  <producer id="17_playlist25" title="Anonymous Submission" out="8136" in="0">
   <property name="length">00:05:39:01</property>
@@ -5000,8 +5027,14 @@
  </producer>
  <playlist id="playlist25">
   <property name="kdenlive:track_name">FloorDrains2</property>
-  <blank length="2798"/>
-  <entry out="4962" producer="17_playlist25" in="3665"/>
+  <blank length="2817"/>
+  <entry out="4300" producer="17_playlist25" in="3665"/>
+  <blank length="104"/>
+  <entry out="4421" producer="17_playlist25" in="4405"/>
+  <blank length="43"/>
+  <entry out="4496" producer="17_playlist25" in="4465"/>
+  <blank length="9"/>
+  <entry out="4962" producer="17_playlist25" in="4506"/>
   <filter id="filter13">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -5131,8 +5164,16 @@
  <playlist id="playlist26">
   <property name="kdenlive:track_name">FloorDrains3</property>
   <blank length="3264"/>
-  <entry out="6422" producer="17_playlist26" in="6022"/>
-  <blank length="5"/>
+  <entry out="6203" producer="17_playlist26" in="6022"/>
+  <blank length="103"/>
+  <entry out="6324" producer="17_playlist26" in="6307"/>
+  <blank length="1"/>
+  <entry out="6326" producer="17_playlist26" in="6326"/>
+  <blank length="1"/>
+  <entry out="6328" producer="17_playlist26" in="6328"/>
+  <blank length="1"/>
+  <entry out="6330" producer="17_playlist26" in="6330"/>
+  <blank length="97"/>
   <entry out="8136" producer="17_playlist26" in="6423"/>
   <filter id="filter14">
    <property name="channel">0</property>
@@ -5155,11 +5196,11 @@
   <track producer="playlist0" hide="audio"/>
   <track producer="playlist6" hide="audio"/>
   <track producer="playlist7" hide="audio"/>
-  <track producer="playlist8" hide="audio"/>
+  <track producer="playlist8" hide="both"/>
   <track producer="playlist23" hide="audio"/>
   <track producer="playlist9" hide="audio"/>
   <track producer="playlist10" hide="audio"/>
-  <track producer="playlist11" hide="both"/>
+  <track producer="playlist11" hide="audio"/>
   <track producer="playlist12" hide="both"/>
   <track producer="playlist13" hide="both"/>
   <track producer="playlist14" hide="both"/>
@@ -5172,8 +5213,8 @@
   <track producer="playlist21" hide="both"/>
   <track producer="playlist22" hide="both"/>
   <track producer="playlist24" hide="both"/>
-  <track producer="playlist25"/>
-  <track producer="playlist26" hide="both"/>
+  <track producer="playlist25" hide="audio"/>
+  <track producer="playlist26" hide="audio"/>
   <transition id="transition0">
    <property name="a_track">0</property>
    <property name="b_track">1</property>
