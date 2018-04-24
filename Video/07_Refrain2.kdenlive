@@ -1057,7 +1057,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">4626</property>
+  <property name="kdenlive:docproperties.position">4120</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -1397,8 +1397,8 @@
   <property name="kdenlive:track_name">Video 5</property>
   <blank length="4154"/>
   <entry out="1180" producer="37_playlist7" in="1143"/>
-  <blank length="191"/>
-  <entry out="1968" producer="37_playlist7" in="1923"/>
+  <blank length="176"/>
+  <entry out="1968" producer="37_playlist7" in="1908"/>
   <filter id="filter1">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
@@ -1488,8 +1488,8 @@
  </producer>
  <playlist id="playlist4">
   <property name="kdenlive:track_name">Video 2</property>
-  <blank length="4095"/>
-  <entry out="251" producer="slowmotion:44:0,94:1:0" in="210"/>
+  <blank length="4089"/>
+  <entry out="257" producer="slowmotion:44:0,94:1:0" in="210"/>
   <blank length="11"/>
   <entry out="261" producer="44" in="236"/>
   <blank length="95"/>
@@ -1678,25 +1678,68 @@
  <playlist id="playlist8">
   <property name="kdenlive:track_name">Video 6</property>
   <blank length="4063"/>
-  <entry out="3279" producer="46_playlist8" in="3238"/>
-  <blank length="135"/>
-  <entry out="3386" producer="46_playlist8" in="3351"/>
-  <blank length="60"/>
-  <entry out="3412" producer="46_playlist8" in="3366">
-   <filter id="pan_zoom">
+  <entry out="3275" producer="46_playlist8" in="3238"/>
+  <blank length="139"/>
+  <entry out="3386" producer="46_playlist8" in="3351">
+   <filter id="oldfilm">
+    <property name="delta">11</property>
+    <property name="every">100</property>
+    <property name="brightnessdelta_up">0</property>
+    <property name="brightnessdelta_down">0</property>
+    <property name="brightnessdelta_every">100</property>
+    <property name="unevendevelop_up">0</property>
+    <property name="unevendevelop_down">0</property>
+    <property name="unevendevelop_duration">0</property>
+    <property name="mlt_service">oldfilm</property>
+    <property name="kdenlive_id">oldfilm</property>
+    <property name="tag">oldfilm</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info">0/-1/</property>
+    <property name="disable">1</property>
+   </filter>
+   <filter id="pan_zoom" out="3386" in="3351">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
     <property name="tag">affine</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">1</property>
-    <property name="transition.geometry">-48/-27:2016x1134:100</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="transition.geometry">-288/-162:2496x1404:100</property>
     <property name="transition.distort">0</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info">0/-1/</property>
+    <property name="disable">1</property>
    </filter>
   </entry>
-  <blank length="96"/>
+  <blank length="203"/>
   <entry out="3560" producer="46_playlist8" in="3509"/>
+  <filter id="filter3">
+   <property name="delta">11</property>
+   <property name="every">100</property>
+   <property name="brightnessdelta_up">0</property>
+   <property name="brightnessdelta_down">0</property>
+   <property name="brightnessdelta_every">100</property>
+   <property name="unevendevelop_up">0</property>
+   <property name="unevendevelop_down">0</property>
+   <property name="unevendevelop_duration">0</property>
+   <property name="mlt_service">oldfilm</property>
+   <property name="kdenlive_id">oldfilm</property>
+   <property name="tag">oldfilm</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info">0/-1/</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter4" out="4530">
+   <property name="background">colour:0x00000000</property>
+   <property name="mlt_service">affine</property>
+   <property name="kdenlive_id">pan_zoom</property>
+   <property name="tag">affine</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive:sync_in_out">1</property>
+   <property name="kdenlive_info">0/-1/</property>
+   <property name="transition.geometry">-96/-54:2112x1188:100</property>
+   <property name="transition.distort">0</property>
+   <property name="disable">1</property>
+  </filter>
  </playlist>
  <producer id="slowmotion:39:1,32:1:0" out="862" in="0">
   <property name="length">863</property>
@@ -1763,7 +1806,7 @@
   <property name="kdenlive:track_name">Video 4</property>
   <blank length="4304"/>
   <entry out="727" producer="slowmotion:39:1,32:1:0" in="678"/>
-  <filter id="filter3">
+  <filter id="filter5">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
    <property name="kdenlive_id">audiopan</property>
@@ -1774,6 +1817,23 @@
    <property name="start">0</property>
   </filter>
  </playlist>
+ <producer id="producer0" title="Anonymous Submission" out="5556" in="0">
+  <property name="length">00:03:51:13</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem_assets/DimancheMatin/CAM2201711250259C0026/CAM2_2017-11-25_0328_C0001.mov</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:file_size">5165952393</property>
+  <property name="kdenlive:file_hash">3ba1af2b61c3f49ace504e0c5761963b</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="kdenlive:binid">48</property>
+  <property name="kdenlive:clipstate">0</property>
+ </producer>
  <producer id="48_playlist13" title="Anonymous Submission" out="5556" in="0">
   <property name="length">00:03:51:13</property>
   <property name="eof">pause</property>
@@ -1839,13 +1899,13 @@
  </producer>
  <playlist id="playlist13">
   <property name="kdenlive:track_name">Vidéo 4</property>
-  <blank length="4351"/>
-  <entry out="4970" producer="48_playlist13" in="4935"/>
-  <blank length="39"/>
+  <blank length="4353"/>
+  <entry out="4970" producer="producer0" in="4932"/>
+  <blank length="34"/>
   <entry out="2086" producer="48_playlist13" in="2034"/>
   <blank length="26"/>
-  <entry out="2144" producer="48_playlist13" in="2098"/>
-  <filter id="filter4">
+  <entry out="2123" producer="48_playlist13" in="2098"/>
+  <filter id="filter6">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
    <property name="kdenlive_id">audiopan</property>
@@ -1985,10 +2045,10 @@
   <blank length="4127"/>
   <entry out="5356" producer="47_playlist9" in="5326"/>
   <blank length="180"/>
-  <entry out="5518" producer="47_playlist9" in="5504"/>
-  <blank length="60"/>
+  <entry out="5533" producer="47_playlist9" in="5504"/>
+  <blank length="45"/>
   <entry out="7305" producer="47_playlist9" in="7271"/>
-  <blank length="119"/>
+  <blank length="116"/>
   <entry out="15159" producer="slowmotion:47:0,5:1:0" in="15052">
    <filter id="fade_to_black" out="15159" in="15100">
     <property name="start">1</property>
@@ -2000,7 +2060,7 @@
     <property name="end">0</property>
    </filter>
   </entry>
-  <filter id="filter5">
+  <filter id="filter7">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
    <property name="kdenlive_id">audiopan</property>
@@ -2013,7 +2073,7 @@
  </playlist>
  <playlist id="playlist12">
   <property name="kdenlive:track_name">Vidéo 1</property>
-  <filter id="filter6">
+  <filter id="filter8">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
    <property name="kdenlive_id">audiopan</property>
@@ -2095,7 +2155,7 @@
  </playlist>
  <playlist id="playlist0">
   <property name="kdenlive:track_name">noir</property>
-  <filter id="filter7">
+  <filter id="filter9">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
    <property name="kdenlive_id">audiopan</property>
