@@ -163,6 +163,26 @@
   <property name="kdenlive:guide.137,583">DebutTrap</property>
   <property name="kdenlive:guide.137">Snare</property>
   <property name="kdenlive:guide.142,625">Fuck</property>
+  <property name="kdenlive:docproperties.renderaudioquality">192</property>
+  <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
+  <property name="kdenlive:docproperties.renderendguide">0</property>
+  <property name="kdenlive:docproperties.renderexportaudio">0</property>
+  <property name="kdenlive:docproperties.renderguide">0</property>
+  <property name="kdenlive:docproperties.renderplay">0</property>
+  <property name="kdenlive:docproperties.renderprofile">MP4 - the dominating format (H264/AAC)</property>
+  <property name="kdenlive:docproperties.renderquality">15</property>
+  <property name="kdenlive:docproperties.renderratio">1</property>
+  <property name="kdenlive:docproperties.renderrescale">0</property>
+  <property name="kdenlive:docproperties.renderrescaleheight">180</property>
+  <property name="kdenlive:docproperties.renderrescalewidth">320</property>
+  <property name="kdenlive:docproperties.renderscanning">0</property>
+  <property name="kdenlive:docproperties.renderspeed">2</property>
+  <property name="kdenlive:docproperties.renderstartguide">0</property>
+  <property name="kdenlive:docproperties.rendertcoverlay">0</property>
+  <property name="kdenlive:docproperties.rendertctype">0</property>
+  <property name="kdenlive:docproperties.rendertwopass">0</property>
+  <property name="kdenlive:docproperties.renderurl">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Rendus/2018-04-23_MasterPremierJet.mp4</property>
+  <property name="kdenlive:docproperties.renderzone">0</property>
   <property name="xml_retain">1</property>
   <entry out="4287" producer="1" in="0"/>
   <entry out="18568" producer="14" in="0"/>
@@ -472,121 +492,73 @@
   <transition id="transition10">
    <property name="a_track">0</property>
    <property name="b_track">3</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
    <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition11" out="18568">
+  <transition id="transition11">
    <property name="a_track">0</property>
    <property name="b_track">4</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
    <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition12">
    <property name="a_track">0</property>
    <property name="b_track">5</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
    <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition13">
    <property name="a_track">0</property>
    <property name="b_track">6</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
    <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition14">
    <property name="a_track">0</property>
    <property name="b_track">7</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
    <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition15">
    <property name="a_track">0</property>
    <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
    <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition16">
    <property name="a_track">0</property>
    <property name="b_track">9</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
    <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition17">
    <property name="a_track">0</property>
    <property name="b_track">10</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="mlt_service">qtblend</property>
    <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
  </tractor>
