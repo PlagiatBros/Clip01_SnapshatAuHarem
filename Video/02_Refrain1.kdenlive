@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt title="Anonymous Submission" version="6.5.0" root="/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video" modified="1" producer="main bin" LC_NUMERIC="fr_FR.UTF-8">
+<mlt title="Anonymous Submission" version="6.4.1" root="/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video" producer="main bin" LC_NUMERIC="fr_FR.UTF-8">
  <profile width="1920" frame_rate_den="1" height="1080" display_aspect_num="16" display_aspect_den="9" frame_rate_num="24" colorspace="709" sample_aspect_den="1" description="HD 1080p 24 fps" progressive="1" sample_aspect_num="1"/>
  <producer id="1" title="Anonymous Submission" out="4287" in="0">
   <property name="length">00:02:58:16</property>
@@ -26,7 +26,7 @@
  <producer id="3" title="Anonymous Submission" out="8136" in="0">
   <property name="length">00:05:39:01</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-25_0904_C0015.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0904_C0015.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -88,7 +88,7 @@
  <producer id="5" title="Anonymous Submission" out="3104" in="0">
   <property name="length">00:02:09:09</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0748_C0006.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0748_C0006.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -150,7 +150,7 @@
  <producer id="6" title="Anonymous Submission" out="893" in="0">
   <property name="length">00:00:37:06</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0751_C0007.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0751_C0007.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -234,7 +234,7 @@
  <producer id="9" title="Anonymous Submission" out="2099" in="0">
   <property name="length">00:01:27:12</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0754_C0008.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0754_C0008.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -296,7 +296,7 @@
  <producer id="10" title="Anonymous Submission" out="2881" in="0">
   <property name="length">00:02:00:02</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0941_C0001.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0941_C0001.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -358,7 +358,7 @@
  <producer id="11" title="Anonymous Submission" out="2299" in="0">
   <property name="length">00:01:35:20</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0847_C0013.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0847_C0013.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -417,6 +417,69 @@
   <property name="kdenlive:file_hash">a0a40ba05c1c0c852ecb5506561dec13</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer id="12" title="Anonymous Submission" out="2664" in="0">
+  <property name="length">00:01:51:01</property>
+  <property name="eof">pause</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0108_C0006.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">24</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1920</property>
+  <property name="meta.media.1.codec.height">1080</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.frame_rate">2400</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
+  <property name="meta.media.1.codec.name">prores</property>
+  <property name="meta.media.1.codec.long_name">ProRes</property>
+  <property name="meta.media.1.codec.bit_rate">176139009</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2017-11-25T01:08:39.000000Z</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
+  <property name="meta.attr.1.stream.timecode.markup">01:08:39:12</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">s32</property>
+  <property name="meta.media.2.codec.sample_rate">48000</property>
+  <property name="meta.media.2.codec.channels">2</property>
+  <property name="meta.media.2.codec.name">pcm_s24le</property>
+  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.2.codec.bit_rate">2304000</property>
+  <property name="meta.attr.2.stream.creation_time.markup">2017-11-25T01:08:39.000000Z</property>
+  <property name="meta.attr.2.stream.language.markup">eng</property>
+  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.2.stream.timecode.markup">01:08:39:12</property>
+  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
+  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM2</property>
+  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
+  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
+  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
+  <property name="meta.attr.creation_time.markup">2017-11-25T01:08:39.000000Z</property>
+  <property name="meta.attr.timecode.markup">01:08:39:12</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="kdenlive:file_size">2477467081</property>
+  <property name="kdenlive:file_hash">ab710307b950fc7c477f4663f45777fd</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -427,7 +490,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">2018</property>
+  <property name="kdenlive:docproperties.position">3024</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -441,7 +504,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">2253</property>
   <property name="kdenlive:docproperties.zoneout">2932</property>
-  <property name="kdenlive:docproperties.zoom">5</property>
+  <property name="kdenlive:docproperties.zoom">2</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -483,6 +546,7 @@
   <entry out="2099" producer="9" in="0"/>
   <entry out="2881" producer="10" in="0"/>
   <entry out="2299" producer="11" in="0"/>
+  <entry out="2664" producer="12" in="0"/>
  </playlist>
  <producer id="black" out="27554" in="0">
   <property name="length">27555</property>
@@ -545,7 +609,7 @@
  <producer id="3_playlist4" title="Anonymous Submission" out="8136" in="0">
   <property name="length">00:05:39:01</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-25_0904_C0015.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0904_C0015.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -641,7 +705,7 @@
  <producer id="3_playlist0" title="Anonymous Submission" out="8136" in="0">
   <property name="length">00:05:39:01</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-25_0904_C0015.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0904_C0015.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -704,7 +768,7 @@
  <producer id="slowmotion:3:0,7:1:0" out="11623" in="0">
   <property name="length">11624</property>
   <property name="eof">pause</property>
-  <property name="resource">0,7:/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-25_0904_C0015.mov</property>
+  <property name="resource">0,7:src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0904_C0015.mov</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
@@ -751,7 +815,7 @@
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="warp_speed">0,7</property>
-  <property name="warp_resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-25_0904_C0015.mov</property>
+  <property name="warp_resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0904_C0015.mov</property>
   <property name="mlt_service">timewarp</property>
   <property name="meta.media.frame_rate_num">24</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -772,7 +836,7 @@
  <producer id="5_playlist5" title="Anonymous Submission" out="3104" in="0">
   <property name="length">00:02:09:09</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0748_C0006.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0748_C0006.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -835,7 +899,7 @@
  <producer id="3_playlist5" title="Anonymous Submission" out="8136" in="0">
   <property name="length">00:05:39:01</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-25_0904_C0015.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0904_C0015.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -898,7 +962,7 @@
  <producer id="slowmotion:6:1,5:1:0" out="595" in="0">
   <property name="length">596</property>
   <property name="eof">pause</property>
-  <property name="resource">1,5:/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0751_C0007.mov</property>
+  <property name="resource">1,5:src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0751_C0007.mov</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
@@ -945,7 +1009,7 @@
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="warp_speed">1,5</property>
-  <property name="warp_resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0751_C0007.mov</property>
+  <property name="warp_resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0751_C0007.mov</property>
   <property name="mlt_service">timewarp</property>
   <property name="meta.media.frame_rate_num">24</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -972,7 +1036,7 @@
  <producer id="5_playlist6" title="Anonymous Submission" out="3104" in="0">
   <property name="length">00:02:09:09</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0748_C0006.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0748_C0006.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1032,82 +1096,10 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <playlist id="playlist6">
-  <property name="kdenlive:track_name">Vidéo 2</property>
-  <blank length="2317"/>
-  <entry out="489" producer="5_playlist6" in="454"/>
-  <blank length="42"/>
-  <entry out="703" producer="5_playlist6" in="639"/>
-  <blank length="96"/>
-  <entry out="1398" producer="5_playlist6" in="1368"/>
-  <blank length="102"/>
-  <entry out="1528" producer="5_playlist6" in="1464"/>
- </playlist>
- <producer id="slowmotion:11:0,9:1:0" out="2554" in="0">
-  <property name="length">2555</property>
-  <property name="eof">pause</property>
-  <property name="resource">0,9:/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0847_C0013.mov</property>
-  <property name="aspect_ratio">1</property>
-  <property name="meta.media.nb_streams">3</property>
-  <property name="meta.media.1.stream.type">video</property>
-  <property name="meta.media.1.stream.frame_rate">24</property>
-  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.1.codec.width">1920</property>
-  <property name="meta.media.1.codec.height">1080</property>
-  <property name="meta.media.1.codec.rotate">0</property>
-  <property name="meta.media.1.codec.frame_rate">2400</property>
-  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.1.codec.colorspace">709</property>
-  <property name="meta.media.1.codec.color_trc">1</property>
-  <property name="meta.media.1.codec.name">prores</property>
-  <property name="meta.media.1.codec.long_name">ProRes</property>
-  <property name="meta.media.1.codec.bit_rate">176138616</property>
-  <property name="meta.attr.1.stream.creation_time.markup">2017-11-25T08:47:46.000000Z</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
-  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
-  <property name="meta.attr.1.stream.timecode.markup">08:47:46:22</property>
-  <property name="meta.media.2.stream.type">audio</property>
-  <property name="meta.media.2.codec.sample_fmt">s32</property>
-  <property name="meta.media.2.codec.sample_rate">48000</property>
-  <property name="meta.media.2.codec.channels">2</property>
-  <property name="meta.media.2.codec.name">pcm_s24le</property>
-  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.2.codec.bit_rate">2304000</property>
-  <property name="meta.attr.2.stream.creation_time.markup">2017-11-25T08:47:46.000000Z</property>
-  <property name="meta.attr.2.stream.language.markup">eng</property>
-  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
-  <property name="meta.attr.2.stream.timecode.markup">08:47:46:22</property>
-  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
-  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM2</property>
-  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
-  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
-  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
-  <property name="meta.attr.creation_time.markup">2017-11-25T08:47:46.000000Z</property>
-  <property name="meta.attr.timecode.markup">08:47:46:22</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="warp_speed">0,9</property>
-  <property name="warp_resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0847_C0013.mov</property>
-  <property name="mlt_service">timewarp</property>
-  <property name="meta.media.frame_rate_num">24</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
- </producer>
  <producer id="3_playlist7" title="Anonymous Submission" out="8136" in="0">
   <property name="length">00:05:39:01</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video/src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-25_0904_C0015.mov</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_soir/CAM2_2017-11-25_0904_C0015.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1167,25 +1159,98 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
+ <playlist id="playlist6">
+  <property name="kdenlive:track_name">Vidéo 2</property>
+  <blank length="2317"/>
+  <entry out="489" producer="5_playlist6" in="454"/>
+  <blank length="42"/>
+  <entry out="703" producer="5_playlist6" in="639"/>
+  <blank length="96"/>
+  <entry out="1398" producer="5_playlist6" in="1368"/>
+  <blank length="102"/>
+  <entry out="1528" producer="5_playlist6" in="1464"/>
+  <entry out="535" producer="3_playlist7" in="466"/>
+ </playlist>
+ <producer id="12_playlist7" title="Anonymous Submission" out="2664" in="0">
+  <property name="length">00:01:51:01</property>
+  <property name="eof">pause</property>
+  <property name="resource">src/TheWholeRushes/Dimanche_matin/CAM2_2017-11-25_0108_C0006.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">2477467081</property>
+  <property name="kdenlive:file_hash">ab710307b950fc7c477f4663f45777fd</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">24</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1920</property>
+  <property name="meta.media.1.codec.height">1080</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.frame_rate">2400</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
+  <property name="meta.media.1.codec.name">prores</property>
+  <property name="meta.media.1.codec.long_name">ProRes</property>
+  <property name="meta.media.1.codec.bit_rate">176139009</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2017-11-25T01:08:39.000000Z</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
+  <property name="meta.attr.1.stream.timecode.markup">01:08:39:12</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">s32</property>
+  <property name="meta.media.2.codec.sample_rate">48000</property>
+  <property name="meta.media.2.codec.channels">2</property>
+  <property name="meta.media.2.codec.name">pcm_s24le</property>
+  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.2.codec.bit_rate">2304000</property>
+  <property name="meta.attr.2.stream.creation_time.markup">2017-11-25T01:08:39.000000Z</property>
+  <property name="meta.attr.2.stream.language.markup">eng</property>
+  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.2.stream.timecode.markup">01:08:39:12</property>
+  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
+  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM2</property>
+  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
+  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
+  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
+  <property name="meta.attr.creation_time.markup">2017-11-25T01:08:39.000000Z</property>
+  <property name="meta.attr.timecode.markup">01:08:39:12</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
  <playlist id="playlist7">
   <property name="kdenlive:track_name">Vidéo 3</property>
-  <blank length="2304"/>
-  <entry out="1992" producer="slowmotion:11:0,9:1:0" in="1960">
-   <filter id="filter1" out="1992" in="1959">
-    <property name="background">colour:0x00000000</property>
-    <property name="mlt_service">affine</property>
-    <property name="kdenlive_id">pan_zoom</property>
-    <property name="tag">affine</property>
-    <property name="kdenlive_ix">2</property>
-    <property name="transition.geometry">-292/-215:2496x1404:100</property>
-    <property name="transition.distort">0</property>
-    <property name="kdenlive:sync_in_out">1</property>
-    <property name="kdenlive_info"/>
-    <property name="disable">0</property>
-   </filter>
-  </entry>
-  <blank length="98"/>
-  <entry out="535" producer="3_playlist7" in="466"/>
+  <blank length="2883"/>
+  <entry out="841" producer="12_playlist7" in="733"/>
+  <filter id="filter4" out="1992" in="1960">
+   <property name="background">colour:0x00000000</property>
+   <property name="mlt_service">affine</property>
+   <property name="kdenlive_id">pan_zoom</property>
+   <property name="tag">affine</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="transition.geometry">-292/-215:2496x1404:100</property>
+   <property name="transition.distort">0</property>
+   <property name="kdenlive:sync_in_out">1</property>
+   <property name="kdenlive_info"/>
+   <property name="disable">0</property>
+  </filter>
  </playlist>
  <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="5728" in="0">
   <track producer="black_track"/>

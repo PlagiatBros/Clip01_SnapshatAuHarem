@@ -710,7 +710,7 @@
  <producer id="8" title="Anonymous Submission" out="6028" in="0">
   <property name="length">00:04:11:05</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0134_C0000.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0134_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -824,7 +824,7 @@
  <producer id="9" title="Anonymous Submission" out="5047" in="0">
   <property name="length">00:03:30:08</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0143_C0001.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0143_C0001.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -938,7 +938,7 @@
  <producer id="10" title="Anonymous Submission" out="2728" in="0">
   <property name="length">00:01:53:17</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0148_C0002.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0148_C0002.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1052,7 +1052,7 @@
  <producer id="11" title="Anonymous Submission" out="1866" in="0">
   <property name="length">00:01:17:19</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0152_C0003.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0152_C0003.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1166,7 +1166,7 @@
  <producer id="12" title="Anonymous Submission" out="16944" in="0">
   <property name="length">00:11:46:01</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0212_C0004.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0212_C0004.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1280,7 +1280,7 @@
  <producer id="13" title="Anonymous Submission" out="4885" in="0">
   <property name="length">00:03:23:14</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0236_C0005.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0236_C0005.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1394,7 +1394,7 @@
  <producer id="14" title="Anonymous Submission" out="6121" in="0">
   <property name="length">00:04:15:02</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0243_C0006.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0243_C0006.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1508,7 +1508,7 @@
  <producer id="15" title="Anonymous Submission" out="4106" in="0">
   <property name="length">00:02:51:03</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1117_C0001.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1622,7 +1622,7 @@
  <producer id="16" title="Anonymous Submission" out="1815" in="0">
   <property name="length">00:01:15:16</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1130_C0003.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1130_C0003.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -1743,7 +1743,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">3304</property>
+  <property name="kdenlive:docproperties.position">3392</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -2661,7 +2661,7 @@
  <producer id="8_playlist8" title="Anonymous Submission" out="6028" in="0">
   <property name="length">00:04:11:05</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0134_C0000.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0134_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2792,7 +2792,7 @@
  <producer id="8_playlist23" title="Anonymous Submission" out="6028" in="0">
   <property name="length">00:04:11:05</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0134_C0000.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0134_C0000.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -2917,7 +2917,7 @@
  <producer id="9_playlist9" title="Anonymous Submission" out="5047" in="0">
   <property name="length">00:03:30:08</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0143_C0001.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0143_C0001.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3056,7 +3056,7 @@
  <producer id="10_playlist10" title="Anonymous Submission" out="2728" in="0">
   <property name="length">00:01:53:17</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0148_C0002.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0148_C0002.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3199,7 +3199,7 @@
  <producer id="11_playlist11" title="Anonymous Submission" out="1866" in="0">
   <property name="length">00:01:17:19</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0152_C0003.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0152_C0003.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3336,7 +3336,7 @@
  <producer id="12_playlist12" title="Anonymous Submission" out="16944" in="0">
   <property name="length">00:11:46:01</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0212_C0004.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0212_C0004.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3472,7 +3472,7 @@
  <producer id="12_playlist13" title="Anonymous Submission" out="16944" in="0">
   <property name="length">00:11:46:01</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0212_C0004.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0212_C0004.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3603,7 +3603,7 @@
  <producer id="12_playlist14" title="Anonymous Submission" out="16944" in="0">
   <property name="length">00:11:46:01</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0212_C0004.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0212_C0004.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3736,7 +3736,7 @@
  <producer id="12_playlist15" title="Anonymous Submission" out="16944" in="0">
   <property name="length">00:11:46:01</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0212_C0004.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0212_C0004.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3861,7 +3861,7 @@
  <producer id="13_playlist16" title="Anonymous Submission" out="4885" in="0">
   <property name="length">00:03:23:14</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0236_C0005.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0236_C0005.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -3986,7 +3986,7 @@
  <producer id="13_playlist17" title="Anonymous Submission" out="4885" in="0">
   <property name="length">00:03:23:14</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0236_C0005.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0236_C0005.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -4109,7 +4109,7 @@
  <producer id="13_playlist18" title="Anonymous Submission" out="4885" in="0">
   <property name="length">00:03:23:14</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0236_C0005.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0236_C0005.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -4234,7 +4234,7 @@
  <producer id="14_playlist19" title="Anonymous Submission" out="6121" in="0">
   <property name="length">00:04:15:02</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0243_C0006.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0243_C0006.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -4355,7 +4355,7 @@
  <producer id="14_playlist20" title="Anonymous Submission" out="6121" in="0">
   <property name="length">00:04:15:02</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_0243_C0006.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_matin/CAM2_2017-11-24_0243_C0006.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -4476,7 +4476,7 @@
  <producer id="slowmotion:15:4:1:0" out="1026" in="0">
   <property name="length">1027</property>
   <property name="eof">pause</property>
-  <property name="resource">4:src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="resource">4:src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1117_C0001.mov</property>
   <property name="aspect_ratio">1</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
@@ -4523,7 +4523,7 @@
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
   <property name="warp_speed">4</property>
-  <property name="warp_resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="warp_resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1117_C0001.mov</property>
   <property name="mlt_service">timewarp</property>
   <property name="kdenlive:proxy">-</property>
   <property name="kdenlive:originalurl">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1117_C0001.mov</property>
@@ -4539,7 +4539,7 @@
  <producer id="15_playlist21" title="Anonymous Submission" out="4106" in="0">
   <property name="length">00:02:51:03</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1117_C0001.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
@@ -4661,7 +4661,7 @@
  <producer id="16_playlist22" title="Anonymous Submission" out="1815" in="0">
   <property name="length">00:01:15:16</property>
   <property name="eof">pause</property>
-  <property name="resource">src/04-06_Couplet2/mao1.sshfs/CAM2_2017-11-24_1130_C0003.mov</property>
+  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1130_C0003.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">1</property>
   <property name="mute_on_pause">1</property>
