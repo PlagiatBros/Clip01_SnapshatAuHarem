@@ -129,6 +129,28 @@
   <property name="proxy_out">5728</property>
   <property name="kdenlive:originalurl">02_Refrain1.kdenlive</property>
  </producer>
+ <producer id="20" title="Anonymous Submission" out="3455" in="0">
+  <property name="length">00:02:24:00</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/woii/Plagiat/Stage/Sounds/Samples/WholeWorld/Intro1.wav</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">1536000</property>
+  <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">27648040</property>
+  <property name="kdenlive:file_hash">cca9bc04f4779f62a8baf76421a7072b</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -139,7 +161,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">2805</property>
+  <property name="kdenlive:docproperties.position">4765</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -153,7 +175,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">773</property>
   <property name="kdenlive:docproperties.zoneout">5728</property>
-  <property name="kdenlive:docproperties.zoom">6</property>
+  <property name="kdenlive:docproperties.zoom">9</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -192,6 +214,7 @@
   <entry out="5728" producer="19" in="0"/>
   <entry out="5728" producer="13" in="0"/>
   <entry out="5728" producer="15" in="0"/>
+  <entry out="3455" producer="20" in="0"/>
  </playlist>
  <producer id="black" out="18669" in="0">
   <property name="length">18670</property>
@@ -202,11 +225,49 @@
   <property name="set.test_audio">0</property>
  </producer>
  <playlist id="black_track">
-  <entry out="5729" producer="black" in="0"/>
+  <entry out="6606" producer="black" in="0"/>
  </playlist>
+ <producer id="20_playlist1" title="Anonymous Submission" out="3455" in="0">
+  <property name="length">00:02:24:00</property>
+  <property name="eof">pause</property>
+  <property name="resource">/home/woii/Plagiat/Stage/Sounds/Samples/WholeWorld/Intro1.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">27648040</property>
+  <property name="kdenlive:file_hash">cca9bc04f4779f62a8baf76421a7072b</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">1</property>
+  <property name="meta.media.0.stream.type">audio</property>
+  <property name="meta.media.0.codec.sample_fmt">s16</property>
+  <property name="meta.media.0.codec.sample_rate">48000</property>
+  <property name="meta.media.0.codec.channels">2</property>
+  <property name="meta.media.0.codec.name">pcm_s16le</property>
+  <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
+  <property name="meta.media.0.codec.bit_rate">1536000</property>
+ </producer>
  <playlist id="playlist1">
   <property name="kdenlive:track_name">Audio 2</property>
   <property name="kdenlive:audio_track">1</property>
+  <entry out="1503" producer="20_playlist1" in="0"/>
+  <blank length="3136"/>
+  <entry out="3455" producer="20_playlist1" in="1490">
+   <filter id="fadein" out="1517" in="1490">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadein</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="gain">0</property>
+    <property name="end">1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
  </playlist>
  <producer id="1_playlist2" title="Anonymous Submission" out="4287" in="0">
   <property name="length">00:02:58:16</property>
@@ -236,7 +297,18 @@
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:locked_track">1</property>
   <blank length="1440"/>
-  <entry out="4287" producer="1_playlist2" in="0"/>
+  <entry out="3180" producer="1_playlist2" in="0">
+   <filter id="fadeout" out="3180" in="3131">
+    <property name="window">75</property>
+    <property name="max_gain">20dB</property>
+    <property name="mlt_service">volume</property>
+    <property name="kdenlive_id">fadeout</property>
+    <property name="tag">volume</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="gain">1</property>
+    <property name="end">0</property>
+   </filter>
+  </entry>
  </playlist>
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Video 1</property>
@@ -404,11 +476,11 @@
   <blank length="4061"/>
   <entry out="5728" producer="19_playlist8" in="4061"/>
  </playlist>
- <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="5729" in="0">
+ <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="6606" in="0">
   <track producer="black_track"/>
   <track producer="playlist1" hide="video"/>
   <track producer="playlist2" hide="video"/>
-  <track producer="playlist3" hide="video"/>
+  <track producer="playlist3" hide="both"/>
   <track producer="playlist9" hide="audio"/>
   <track producer="playlist10"/>
   <track producer="playlist4" hide="both"/>
