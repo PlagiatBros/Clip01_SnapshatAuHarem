@@ -133,6 +133,10 @@
   <property name="length">00:02:24:00</property>
   <property name="eof">pause</property>
   <property name="resource">/home/woii/Plagiat/Stage/Sounds/Samples/WholeWorld/Intro1.wav</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">s16</property>
@@ -142,10 +146,6 @@
   <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
   <property name="meta.media.0.codec.bit_rate">1536000</property>
   <property name="seekable">1</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">27648040</property>
   <property name="kdenlive:file_hash">cca9bc04f4779f62a8baf76421a7072b</property>
@@ -161,7 +161,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">4765</property>
+  <property name="kdenlive:docproperties.position">2952</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -173,9 +173,9 @@
   <property name="kdenlive:docproperties.version">0.95</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">773</property>
+  <property name="kdenlive:docproperties.zonein">378</property>
   <property name="kdenlive:docproperties.zoneout">5728</property>
-  <property name="kdenlive:docproperties.zoom">9</property>
+  <property name="kdenlive:docproperties.zoom">8</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -203,7 +203,7 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Rendus/2018-06-04_Master.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Rendus/2018-07-02_Master.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="xml_retain">1</property>
   <entry out="4287" producer="1" in="0"/>
@@ -352,8 +352,8 @@
  </producer>
  <playlist id="playlist10">
   <property name="kdenlive:track_name">Video 9</property>
-  <blank length="781"/>
-  <entry out="1487" producer="13_playlist10" in="773"/>
+  <blank length="378"/>
+  <entry out="1487" producer="13_playlist10" in="370"/>
  </playlist>
  <producer id="14_playlist4" title="Anonymous Submission" out="18568" in="0">
   <property name="length">00:12:53:17</property>
@@ -414,10 +414,8 @@
  </producer>
  <playlist id="playlist0">
   <property name="kdenlive:track_name">Video 4</property>
-  <blank length="2807"/>
-  <entry out="2838" producer="16_playlist0" in="2807"/>
-  <blank length="39"/>
-  <entry out="3275" producer="16_playlist0" in="2878"/>
+  <blank length="2770"/>
+  <entry out="3275" producer="16_playlist0" in="2770"/>
  </playlist>
  <producer id="17_playlist6" title="Anonymous Submission" out="5728" in="0">
   <property name="length">00:03:58:17</property>
@@ -454,8 +452,8 @@
  </producer>
  <playlist id="playlist7">
   <property name="kdenlive:track_name">Video 6</property>
-  <blank length="3550"/>
-  <entry out="4076" producer="18_playlist7" in="3550"/>
+  <blank length="3526"/>
+  <entry out="4076" producer="18_playlist7" in="3526"/>
  </playlist>
  <producer id="19_playlist8" title="Anonymous Submission" out="5728" in="0">
   <property name="length">00:03:58:17</property>
@@ -482,7 +480,7 @@
   <track producer="playlist2" hide="video"/>
   <track producer="playlist3" hide="both"/>
   <track producer="playlist9" hide="audio"/>
-  <track producer="playlist10"/>
+  <track producer="playlist10" hide="audio"/>
   <track producer="playlist4" hide="both"/>
   <track producer="playlist5" hide="audio"/>
   <track producer="playlist0" hide="audio"/>
