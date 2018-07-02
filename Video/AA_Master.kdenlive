@@ -161,7 +161,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">2952</property>
+  <property name="kdenlive:docproperties.position">4068</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -175,7 +175,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">378</property>
   <property name="kdenlive:docproperties.zoneout">5728</property>
-  <property name="kdenlive:docproperties.zoom">8</property>
+  <property name="kdenlive:docproperties.zoom">5</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -414,8 +414,8 @@
  </producer>
  <playlist id="playlist0">
   <property name="kdenlive:track_name">Video 4</property>
-  <blank length="2770"/>
-  <entry out="3275" producer="16_playlist0" in="2770"/>
+  <blank length="2789"/>
+  <entry out="3275" producer="16_playlist0" in="2789"/>
  </playlist>
  <producer id="17_playlist6" title="Anonymous Submission" out="5728" in="0">
   <property name="length">00:03:58:17</property>
@@ -471,8 +471,8 @@
  </producer>
  <playlist id="playlist8">
   <property name="kdenlive:track_name">Video 7</property>
-  <blank length="4061"/>
-  <entry out="5728" producer="19_playlist8" in="4061"/>
+  <blank length="4065"/>
+  <entry out="5728" producer="19_playlist8" in="4065"/>
  </playlist>
  <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="6606" in="0">
   <track producer="black_track"/>
