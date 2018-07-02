@@ -490,7 +490,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">3024</property>
+  <property name="kdenlive:docproperties.position">2788</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -1169,7 +1169,9 @@
   <entry out="1398" producer="5_playlist6" in="1368"/>
   <blank length="102"/>
   <entry out="1528" producer="5_playlist6" in="1464"/>
-  <entry out="535" producer="3_playlist7" in="466"/>
+  <entry out="480" producer="3_playlist7" in="466"/>
+  <blank length="41"/>
+  <entry out="535" producer="3_playlist7" in="522"/>
  </playlist>
  <producer id="12_playlist7" title="Anonymous Submission" out="2664" in="0">
   <property name="length">00:01:51:01</property>
