@@ -880,8 +880,8 @@
   <property name="kdenlive:duration">120</property>
   <property name="kdenlive:file_hash">9196813120dc5c505072516b15baf414</property>
  </producer>
- <producer id="16" out="336" in="0">
-  <property name="length">337</property>
+ <producer id="16" out="413" in="0">
+  <property name="length">414</property>
   <property name="eof">pause</property>
   <property name="resource">/home/ukbaison/bg.jpg</property>
   <property name="ttl">25</property>
@@ -1203,7 +1203,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">456</property>
+  <property name="kdenlive:docproperties.position">659</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1217,7 +1217,7 @@
   <property name="kdenlive:docproperties.videotargettrack">8</property>
   <property name="kdenlive:docproperties.zonein">404</property>
   <property name="kdenlive:docproperties.zoneout">1087</property>
-  <property name="kdenlive:docproperties.zoom">6</property>
+  <property name="kdenlive:docproperties.zoom">5</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -3005,8 +3005,7 @@
     <property name="disable">1</property>
    </filter>
   </entry>
-  <blank length="86"/>
-  <entry out="326" producer="16" in="0">
+  <entry out="412" producer="16" in="0">
    <filter id="filter23">
     <property name="delta">14</property>
     <property name="every">0</property>
@@ -3363,7 +3362,7 @@
   <track producer="playlist17"/>
   <track producer="playlist11" hide="audio"/>
   <track producer="playlist3" hide="audio"/>
-  <track producer="playlist4" hide="both"/>
+  <track producer="playlist4" hide="audio"/>
   <track producer="playlist15"/>
   <track producer="playlist0"/>
   <track producer="playlist14" hide="video"/>
@@ -3963,7 +3962,7 @@
    <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition53">
+  <transition id="transition53" out="4619" in="4508">
    <property name="a_track">0</property>
    <property name="b_track">7</property>
    <property name="start">0/0:100%x100%</property>
@@ -3978,7 +3977,7 @@
    <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition54" out="1541" in="1269">
+  <transition id="transition54" out="7205">
    <property name="a_track">0</property>
    <property name="b_track">8</property>
    <property name="start">0/0:100%x100%</property>
@@ -3993,7 +3992,7 @@
    <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition55">
+  <transition id="transition55" out="8299">
    <property name="a_track">0</property>
    <property name="b_track">9</property>
    <property name="start">0/0:100%x100%</property>
@@ -4008,7 +4007,7 @@
    <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition56">
+  <transition id="transition56" out="75" in="59">
    <property name="a_track">0</property>
    <property name="b_track">10</property>
    <property name="start">0/0:100%x100%</property>
@@ -4158,7 +4157,7 @@
    <property name="geometry">0=0/0:1920x1080</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition66" out="27" in="25">
+  <transition id="transition66" out="412">
    <property name="a_track">0</property>
    <property name="b_track">20</property>
    <property name="start">0/0:100%x100%</property>
