@@ -151,6 +151,21 @@
   <property name="proxy_out">5728</property>
   <property name="kdenlive:originalurl">00_Intro.kdenlive</property>
  </producer>
+ <producer id="21" title="Anonymous Submission" out="6615" in="0">
+  <property name="length">00:04:35:16</property>
+  <property name="eof">pause</property>
+  <property name="resource">08_Outro.kdenlive</property>
+  <property name="mlt_service">xml</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">142258</property>
+  <property name="kdenlive:file_hash">650511d4a7cbb933f10c5e1dc342a407</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="proxy_out">6615</property>
+  <property name="kdenlive:originalurl">08_Outro.kdenlive</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -161,7 +176,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">4712</property>
+  <property name="kdenlive:docproperties.position">4776</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -174,8 +189,8 @@
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">378</property>
-  <property name="kdenlive:docproperties.zoneout">5728</property>
-  <property name="kdenlive:docproperties.zoom">5</property>
+  <property name="kdenlive:docproperties.zoneout">6615</property>
+  <property name="kdenlive:docproperties.zoom">8</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -216,6 +231,7 @@
   <entry out="5728" producer="15" in="0"/>
   <entry out="3455" producer="20" in="0"/>
   <entry out="5728" producer="13" in="0"/>
+  <entry out="6615" producer="21" in="0"/>
  </playlist>
  <producer id="black" out="18669" in="0">
   <property name="length">18670</property>
@@ -226,7 +242,7 @@
   <property name="set.test_audio">0</property>
  </producer>
  <playlist id="black_track">
-  <entry out="6615" producer="black" in="0"/>
+  <entry out="6616" producer="black" in="0"/>
  </playlist>
  <producer id="20_playlist1" title="Anonymous Submission" out="3455" in="0">
   <property name="length">00:02:24:00</property>
@@ -255,9 +271,9 @@
   <property name="kdenlive:track_name">Audio 2</property>
   <property name="kdenlive:audio_track">1</property>
   <entry out="1503" producer="20_playlist1" in="0"/>
-  <blank length="3145"/>
-  <entry out="3455" producer="20_playlist1" in="1490">
-   <filter id="fadein" out="1517" in="1490">
+  <blank length="3164"/>
+  <entry out="3455" producer="20_playlist1" in="1509">
+   <filter id="fadein" out="1514" in="1509">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -267,6 +283,7 @@
     <property name="gain">0</property>
     <property name="end">1</property>
     <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
   </entry>
  </playlist>
@@ -311,8 +328,25 @@
    </filter>
   </entry>
  </playlist>
+ <producer id="21_playlist3" title="Anonymous Submission" out="6615" in="0">
+  <property name="length">00:04:35:16</property>
+  <property name="eof">pause</property>
+  <property name="resource">08_Outro.kdenlive</property>
+  <property name="mlt_service">xml</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="seekable">1</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">142258</property>
+  <property name="kdenlive:file_hash">650511d4a7cbb933f10c5e1dc342a407</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="proxy_out">6615</property>
+  <property name="kdenlive:originalurl">08_Outro.kdenlive</property>
+ </producer>
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Video 1</property>
+  <blank length="4649"/>
+  <entry out="6615" producer="21_playlist3" in="4649"/>
  </playlist>
  <producer id="14_playlist9" title="Anonymous Submission" out="18568" in="0">
   <property name="length">00:12:53:17</property>
@@ -504,20 +538,20 @@
   <blank length="3276"/>
   <entry out="3297" producer="17_playlist8" in="3276"/>
   <blank length="767"/>
-  <entry out="5728" producer="19_playlist8" in="4065"/>
+  <entry out="4685" producer="19_playlist8" in="4065"/>
  </playlist>
- <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="6615" in="0">
+ <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="6616" in="0">
   <track producer="black_track"/>
   <track producer="playlist1" hide="video"/>
   <track producer="playlist2" hide="video"/>
-  <track producer="playlist3" hide="both"/>
+  <track producer="playlist3" hide="audio"/>
   <track producer="playlist9" hide="audio"/>
   <track producer="playlist10" hide="audio"/>
   <track producer="playlist4" hide="both"/>
   <track producer="playlist5" hide="audio"/>
   <track producer="playlist0" hide="audio"/>
   <track producer="playlist6" hide="audio"/>
-  <track producer="playlist11"/>
+  <track producer="playlist11" hide="audio"/>
   <track producer="playlist7" hide="audio"/>
   <track producer="playlist8" hide="audio"/>
   <transition id="transition12" out="3297" in="3276">
