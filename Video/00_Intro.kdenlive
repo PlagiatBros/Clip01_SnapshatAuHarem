@@ -1362,6 +1362,10 @@
   <property name="length">00:00:25:09</property>
   <property name="eof">pause</property>
   <property name="resource">src/TheWholeRushes/logo_noglitch-full.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29,97</property>
@@ -1394,10 +1398,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">1401313</property>
   <property name="kdenlive:file_hash">0afb209f328259b3539ff0342c82508a</property>
@@ -1456,6 +1456,10 @@
   <property name="length">00:00:25:10</property>
   <property name="eof">pause</property>
   <property name="resource">src/TheWholeRushes/logo_noglitch-full-zoom.mp4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29,97</property>
@@ -1488,10 +1492,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">4493770</property>
   <property name="kdenlive:file_hash">242270d5730e13236e45f1dbf08f77f8</property>
@@ -1556,7 +1556,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">1151</property>
+  <property name="kdenlive:docproperties.position">984</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1570,7 +1570,7 @@
   <property name="kdenlive:docproperties.videotargettrack">8</property>
   <property name="kdenlive:docproperties.zonein">404</property>
   <property name="kdenlive:docproperties.zoneout">1087</property>
-  <property name="kdenlive:docproperties.zoom">6</property>
+  <property name="kdenlive:docproperties.zoom">4</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -2011,7 +2011,9 @@
  <playlist id="playlist11">
   <property name="kdenlive:track_name">Video 10</property>
   <blank length="965"/>
-  <entry out="4002" producer="9_playlist11" in="3893"/>
+  <entry out="3911" producer="9_playlist11" in="3893"/>
+  <blank length="22"/>
+  <entry out="4002" producer="9_playlist11" in="3934"/>
   <blank length="12"/>
   <entry out="4006" producer="producer0" in="4005"/>
   <blank length="2"/>
@@ -3328,7 +3330,17 @@
     <property name="transition.distort">0</property>
    </filter>
   </entry>
-  <entry out="27" producer="29" in="25"/>
+  <entry out="27" producer="29" in="25">
+   <filter id="frei0r.pixeliz0r">
+    <property name="version">1</property>
+    <property name="mlt_service">frei0r.pixeliz0r</property>
+    <property name="kdenlive_id">frei0r.pixeliz0r</property>
+    <property name="tag">frei0r.pixeliz0r</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="BlockSizeX">25=0,01</property>
+    <property name="BlockSizeY">25=0,01</property>
+   </filter>
+  </entry>
   <filter id="filter29">
    <property name="mlt_service">invert</property>
    <property name="kdenlive_id">invert</property>
@@ -3656,6 +3668,15 @@
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
    </filter>
+   <filter id="filter0">
+    <property name="version">1</property>
+    <property name="mlt_service">frei0r.pixeliz0r</property>
+    <property name="kdenlive_id">frei0r.pixeliz0r</property>
+    <property name="tag">frei0r.pixeliz0r</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="BlockSizeX">26=0,01</property>
+    <property name="BlockSizeY">26=0,01</property>
+   </filter>
   </entry>
  </playlist>
  <playlist id="playlist24">
@@ -3680,6 +3701,16 @@
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info"/>
+   </filter>
+   <filter id="filter6">
+    <property name="version">1</property>
+    <property name="mlt_service">frei0r.pixeliz0r</property>
+    <property name="kdenlive_id">frei0r.pixeliz0r</property>
+    <property name="tag">frei0r.pixeliz0r</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="BlockSizeX">48=0,01</property>
+    <property name="BlockSizeY">48=0,01</property>
+    <property name="disable">0</property>
    </filter>
   </entry>
  </playlist>
