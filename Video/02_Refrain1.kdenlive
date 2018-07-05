@@ -490,7 +490,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">2434</property>
+  <property name="kdenlive:docproperties.position">2880</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -504,7 +504,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">2253</property>
   <property name="kdenlive:docproperties.zoneout">2932</property>
-  <property name="kdenlive:docproperties.zoom">6</property>
+  <property name="kdenlive:docproperties.zoom">4</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -515,14 +515,14 @@
   <property name="kdenlive:guide.137">Snare</property>
   <property name="kdenlive:guide.142,625">Fuck</property>
   <property name="kdenlive:guide.94,5833">Refrain</property>
-  <property name="kdenlive:docproperties.renderaudioquality">160</property>
+  <property name="kdenlive:docproperties.renderaudioquality">192</property>
   <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
   <property name="kdenlive:docproperties.renderendguide">0</property>
   <property name="kdenlive:docproperties.renderexportaudio">0</property>
   <property name="kdenlive:docproperties.renderguide">0</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
   <property name="kdenlive:docproperties.renderprofile">MP4 - the dominating format (H264/AAC)</property>
-  <property name="kdenlive:docproperties.renderquality">23</property>
+  <property name="kdenlive:docproperties.renderquality">15</property>
   <property name="kdenlive:docproperties.renderratio">1</property>
   <property name="kdenlive:docproperties.renderrescale">0</property>
   <property name="kdenlive:docproperties.renderrescaleheight">180</property>
@@ -1190,8 +1190,6 @@
   <blank length="102"/>
   <entry out="1528" producer="5_playlist6" in="1464"/>
   <entry out="480" producer="3_playlist7" in="466"/>
-  <blank length="41"/>
-  <entry out="535" producer="3_playlist7" in="522"/>
  </playlist>
  <producer id="12_playlist7" title="Anonymous Submission" out="2664" in="0">
   <property name="length">00:01:51:01</property>

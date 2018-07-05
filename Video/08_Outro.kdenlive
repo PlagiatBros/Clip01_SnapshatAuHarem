@@ -49,6 +49,10 @@
   <property name="length">00:02:51:03</property>
   <property name="eof">pause</property>
   <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -91,10 +95,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">24</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -114,6 +114,10 @@
   <property name="length">00:02:46:07</property>
   <property name="eof">pause</property>
   <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1159_C0004.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -156,10 +160,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="meta.media.frame_rate_num">24</property>
   <property name="meta.media.frame_rate_den">1</property>
@@ -180,6 +180,10 @@
   <property name="length">00:02:06:10</property>
   <property name="eof">pause</property>
   <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1208_C0005.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -222,10 +226,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">2820501057</property>
   <property name="kdenlive:file_hash">305214fc03958c6bab5f7b3a3ad15a92</property>
@@ -294,6 +294,10 @@
   <property name="length">00:00:12:15</property>
   <property name="eof">pause</property>
   <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1129_C0002.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -336,10 +340,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">281685169</property>
   <property name="kdenlive:file_hash">b85772cb708c51b6a69095edac5c83d9</property>
@@ -408,6 +408,10 @@
   <property name="length">00:01:48:10</property>
   <property name="eof">pause</property>
   <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1108_C0000.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -450,10 +454,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">2418902449</property>
   <property name="kdenlive:file_hash">bdb0e206b0e425c9f782e42384568f7c</property>
@@ -522,6 +522,10 @@
   <property name="length">00:01:15:16</property>
   <property name="eof">pause</property>
   <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1130_C0003.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">3</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
@@ -564,10 +568,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:folderid">-1</property>
   <property name="kdenlive:file_size">1688212137</property>
   <property name="kdenlive:file_hash">9e3b238311cbd7c98462643bd5208d2f</property>
@@ -1388,14 +1388,14 @@ Plagiat ain't no rape&lt;/content>
   <property name="kdenlive:folderid">-1</property>
   <property name="xmldata">&lt;kdenlivetitle width="1920" duration="120" out="120" height="1080" LC_NUMERIC="fr_FR.UTF-8">
  &lt;item z-index="0" type="QGraphicsTextItem">
-  &lt;position x="1354" y="452">
+  &lt;position x="1281" y="452">
    &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
   &lt;/position>
-  &lt;content font-italic="0" letter-spacing="0" font-weight="75" box-height="200" shadow="0;#64000000;3;3;3" font="FreeMono" font-underline="0" font-pixel-size="40" line-spacing="0" box-width="432" font-color="255,255,255,255" alignment="4">
+  &lt;content font-italic="0" letter-spacing="0" font-weight="75" box-height="200" shadow="0;#64000000;3;3;3" font="FreeMono" font-underline="0" font-pixel-size="40" line-spacing="0" box-width="600" font-color="255,255,255,255" alignment="4">
 
 
 
-http://plagiat.org&lt;/content>
+cum &amp;amp; diss on plagiat.org&lt;/content>
  &lt;/item>
  &lt;startviewport rect="0,0,1920,1080"/>
  &lt;endviewport rect="0,0,1920,1080"/>
@@ -1419,7 +1419,7 @@ http://plagiat.org&lt;/content>
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">5161</property>
+  <property name="kdenlive:docproperties.position">6459</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1433,7 +1433,7 @@ http://plagiat.org&lt;/content>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">378</property>
   <property name="kdenlive:docproperties.zoneout">5728</property>
-  <property name="kdenlive:docproperties.zoom">8</property>
+  <property name="kdenlive:docproperties.zoom">7</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -1450,7 +1450,7 @@ http://plagiat.org&lt;/content>
   <property name="kdenlive:docproperties.renderguide">0</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
   <property name="kdenlive:docproperties.renderprofile">MP4 - the dominating format (H264/AAC)</property>
-  <property name="kdenlive:docproperties.renderquality">23</property>
+  <property name="kdenlive:docproperties.renderquality">15</property>
   <property name="kdenlive:docproperties.renderratio">1</property>
   <property name="kdenlive:docproperties.renderrescale">0</property>
   <property name="kdenlive:docproperties.renderrescaleheight">180</property>
@@ -1749,8 +1749,8 @@ http://plagiat.org&lt;/content>
  <playlist id="playlist9">
   <property name="kdenlive:track_name">Video 8</property>
   <blank length="4711"/>
-  <entry out="1869" producer="21_playlist9" in="354">
-   <filter id="fade_from_black" out="426" in="354">
+  <entry out="2107" producer="21_playlist9" in="592">
+   <filter id="fade_from_black" out="664" in="592">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -1760,13 +1760,15 @@ http://plagiat.org&lt;/content>
     <property name="disable"/>
     <property name="end">1</property>
    </filter>
-   <filter id="fade_to_black" out="1869" in="1762">
+   <filter id="fade_to_black" out="2107" in="2000">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="tag">brightness</property>
     <property name="kdenlive_ix">2</property>
     <property name="end">0</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
   </entry>
   <filter id="filter0">
@@ -2213,15 +2215,6 @@ http://plagiat.org&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter45" out="664" in="661">
-    <property name="start">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="tag">brightness</property>
-    <property name="kdenlive_ix">2</property>
-    <property name="end">0</property>
-    <property name="kdenlive_info"/>
-   </filter>
   </entry>
   <filter id="filter46">
    <property name="background">colour:0x00000000</property>
@@ -2284,15 +2277,17 @@ http://plagiat.org&lt;/content>
  </playlist>
  <playlist id="playlist8">
   <property name="kdenlive:track_name">Video 7</property>
-  <blank length="6056"/>
-  <entry out="550" producer="52" in="0">
-   <filter id="filter51" out="3">
+  <blank length="6101"/>
+  <entry out="550" producer="52" in="45">
+   <filter id="filter51" out="48" in="45">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="tag">brightness</property>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
   </entry>
   <filter id="filter52">
@@ -2416,7 +2411,7 @@ http://plagiat.org&lt;/content>
    <property name="combine">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition12" out="6606" in="6056">
+  <transition id="transition12" out="6606" in="6101">
    <property name="a_track">11</property>
    <property name="b_track">12</property>
    <property name="version">0,2</property>
