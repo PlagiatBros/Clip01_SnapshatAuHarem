@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt title="Anonymous Submission" version="6.4.1" root="/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Video" producer="main bin" LC_NUMERIC="fr_FR.UTF-8">
- <profile width="1920" frame_rate_den="1" height="1080" display_aspect_num="16" display_aspect_den="9" frame_rate_num="24" colorspace="709" sample_aspect_den="1" description="HD 1080p 24 fps" progressive="1" sample_aspect_num="1"/>
- <producer id="1" title="Anonymous Submission" out="4287" in="0">
+<mlt title="Anonymous Submission" LC_NUMERIC="fr_FR.UTF-8" producer="main bin" version="6.12.0" root="/home/bordun/Clip01_SnapshatAuHarem/Video">
+ <profile frame_rate_num="24" sample_aspect_num="1" display_aspect_den="9" colorspace="709" progressive="1" description="HD 1080p 24 fps" display_aspect_num="16" frame_rate_den="1" width="1920" height="1080" sample_aspect_den="1"/>
+ <producer title="Anonymous Submission" id="1" in="0" out="4287">
   <property name="length">00:02:58:16</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Audio/Snapchat_au_Harem.flac</property>
+  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem/Audio/Snapchat_au_Harem.flac</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -23,7 +23,7 @@
   <property name="kdenlive:file_hash">115a31e39ebfe7c973cc2dc7b9f7cbf8</property>
   <property name="global_feed">1</property>
  </producer>
- <producer id="20" title="Anonymous Submission" out="3455" in="0">
+ <producer title="Anonymous Submission" id="20" in="0" out="3455">
   <property name="length">00:02:24:00</property>
   <property name="eof">pause</property>
   <property name="resource">/home/woii/Plagiat/Stage/Sounds/Samples/WholeWorld/Intro1.wav</property>
@@ -45,15 +45,15 @@
   <property name="kdenlive:file_hash">cca9bc04f4779f62a8baf76421a7072b</property>
   <property name="global_feed">1</property>
  </producer>
- <producer id="23" out="4106" in="0">
+ <producer title="Anonymous Submission" id="23" in="0" out="4106">
   <property name="length">00:02:51:03</property>
   <property name="eof">pause</property>
-  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-24_1117_C0001.mov</property>
   <property name="audio_index">2</property>
-  <property name="video_index">1</property>
+  <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
   <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
@@ -109,16 +109,38 @@
   <property name="kdenlive:proxy">-</property>
   <property name="proxy_out">4106</property>
   <property name="kdenlive:originalurl">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1117_C0001.mov</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">11:17:56:09</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <property name="global_feed">1</property>
  </producer>
- <producer id="26" title="Anonymous Submission" out="3990" in="0">
+ <producer title="Anonymous Submission" id="26" in="0" out="3990">
   <property name="length">00:02:46:07</property>
   <property name="eof">pause</property>
-  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1159_C0004.mov</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-24_1159_C0004.mov</property>
   <property name="audio_index">2</property>
-  <property name="video_index">1</property>
+  <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
   <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
@@ -175,16 +197,37 @@
   <property name="proxy_out">3990</property>
   <property name="kdenlive:originalurl">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1159_C0004.mov</property>
   <property name="global_feed">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">11:59:05:16</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
  </producer>
- <producer id="21" title="Anonymous Submission" out="3033" in="0">
+ <producer title="Anonymous Submission" id="21" in="0" out="3033">
   <property name="length">00:02:06:10</property>
   <property name="eof">pause</property>
-  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1208_C0005.mov</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-24_1208_C0005.mov</property>
   <property name="audio_index">2</property>
-  <property name="video_index">1</property>
+  <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
   <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
@@ -289,16 +332,37 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">12:08:53:19</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
  </producer>
- <producer id="24" title="Anonymous Submission" out="302" in="0">
+ <producer title="Anonymous Submission" id="24" in="0" out="302">
   <property name="length">00:00:12:15</property>
   <property name="eof">pause</property>
-  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1129_C0002.mov</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-24_1129_C0002.mov</property>
   <property name="audio_index">2</property>
-  <property name="video_index">1</property>
+  <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
   <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
@@ -403,16 +467,37 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">11:29:16:10</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
  </producer>
- <producer id="22" title="Anonymous Submission" out="2601" in="0">
+ <producer title="Anonymous Submission" id="22" in="0" out="2601">
   <property name="length">00:01:48:10</property>
   <property name="eof">pause</property>
-  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1108_C0000.mov</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-24_1108_C0000.mov</property>
   <property name="audio_index">2</property>
-  <property name="video_index">1</property>
+  <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
   <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
@@ -517,16 +602,37 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">11:08:29:05</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
  </producer>
- <producer id="25" title="Anonymous Submission" out="1815" in="0">
+ <producer title="Anonymous Submission" id="25" in="0" out="1815">
   <property name="length">00:01:15:16</property>
   <property name="eof">pause</property>
-  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1130_C0003.mov</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-24_1130_C0003.mov</property>
   <property name="audio_index">2</property>
-  <property name="video_index">1</property>
+  <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
-  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
   <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
@@ -631,8 +737,29 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">11:30:24:23</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
  </producer>
- <producer id="27" out="144" in="0">
+ <producer id="27" in="0" out="144">
   <property name="length">145</property>
   <property name="eof">pause</property>
   <property name="resource">0x000000ff</property>
@@ -643,7 +770,7 @@
   <property name="kdenlive:duration">120</property>
   <property name="kdenlive:file_hash">9196813120dc5c505072516b15baf414</property>
  </producer>
- <producer id="28" title="Anonymous Submission" out="1904" in="0">
+ <producer title="Anonymous Submission" id="28" in="0" out="1904">
   <property name="length">1905</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -672,7 +799,7 @@
   <property name="kdenlive:file_hash">2f20ca35aceaf64575b1026f7dc86dbd</property>
   <property name="global_feed">1</property>
  </producer>
- <producer id="29" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="29" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -702,7 +829,7 @@ PLAGIAT BROS &lt;/content>
   <property name="kdenlive:file_hash">abce8512128016fc78d907d1e519094b</property>
   <property name="global_feed">1</property>
  </producer>
- <producer id="30" title="Anonymous Submission" out="1904" in="0">
+ <producer title="Anonymous Submission" id="30" in="0" out="1904">
   <property name="length">1905</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -731,7 +858,7 @@ PLAGIAT BROS &lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="31" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="31" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -761,7 +888,7 @@ PR¥N¢€$$ 4K&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="32" title="Anonymous Submission" out="704" in="0">
+ <producer title="Anonymous Submission" id="32" in="0" out="704">
   <property name="length">705</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -791,7 +918,7 @@ PR¥N¢€$$ 4K&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="33" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="33" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -821,7 +948,7 @@ BIG MC NANO&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="34" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="34" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -851,7 +978,7 @@ MI$$Y SCHNECK 1-2&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="35" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="35" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -881,7 +1008,7 @@ MISS OS X TOFU&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="36" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="36" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -911,7 +1038,7 @@ KARL MARX DORCEL&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="37" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="37" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -941,7 +1068,7 @@ GIHAD JOE&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="38" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="38" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -971,7 +1098,7 @@ SOUBRETTE SUPRÊME&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="39" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="39" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1001,7 +1128,7 @@ FREDDY MERKRUEGER&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="40" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="40" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1032,7 +1159,7 @@ COPAIN CONTENT&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="41" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="41" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1062,7 +1189,7 @@ YASSER A RAFAAL&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="42" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="42" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1093,7 +1220,7 @@ fb.com/boomtrapped&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="43" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="43" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1127,7 +1254,7 @@ http://emibscv.fr&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="44" title="Anonymous Submission" out="405" in="0">
+ <producer title="Anonymous Submission" id="44" in="0" out="405">
   <property name="length">406</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1157,7 +1284,7 @@ http://emibscv.fr&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="45" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="45" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1188,7 +1315,7 @@ fb.com/lavraiecoop&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="46" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="46" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1220,7 +1347,7 @@ fb.com/mjcmanudibango&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="47" out="119" in="0">
+ <producer title="Anonymous Submission" id="47" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1251,7 +1378,7 @@ fb.com/lavraiecoop&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="48" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="48" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1285,7 +1412,7 @@ http://creativecommons.org&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="49" title="Anonymous Submission" out="665" in="0">
+ <producer title="Anonymous Submission" id="49" in="0" out="665">
   <property name="length">666</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1314,7 +1441,7 @@ http://creativecommons.org&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="50" title="Anonymous Submission" out="624" in="0">
+ <producer title="Anonymous Submission" id="50" in="0" out="624">
   <property name="length">625</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1345,7 +1472,7 @@ Plagiat ain't no rape&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="51" title="Anonymous Submission" out="565" in="0">
+ <producer title="Anonymous Submission" id="51" in="0" out="565">
   <property name="length">566</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1376,7 +1503,7 @@ Plagiat ain't no rape&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="52" title="Anonymous Submission" out="551" in="0">
+ <producer title="Anonymous Submission" id="52" in="0" out="551">
   <property name="length">552</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1409,7 +1536,7 @@ cum &amp;amp; diss on plagiat.org&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="53" out="119" in="0">
+ <producer title="Anonymous Submission" id="53" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1440,7 +1567,7 @@ fb.com/boomtrapped&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer id="54" title="Anonymous Submission" out="119" in="0">
+ <producer title="Anonymous Submission" id="54" in="0" out="119">
   <property name="length">120</property>
   <property name="eof">pause</property>
   <property name="resource"/>
@@ -1505,11 +1632,11 @@ fb.com/boomtrapped&lt;/content>
   <property name="kdenlive:docproperties.dirtypreviewchunks"/>
   <property name="kdenlive:docproperties.disablepreview">0</property>
   <property name="kdenlive:docproperties.documentid">1516638450852</property>
-  <property name="kdenlive:docproperties.enableproxy">1</property>
+  <property name="kdenlive:docproperties.enableproxy">0</property>
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
-  <property name="kdenlive:docproperties.kdenliveversion">16.12.2</property>
-  <property name="kdenlive:docproperties.position">6011</property>
+  <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
+  <property name="kdenlive:docproperties.position">5894</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1518,12 +1645,12 @@ fb.com/boomtrapped&lt;/content>
   <property name="kdenlive:docproperties.proxyimageminsize">2000</property>
   <property name="kdenlive:docproperties.proxyminsize">1000</property>
   <property name="kdenlive:docproperties.proxyparams">-vf scale=640:-1 -g 5 -qscale 6 -ab 128k -vcodec mpeg2video -acodec mp2</property>
-  <property name="kdenlive:docproperties.version">0.95</property>
+  <property name="kdenlive:docproperties.version">0.96</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">378</property>
-  <property name="kdenlive:docproperties.zoneout">5728</property>
-  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:docproperties.zonein">4649</property>
+  <property name="kdenlive:docproperties.zoneout">6615</property>
+  <property name="kdenlive:docproperties.zoom">6</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -1534,12 +1661,12 @@ fb.com/boomtrapped&lt;/content>
   <property name="kdenlive:guide.137">Snare</property>
   <property name="kdenlive:guide.142,625">Fuck</property>
   <property name="kdenlive:docproperties.renderaudioquality">192</property>
-  <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
+  <property name="kdenlive:docproperties.rendercategory">Sans perte / Haute qualité</property>
   <property name="kdenlive:docproperties.renderendguide">0</property>
   <property name="kdenlive:docproperties.renderexportaudio">0</property>
   <property name="kdenlive:docproperties.renderguide">0</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
-  <property name="kdenlive:docproperties.renderprofile">MP4 - the dominating format (H264/AAC)</property>
+  <property name="kdenlive:docproperties.renderprofile">H.264 (libx264+aac)</property>
   <property name="kdenlive:docproperties.renderquality">15</property>
   <property name="kdenlive:docproperties.renderratio">1</property>
   <property name="kdenlive:docproperties.renderrescale">0</property>
@@ -1551,48 +1678,48 @@ fb.com/boomtrapped&lt;/content>
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Rendus/2018-07-02_Master.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">/home/bordun/Clip01_SnapshatAuHarem/Rendus/08_Outro.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="kdenlive:guide.116,208">Pont</property>
   <property name="xml_retain">1</property>
-  <entry out="4287" producer="1" in="0"/>
-  <entry out="3455" producer="20" in="0"/>
-  <entry out="4106" producer="23" in="0"/>
-  <entry out="3990" producer="26" in="0"/>
-  <entry out="3033" producer="21" in="0"/>
-  <entry out="302" producer="24" in="0"/>
-  <entry out="2601" producer="22" in="0"/>
-  <entry out="1815" producer="25" in="0"/>
-  <entry out="119" producer="27" in="0"/>
-  <entry out="119" producer="28" in="0"/>
-  <entry out="119" producer="29" in="0"/>
-  <entry out="1904" producer="30" in="0"/>
-  <entry out="119" producer="31" in="0"/>
-  <entry out="119" producer="32" in="0"/>
-  <entry out="119" producer="33" in="0"/>
-  <entry out="119" producer="34" in="0"/>
-  <entry out="119" producer="35" in="0"/>
-  <entry out="119" producer="36" in="0"/>
-  <entry out="119" producer="37" in="0"/>
-  <entry out="119" producer="38" in="0"/>
-  <entry out="119" producer="39" in="0"/>
-  <entry out="119" producer="40" in="0"/>
-  <entry out="119" producer="41" in="0"/>
-  <entry out="119" producer="42" in="0"/>
-  <entry out="119" producer="43" in="0"/>
-  <entry out="119" producer="44" in="0"/>
-  <entry out="119" producer="45" in="0"/>
-  <entry out="119" producer="46" in="0"/>
-  <entry out="119" producer="47" in="0"/>
-  <entry out="119" producer="48" in="0"/>
-  <entry out="119" producer="49" in="0"/>
-  <entry out="119" producer="50" in="0"/>
-  <entry out="119" producer="51" in="0"/>
-  <entry out="119" producer="52" in="0"/>
-  <entry out="119" producer="53" in="0"/>
-  <entry out="119" producer="54" in="0"/>
+  <entry producer="1" in="0" out="4287"/>
+  <entry producer="20" in="0" out="3455"/>
+  <entry producer="23" in="0" out="4106"/>
+  <entry producer="26" in="0" out="3990"/>
+  <entry producer="21" in="0" out="3033"/>
+  <entry producer="24" in="0" out="302"/>
+  <entry producer="22" in="0" out="2601"/>
+  <entry producer="25" in="0" out="1815"/>
+  <entry producer="27" in="0" out="119"/>
+  <entry producer="28" in="0" out="119"/>
+  <entry producer="29" in="0" out="119"/>
+  <entry producer="30" in="0" out="1904"/>
+  <entry producer="31" in="0" out="119"/>
+  <entry producer="32" in="0" out="119"/>
+  <entry producer="33" in="0" out="119"/>
+  <entry producer="34" in="0" out="119"/>
+  <entry producer="35" in="0" out="119"/>
+  <entry producer="36" in="0" out="119"/>
+  <entry producer="37" in="0" out="119"/>
+  <entry producer="38" in="0" out="119"/>
+  <entry producer="39" in="0" out="119"/>
+  <entry producer="40" in="0" out="119"/>
+  <entry producer="41" in="0" out="119"/>
+  <entry producer="42" in="0" out="119"/>
+  <entry producer="43" in="0" out="119"/>
+  <entry producer="44" in="0" out="119"/>
+  <entry producer="45" in="0" out="119"/>
+  <entry producer="46" in="0" out="119"/>
+  <entry producer="47" in="0" out="119"/>
+  <entry producer="48" in="0" out="119"/>
+  <entry producer="49" in="0" out="119"/>
+  <entry producer="50" in="0" out="119"/>
+  <entry producer="51" in="0" out="119"/>
+  <entry producer="52" in="0" out="119"/>
+  <entry producer="53" in="0" out="119"/>
+  <entry producer="54" in="0" out="119"/>
  </playlist>
- <producer id="black" out="18669" in="0">
+ <producer id="black" in="0" out="18669">
   <property name="length">18670</property>
   <property name="eof">pause</property>
   <property name="resource">black</property>
@@ -1601,9 +1728,9 @@ fb.com/boomtrapped&lt;/content>
   <property name="set.test_audio">0</property>
  </producer>
  <playlist id="black_track">
-  <entry out="6615" producer="black" in="0"/>
+  <entry producer="black" in="0" out="6615"/>
  </playlist>
- <producer id="20_playlist1" title="Anonymous Submission" out="3455" in="0">
+ <producer title="Anonymous Submission" id="20_playlist1" in="0" out="3455">
   <property name="length">00:02:24:00</property>
   <property name="eof">pause</property>
   <property name="resource">/home/woii/Plagiat/Stage/Sounds/Samples/WholeWorld/Intro1.wav</property>
@@ -1629,10 +1756,10 @@ fb.com/boomtrapped&lt;/content>
  <playlist id="playlist1">
   <property name="kdenlive:track_name">Audio 2</property>
   <property name="kdenlive:audio_track">1</property>
-  <entry out="1503" producer="20_playlist1" in="0"/>
+  <entry producer="20_playlist1" in="0" out="1503"/>
   <blank length="3145"/>
-  <entry out="3455" producer="20_playlist1" in="1490">
-   <filter id="fadein" out="1517" in="1490">
+  <entry producer="20_playlist1" in="1490" out="3455">
+   <filter id="fadein" in="1490" out="1517">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -1645,10 +1772,10 @@ fb.com/boomtrapped&lt;/content>
    </filter>
   </entry>
  </playlist>
- <producer id="1_playlist2" title="Anonymous Submission" out="4287" in="0">
+ <producer title="Anonymous Submission" id="1_playlist2" in="0" out="4287">
   <property name="length">00:02:58:16</property>
   <property name="eof">pause</property>
-  <property name="resource">/home/ukbaison/Clips/2017-2018_Plagiat/uk/Clip01_SnapshatAuHarem/Audio/Snapchat_au_Harem.flac</property>
+  <property name="resource">/home/bordun/Clip01_SnapshatAuHarem/Audio/Snapchat_au_Harem.flac</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
@@ -1673,8 +1800,8 @@ fb.com/boomtrapped&lt;/content>
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:locked_track">1</property>
   <blank length="1440"/>
-  <entry out="3180" producer="1_playlist2" in="0">
-   <filter id="fadeout" out="3180" in="3131">
+  <entry producer="1_playlist2" in="0" out="3180">
+   <filter id="fadeout" in="3131" out="3180">
     <property name="window">75</property>
     <property name="max_gain">20dB</property>
     <property name="mlt_service">volume</property>
@@ -1723,12 +1850,12 @@ fb.com/boomtrapped&lt;/content>
    <property name="disable">0</property>
   </filter>
  </playlist>
- <producer id="21_playlist9" title="Anonymous Submission" out="3033" in="0">
+ <producer title="Anonymous Submission" id="21_playlist9" in="0" out="3033">
   <property name="length">00:02:06:10</property>
   <property name="eof">pause</property>
-  <property name="resource">src/TheWholeRushes/Samedi_soir/CAM2_2017-11-24_1208_C0005.mov</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-24_1208_C0005.mov</property>
   <property name="audio_index">2</property>
-  <property name="video_index">1</property>
+  <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
@@ -1789,7 +1916,7 @@ fb.com/boomtrapped&lt;/content>
   <property name="kdenlive:meta.media.top_field_first">0</property>
   <property name="kdenlive:meta.media.progressive">1</property>
   <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">3</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.1.stream.type">video</property>
   <property name="meta.media.1.stream.frame_rate">24</property>
   <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
@@ -1837,12 +1964,33 @@ fb.com/boomtrapped&lt;/content>
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">12:08:53:19</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
  </producer>
  <playlist id="playlist9">
   <property name="kdenlive:track_name">Video 8</property>
   <blank length="4711"/>
-  <entry out="2107" producer="21_playlist9" in="592">
-   <filter id="fade_from_black" out="719" in="592">
+  <entry producer="21_playlist9" in="592" out="2107">
+   <filter id="fade_from_black" in="592" out="719">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -1852,7 +2000,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="disable"/>
     <property name="end">1</property>
    </filter>
-   <filter id="fade_to_black" out="2107" in="2000">
+   <filter id="fade_to_black" in="2000" out="2107">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -1889,8 +2037,8 @@ fb.com/boomtrapped&lt;/content>
  <playlist id="playlist10">
   <property name="kdenlive:track_name">Video 9</property>
   <blank length="4711"/>
-  <entry out="1515" producer="28" in="0">
-   <filter id="filter2" out="1515" in="1408">
+  <entry producer="28" in="0" out="1515">
+   <filter id="filter2" in="1408" out="1515">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -1913,14 +2061,15 @@ fb.com/boomtrapped&lt;/content>
  <playlist id="playlist4">
   <property name="kdenlive:track_name">Video 2</property>
   <blank length="4790"/>
-  <entry out="1436" producer="30" in="0">
-   <filter id="filter4" out="1436" in="1329">
+  <entry producer="30" in="0" out="1436">
+   <filter id="filter4" in="1329" out="1436">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="tag">brightness</property>
     <property name="kdenlive_ix">1</property>
     <property name="end">0</property>
+    <property name="disable">0</property>
    </filter>
   </entry>
   <filter id="filter5">
@@ -1938,7 +2087,7 @@ fb.com/boomtrapped&lt;/content>
   <property name="kdenlive:track_name">Video 3</property>
   <property name="kdenlive:locked_track">0</property>
   <blank length="4899"/>
-  <entry out="78" producer="29" in="0">
+  <entry producer="29" in="0" out="78">
    <filter id="filter6" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -1948,7 +2097,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">1</property>
     <property name="kdenlive_info"/>
    </filter>
-   <filter id="filter7" out="78" in="75">
+   <filter id="filter7" in="75" out="78">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -1958,7 +2107,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_info"/>
    </filter>
   </entry>
-  <entry out="78" producer="31" in="0">
+  <entry producer="31" in="0" out="78">
    <filter id="filter8" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -1967,7 +2116,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter9" out="78" in="75">
+   <filter id="filter9" in="75" out="78">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -1976,7 +2125,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="44" producer="33" in="0">
+  <entry producer="33" in="0" out="44">
    <filter id="filter10" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -1985,7 +2134,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter11" out="44" in="41">
+   <filter id="filter11" in="41" out="44">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -1995,8 +2144,8 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_info"/>
    </filter>
   </entry>
-  <entry out="85" producer="34" in="41">
-   <filter id="filter12" out="44" in="41">
+  <entry producer="34" in="41" out="85">
+   <filter id="filter12" in="41" out="44">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -2004,7 +2153,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter13" out="85" in="82">
+   <filter id="filter13" in="82" out="85">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2014,7 +2163,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_info"/>
    </filter>
   </entry>
-  <entry out="44" producer="35" in="0">
+  <entry producer="35" in="0" out="44">
    <filter id="filter14" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2023,7 +2172,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter15" out="44" in="41">
+   <filter id="filter15" in="41" out="44">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2032,7 +2181,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="44" producer="40" in="0">
+  <entry producer="40" in="0" out="44">
    <filter id="filter16" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2041,7 +2190,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter17" out="44" in="41">
+   <filter id="filter17" in="41" out="44">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2050,7 +2199,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="44" producer="41" in="0">
+  <entry producer="41" in="0" out="44">
    <filter id="filter18" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2059,7 +2208,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter19" out="44" in="41">
+   <filter id="filter19" in="41" out="44">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2068,7 +2217,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="44" producer="38" in="0">
+  <entry producer="38" in="0" out="44">
    <filter id="filter20" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2077,7 +2226,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter21" out="44" in="41">
+   <filter id="filter21" in="41" out="44">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2086,7 +2235,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="44" producer="36" in="0">
+  <entry producer="36" in="0" out="44">
    <filter id="filter22" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2095,7 +2244,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter23" out="44" in="41">
+   <filter id="filter23" in="41" out="44">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2104,7 +2253,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="44" producer="39" in="0">
+  <entry producer="39" in="0" out="44">
    <filter id="filter24" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2113,7 +2262,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter25" out="44" in="41">
+   <filter id="filter25" in="41" out="44">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2122,7 +2271,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="44" producer="37" in="0">
+  <entry producer="37" in="0" out="44">
    <filter id="filter26" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2131,7 +2280,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter27" out="44" in="41">
+   <filter id="filter27" in="41" out="44">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2140,8 +2289,8 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="119" producer="42" in="41">
-   <filter id="filter28" out="44" in="41">
+  <entry producer="42" in="41" out="119">
+   <filter id="filter28" in="41" out="44">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -2149,7 +2298,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter29" out="119" in="116">
+   <filter id="filter29" in="116" out="119">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2158,7 +2307,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="78" producer="43" in="0">
+  <entry producer="43" in="0" out="78">
    <filter id="filter30" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2167,7 +2316,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter31" out="78" in="75">
+   <filter id="filter31" in="75" out="78">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2176,7 +2325,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="78" producer="45" in="0">
+  <entry producer="45" in="0" out="78">
    <filter id="filter32" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2185,7 +2334,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter33" out="78" in="75">
+   <filter id="filter33" in="75" out="78">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2195,8 +2344,8 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_info"/>
    </filter>
   </entry>
-  <entry out="119" producer="46" in="41">
-   <filter id="filter34" out="44" in="41">
+  <entry producer="46" in="41" out="119">
+   <filter id="filter34" in="41" out="44">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -2204,7 +2353,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter35" out="119" in="116">
+   <filter id="filter35" in="116" out="119">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2227,7 +2376,7 @@ fb.com/boomtrapped&lt;/content>
  <playlist id="playlist0">
   <property name="kdenlive:track_name">Video 4</property>
   <blank length="5057"/>
-  <entry out="404" producer="32" in="0">
+  <entry producer="32" in="0" out="404">
    <filter id="filter37" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2236,7 +2385,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter38" out="404" in="401">
+   <filter id="filter38" in="401" out="404">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2247,7 +2396,7 @@ fb.com/boomtrapped&lt;/content>
    </filter>
   </entry>
   <blank length="158"/>
-  <entry out="157" producer="44" in="0">
+  <entry producer="44" in="0" out="157">
    <filter id="filter39" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2256,7 +2405,7 @@ fb.com/boomtrapped&lt;/content>
     <property name="kdenlive_ix">1</property>
     <property name="end">1</property>
    </filter>
-   <filter id="filter40" out="157" in="154">
+   <filter id="filter40" in="154" out="157">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2279,26 +2428,31 @@ fb.com/boomtrapped&lt;/content>
  </playlist>
  <playlist id="playlist6">
   <property name="kdenlive:track_name">Video 5</property>
-  <blank length="5822"/>
-  <entry out="119" producer="48" in="0">
+  <blank length="5804"/>
+  <entry producer="48" in="0" out="113">
    <filter id="filter42" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="tag">brightness</property>
     <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
     <property name="end">1</property>
    </filter>
-   <filter id="filter43" out="119" in="116">
+   <filter id="filter43" in="110" out="113">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="tag">brightness</property>
     <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry out="664" producer="49" in="0">
+  <blank length="24"/>
+  <entry producer="49" in="0" out="664">
    <filter id="filter44" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2321,10 +2475,10 @@ fb.com/boomtrapped&lt;/content>
  </playlist>
  <playlist id="playlist11">
   <property name="kdenlive:track_name">Video 10</property>
-  <blank length="5856"/>
-  <entry out="41" producer="54" in="38"/>
+  <blank length="5838"/>
+  <entry producer="54" in="38" out="41"/>
   <blank length="30"/>
-  <entry out="78" producer="54" in="78">
+  <entry producer="54" in="78" out="78">
    <filter id="wave" in="78">
     <property name="start">11</property>
     <property name="speed">5</property>
@@ -2335,23 +2489,24 @@ fb.com/boomtrapped&lt;/content>
     <property name="tag">wave</property>
     <property name="kdenlive_ix">1</property>
     <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
   </entry>
   <blank length="21"/>
-  <entry out="111" producer="54" in="82">
-   <filter id="filter45" out="111" in="108">
+  <entry producer="54" in="82" out="105">
+   <filter id="filter45" in="102" out="105">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="tag">brightness</property>
     <property name="kdenlive_ix">1</property>
-    <property name="end">0</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
+    <property name="end">0</property>
    </filter>
   </entry>
-  <blank length="41"/>
-  <entry out="623" producer="50" in="0">
+  <blank length="65"/>
+  <entry producer="50" in="0" out="623">
    <filter id="filter47" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2374,23 +2529,8 @@ fb.com/boomtrapped&lt;/content>
  </playlist>
  <playlist id="playlist7">
   <property name="kdenlive:track_name">Video 6</property>
-  <blank length="5912"/>
-  <entry out="79" producer="54" in="78">
-   <filter id="filter49" in="78">
-    <property name="start">11</property>
-    <property name="speed">5</property>
-    <property name="deformX">1</property>
-    <property name="deformY">0</property>
-    <property name="mlt_service">wave</property>
-    <property name="kdenlive_id">wave</property>
-    <property name="tag">wave</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-   </filter>
-  </entry>
-  <blank length="128"/>
-  <entry out="564" producer="51" in="0">
+  <blank length="6042"/>
+  <entry producer="51" in="0" out="564">
    <filter id="filter50" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2414,8 +2554,8 @@ fb.com/boomtrapped&lt;/content>
  <playlist id="playlist8">
   <property name="kdenlive:track_name">Video 7</property>
   <blank length="6101"/>
-  <entry out="550" producer="52" in="45">
-   <filter id="filter52" out="48" in="45">
+  <entry producer="52" in="45" out="550">
+   <filter id="filter52" in="45" out="48">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -2437,21 +2577,21 @@ fb.com/boomtrapped&lt;/content>
    <property name="transition.distort">0</property>
   </filter>
  </playlist>
- <tractor id="maintractor" title="Anonymous Submission" global_feed="1" out="6615" in="0">
+ <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="6615">
   <track producer="black_track"/>
-  <track producer="playlist1" hide="video"/>
-  <track producer="playlist2" hide="video"/>
-  <track producer="playlist3" hide="audio"/>
-  <track producer="playlist9" hide="audio"/>
-  <track producer="playlist10" hide="audio"/>
-  <track producer="playlist4" hide="audio"/>
-  <track producer="playlist5" hide="audio"/>
-  <track producer="playlist0" hide="audio"/>
-  <track producer="playlist6" hide="audio"/>
-  <track producer="playlist11"/>
-  <track producer="playlist7" hide="audio"/>
-  <track producer="playlist8" hide="audio"/>
-  <transition id="transition12" out="6606" in="6101">
+  <track hide="video" producer="playlist1"/>
+  <track hide="video" producer="playlist2"/>
+  <track hide="audio" producer="playlist3"/>
+  <track hide="audio" producer="playlist9"/>
+  <track hide="audio" producer="playlist10"/>
+  <track hide="audio" producer="playlist4"/>
+  <track hide="audio" producer="playlist5"/>
+  <track hide="audio" producer="playlist0"/>
+  <track hide="audio" producer="playlist6"/>
+  <track hide="audio" producer="playlist11"/>
+  <track hide="audio" producer="playlist7"/>
+  <track hide="audio" producer="playlist8"/>
+  <transition id="transition12" in="6101" out="6606">
    <property name="a_track">11</property>
    <property name="b_track">12</property>
    <property name="version">0,2</property>
@@ -2459,206 +2599,12 @@ fb.com/boomtrapped&lt;/content>
    <property name="automatic">1</property>
    <property name="force_track">0</property>
   </transition>
-  <transition id="transition0" out="5913" in="5912">
-   <property name="a_track">10</property>
-   <property name="b_track">11</property>
-   <property name="factory">loader</property>
-   <property name="mlt_service">luma</property>
-   <property name="automatic">1</property>
-   <property name="kdenlive_id">dissolve</property>
-   <property name="force_track">0</property>
-   <property name="reverse">1</property>
-  </transition>
-  <transition id="transition13" out="6606" in="5983">
-   <property name="a_track">9</property>
-   <property name="b_track">10</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition14" out="4977" in="4899">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition15" out="5056" in="4978">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition16" out="5101" in="5057">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition17" out="5146" in="5102">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition18" out="5191" in="5147">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition19" out="5236" in="5192">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition20" out="5281" in="5237">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition21" out="5326" in="5282">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition22" out="5371" in="5327">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition23" out="5416" in="5372">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition24" out="5461" in="5417">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition25" out="5540" in="5462">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition26" out="5619" in="5541">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition27" out="5698" in="5620">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition28" out="5777" in="5699">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition29" out="5461" in="5057">
-   <property name="a_track">6</property>
-   <property name="b_track">8</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">1</property>
-  </transition>
-  <transition id="transition30" out="5777" in="5620">
-   <property name="a_track">6</property>
-   <property name="b_track">8</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">1</property>
-  </transition>
-  <transition id="transition31" out="5941" in="5822">
-   <property name="a_track">6</property>
-   <property name="b_track">9</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">1</property>
-  </transition>
-  <transition id="transition32" out="6606" in="5942">
-   <property name="a_track">6</property>
-   <property name="b_track">9</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">1</property>
-  </transition>
-  <transition id="transition33" out="6606" in="6042">
-   <property name="a_track">6</property>
-   <property name="b_track">11</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">1</property>
-  </transition>
-  <transition id="transition34" out="6226" in="4790">
-   <property name="a_track">5</property>
-   <property name="b_track">6</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition35" out="6226" in="4711">
-   <property name="a_track">3</property>
-   <property name="b_track">5</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
-   <property name="automatic">1</property>
-   <property name="force_track">1</property>
-  </transition>
   <transition id="transition1">
    <property name="a_track">0</property>
    <property name="b_track">1</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition2">
@@ -2666,7 +2612,7 @@ fb.com/boomtrapped&lt;/content>
    <property name="b_track">2</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition3">
@@ -2674,7 +2620,7 @@ fb.com/boomtrapped&lt;/content>
    <property name="b_track">3</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition4">
@@ -2682,7 +2628,7 @@ fb.com/boomtrapped&lt;/content>
    <property name="b_track">4</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition5">
@@ -2690,7 +2636,7 @@ fb.com/boomtrapped&lt;/content>
    <property name="b_track">5</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition6">
@@ -2698,7 +2644,7 @@ fb.com/boomtrapped&lt;/content>
    <property name="b_track">6</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition7">
@@ -2706,7 +2652,7 @@ fb.com/boomtrapped&lt;/content>
    <property name="b_track">7</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition8">
@@ -2714,7 +2660,7 @@ fb.com/boomtrapped&lt;/content>
    <property name="b_track">8</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition9">
@@ -2722,7 +2668,7 @@ fb.com/boomtrapped&lt;/content>
    <property name="b_track">9</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition10">
@@ -2730,7 +2676,7 @@ fb.com/boomtrapped&lt;/content>
    <property name="b_track">10</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
   <transition id="transition11">
@@ -2738,166 +2684,220 @@ fb.com/boomtrapped&lt;/content>
    <property name="b_track">11</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition36">
+  <transition id="transition14">
    <property name="a_track">0</property>
    <property name="b_track">12</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
-   <property name="combine">1</property>
+   <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition37">
-   <property name="a_track">0</property>
-   <property name="b_track">3</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
-   <property name="internal_added">237</property>
+  <transition id="transition13" in="5983" out="6606">
+   <property name="a_track">9</property>
+   <property name="b_track">10</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
   </transition>
-  <transition id="transition38" out="2107" in="592">
-   <property name="a_track">0</property>
-   <property name="b_track">4</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition39" out="1515">
-   <property name="a_track">0</property>
-   <property name="b_track">5</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition40" out="1436">
-   <property name="a_track">0</property>
-   <property name="b_track">6</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition41">
-   <property name="a_track">0</property>
-   <property name="b_track">7</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition42">
-   <property name="a_track">0</property>
-   <property name="b_track">8</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition43" out="119">
-   <property name="a_track">0</property>
-   <property name="b_track">9</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition44" out="111" in="82">
-   <property name="a_track">0</property>
+  <transition id="transition0" in="5838" out="5917">
+   <property name="a_track">9</property>
    <property name="b_track">10</property>
    <property name="start">0/0:100%x100%</property>
    <property name="factory">loader</property>
    <property name="aligned">1</property>
    <property name="progressive">1</property>
    <property name="mlt_service">composite</property>
-   <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
+   <property name="kdenlive_id">composite</property>
+   <property name="force_track">0</property>
+   <property name="deinterlace">0</property>
+   <property name="distort">0</property>
    <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
-   <property name="internal_added">237</property>
+   <property name="geometry">0%/0%:100%x100%:100</property>
+   <property name="halign">centre</property>
+   <property name="luma_invert">0</property>
+   <property name="operator">over</property>
+   <property name="softness">0</property>
+   <property name="valign">middle</property>
   </transition>
-  <transition id="transition45">
-   <property name="a_track">0</property>
+  <transition id="transition16" in="4899" out="4977">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition17" in="4978" out="5056">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition18" in="5057" out="5101">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition19" in="5102" out="5146">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition20" in="5147" out="5191">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition21" in="5192" out="5236">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition22" in="5237" out="5281">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition23" in="5282" out="5326">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition24" in="5327" out="5371">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition25" in="5372" out="5416">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition26" in="5417" out="5461">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition27" in="5462" out="5540">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition28" in="5541" out="5619">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition29" in="5620" out="5698">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition30" in="5699" out="5777">
+   <property name="a_track">6</property>
+   <property name="b_track">7</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition31" in="5057" out="5461">
+   <property name="a_track">6</property>
+   <property name="b_track">8</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition32" in="5620" out="5777">
+   <property name="a_track">6</property>
+   <property name="b_track">8</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition34" in="5942" out="6606">
+   <property name="a_track">6</property>
+   <property name="b_track">9</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition15" in="5804" out="5917">
+   <property name="a_track">6</property>
+   <property name="b_track">9</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition35" in="6042" out="6606">
+   <property name="a_track">6</property>
    <property name="b_track">11</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
-   <property name="internal_added">237</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
   </transition>
-  <transition id="transition46">
-   <property name="a_track">0</property>
-   <property name="b_track">12</property>
-   <property name="start">0/0:100%x100%</property>
-   <property name="factory">loader</property>
-   <property name="aligned">1</property>
-   <property name="progressive">1</property>
-   <property name="mlt_service">composite</property>
-   <property name="always_active">1</property>
-   <property name="valign">middle</property>
-   <property name="halign">centre</property>
-   <property name="fill">1</property>
-   <property name="geometry">0=0/0:1920x1080</property>
-   <property name="internal_added">237</property>
+  <transition id="transition36" in="4790" out="6226">
+   <property name="a_track">5</property>
+   <property name="b_track">6</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition37" in="4711" out="6226">
+   <property name="a_track">3</property>
+   <property name="b_track">5</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
   </transition>
  </tractor>
 </mlt>
