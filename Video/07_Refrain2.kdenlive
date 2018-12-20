@@ -1221,6 +1221,55 @@
   <property name="meta.attr.minor_version.markup">512</property>
   <property name="meta.attr.compatible_brands.markup">qt  </property>
   <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <filter id="frei0r.levels">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,4</property>
+   <property name="Gamma">0=0,375</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=0,5</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
+  <filter id="frei0r.colortap">
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.colortap</property>
+   <property name="kdenlive_id">frei0r.colortap</property>
+   <property name="tag">frei0r.colortap</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="table">xpro</property>
+  </filter>
+  <filter id="frei0r.coloradj_RGB">
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
+   <property name="tag">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info"/>
+   <property name="R">0=1</property>
+   <property name="G">0=0,5</property>
+   <property name="B">0=0,35</property>
+   <property name="Action">0,5</property>
+   <property name="Keep luma">1</property>
+   <property name="Alpha controlled">0</property>
+   <property name="Luma formula">1,0</property>
+  </filter>
+  <filter id="frei0r.saturat0r">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.saturat0r</property>
+   <property name="kdenlive_id">frei0r.saturat0r</property>
+   <property name="tag">frei0r.saturat0r</property>
+   <property name="kdenlive_ix">4</property>
+   <property name="kdenlive_info"/>
+   <property name="Saturation">0=0,07</property>
+  </filter>
  </producer>
  <producer title="Anonymous Submission" id="47" in="0" out="8682">
   <property name="length">00:06:01:19</property>
@@ -1398,7 +1447,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
-  <property name="kdenlive:docproperties.position">4588</property>
+  <property name="kdenlive:docproperties.position">4551</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -1409,10 +1458,10 @@
   <property name="kdenlive:docproperties.proxyparams">-vf scale=640:-1 -g 5 -qscale 6 -ab 128k -vcodec mpeg2video -acodec mp2</property>
   <property name="kdenlive:docproperties.version">0.96</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
-  <property name="kdenlive:docproperties.videotargettrack">3</property>
+  <property name="kdenlive:docproperties.videotargettrack">-1</property>
   <property name="kdenlive:docproperties.zonein">4063</property>
   <property name="kdenlive:docproperties.zoneout">4671</property>
-  <property name="kdenlive:docproperties.zoom">7</property>
+  <property name="kdenlive:docproperties.zoom">8</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -1512,18 +1561,8 @@
   <blank length="1440"/>
   <entry producer="1_playlist2" in="0" out="309"/>
   <entry producer="1_playlist2" in="310" out="4287"/>
-  <filter id="audiopan">
-   <property name="channel">1</property>
-   <property name="mlt_service">panner</property>
-   <property name="kdenlive_id">audiopan</property>
-   <property name="tag">panner</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info"/>
-   <property name="start">0</property>
-   <property name="disable">1</property>
-  </filter>
  </playlist>
- <producer title="Anonymous Submission" id="30_playlist3" in="0" out="1766">
+ <producer title="Anonymous Submission" id="30_playlist10" in="0" out="1766">
   <property name="length">00:01:13:15</property>
   <property name="eof">pause</property>
   <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0212_C0024.mov</property>
@@ -1538,53 +1577,6 @@
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
   <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.1.stream.type">video</property>
-  <property name="meta.media.1.stream.frame_rate">24</property>
-  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.1.codec.width">1920</property>
-  <property name="meta.media.1.codec.height">1080</property>
-  <property name="meta.media.1.codec.rotate">0</property>
-  <property name="meta.media.1.codec.frame_rate">2400</property>
-  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.1.codec.colorspace">709</property>
-  <property name="meta.media.1.codec.color_trc">1</property>
-  <property name="meta.media.1.codec.name">prores</property>
-  <property name="meta.media.1.codec.long_name">ProRes</property>
-  <property name="meta.media.1.codec.bit_rate">176140800</property>
-  <property name="meta.attr.1.stream.creation_time.markup">2017-11-25T02:12:48.000000Z</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
-  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
-  <property name="meta.attr.1.stream.timecode.markup">02:12:48:12</property>
-  <property name="meta.media.2.stream.type">audio</property>
-  <property name="meta.media.2.codec.sample_fmt">s32</property>
-  <property name="meta.media.2.codec.sample_rate">48000</property>
-  <property name="meta.media.2.codec.channels">2</property>
-  <property name="meta.media.2.codec.name">pcm_s24le</property>
-  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.2.codec.bit_rate">2304000</property>
-  <property name="meta.attr.2.stream.creation_time.markup">2017-11-25T02:12:48.000000Z</property>
-  <property name="meta.attr.2.stream.language.markup">eng</property>
-  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
-  <property name="meta.attr.2.stream.timecode.markup">02:12:48:12</property>
-  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
-  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM2</property>
-  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
-  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
-  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
-  <property name="meta.attr.creation_time.markup">2017-11-25T02:12:48.000000Z</property>
-  <property name="meta.attr.timecode.markup">02:12:48:12</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">24</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">24</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
@@ -1606,15 +1598,17 @@
   <property name="meta.attr.minor_version.markup">512</property>
   <property name="meta.attr.compatible_brands.markup">qt  </property>
   <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
- <playlist id="playlist3">
-  <property name="kdenlive:track_name">Video 1</property>
-  <blank length="4063"/>
-  <entry producer="30_playlist3" in="1024" out="1097"/>
-  <entry producer="30_playlist3" in="1098" out="1205"/>
-  <entry producer="30_playlist3" in="1206" out="1339"/>
-  <entry producer="30_playlist3" in="1340" out="1529"/>
- </playlist>
  <producer title="Anonymous Submission" id="32_playlist10" in="0" out="1656">
   <property name="length">00:01:09:01</property>
   <property name="eof">pause</property>
@@ -1702,118 +1696,61 @@
  </producer>
  <playlist id="playlist10">
   <property name="kdenlive:track_name">Video 8</property>
-  <blank length="4425"/>
+  <blank length="4192"/>
+  <entry producer="30_playlist10" in="1153" out="1205"/>
+  <blank length="180"/>
   <entry producer="32_playlist10" in="1223" out="1277"/>
   <filter id="filter0">
-   <property name="channel">0</property>
-   <property name="mlt_service">panner</property>
-   <property name="kdenlive_id">audiopan</property>
-   <property name="tag">panner</property>
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
    <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">0/-1/</property>
-   <property name="disable">0</property>
-   <property name="start">0</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,4</property>
+   <property name="Gamma">0=0,447</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=0,504</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
   </filter>
- </playlist>
- <producer title="Anonymous Submission" id="37_playlist7" in="0" out="2511">
-  <property name="length">00:01:44:16</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0153_C0017.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:file_size">2335232401</property>
-  <property name="kdenlive:file_hash">757c5bae8be2aba08127826634aabb48</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.1.stream.type">video</property>
-  <property name="meta.media.1.stream.frame_rate">24</property>
-  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.1.codec.width">1920</property>
-  <property name="meta.media.1.codec.height">1080</property>
-  <property name="meta.media.1.codec.rotate">0</property>
-  <property name="meta.media.1.codec.frame_rate">2400</property>
-  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.1.codec.colorspace">709</property>
-  <property name="meta.media.1.codec.color_trc">1</property>
-  <property name="meta.media.1.codec.name">prores</property>
-  <property name="meta.media.1.codec.long_name">ProRes</property>
-  <property name="meta.media.1.codec.bit_rate">176141099</property>
-  <property name="meta.attr.1.stream.creation_time.markup">2017-11-25T01:53:07.000000Z</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
-  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
-  <property name="meta.attr.1.stream.timecode.markup">01:53:07:00</property>
-  <property name="meta.media.2.stream.type">audio</property>
-  <property name="meta.media.2.codec.sample_fmt">s32</property>
-  <property name="meta.media.2.codec.sample_rate">48000</property>
-  <property name="meta.media.2.codec.channels">2</property>
-  <property name="meta.media.2.codec.name">pcm_s24le</property>
-  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.2.codec.bit_rate">2304000</property>
-  <property name="meta.attr.2.stream.creation_time.markup">2017-11-25T01:53:07.000000Z</property>
-  <property name="meta.attr.2.stream.language.markup">eng</property>
-  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
-  <property name="meta.attr.2.stream.timecode.markup">01:53:07:00</property>
-  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
-  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM2</property>
-  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
-  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
-  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
-  <property name="meta.attr.creation_time.markup">2017-11-25T01:53:07.000000Z</property>
-  <property name="meta.attr.timecode.markup">01:53:07:00</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">24</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">24</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">12288</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">dnxhd</property>
-  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
-  <property name="meta.media.0.codec.bit_rate">176160768</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
-  <property name="meta.attr.0.stream.timecode.markup">01:53:07:00</property>
-  <property name="meta.attr.major_brand.markup">qt  </property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">qt  </property>
-  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
- </producer>
- <playlist id="playlist7">
-  <property name="kdenlive:track_name">Video 5</property>
-  <blank length="4154"/>
-  <entry producer="37_playlist7" in="1143" out="1180"/>
-  <blank length="176"/>
-  <entry producer="37_playlist7" in="1908" out="1968"/>
   <filter id="filter1">
-   <property name="channel">0</property>
-   <property name="mlt_service">panner</property>
-   <property name="kdenlive_id">audiopan</property>
-   <property name="tag">panner</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">0/-1/</property>
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.colortap</property>
+   <property name="kdenlive_id">frei0r.colortap</property>
+   <property name="tag">frei0r.colortap</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
    <property name="disable">0</property>
-   <property name="start">1</property>
+   <property name="table">xpro</property>
+  </filter>
+  <filter id="filter2">
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
+   <property name="tag">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info"/>
+   <property name="R">0=1</property>
+   <property name="G">0=0,5</property>
+   <property name="B">0=0,37</property>
+   <property name="Action">0,5</property>
+   <property name="Keep luma">1</property>
+   <property name="Alpha controlled">0</property>
+   <property name="Luma formula">1,0</property>
+   <property name="disable"/>
+  </filter>
+  <filter id="filter3">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.saturat0r</property>
+   <property name="kdenlive_id">frei0r.saturat0r</property>
+   <property name="tag">frei0r.saturat0r</property>
+   <property name="kdenlive_ix">4</property>
+   <property name="kdenlive_info"/>
+   <property name="Saturation">0=0,07</property>
+   <property name="disable"/>
   </filter>
  </playlist>
  <producer id="slowmotion:44:0,94:1:0" in="0" out="916">
@@ -1898,7 +1835,7 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer title="Anonymous Submission" id="44_playlist4" in="0" out="861">
+ <producer title="Anonymous Submission" id="44_playlist7" in="0" out="861">
   <property name="length">00:00:35:22</property>
   <property name="eof">pause</property>
   <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0136_C0010.mov</property>
@@ -1912,41 +1849,51 @@
   <property name="kdenlive:file_hash">d93236ebd49160c806fd2ecab0ea54e3</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">01:36:52:06</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
- <playlist id="playlist4">
-  <property name="kdenlive:track_name">Video 2</property>
-  <blank length="4089"/>
-  <entry producer="slowmotion:44:0,94:1:0" in="210" out="257"/>
-  <blank length="11"/>
-  <entry producer="44" in="236" out="261"/>
-  <blank length="94"/>
-  <entry producer="44" in="437" out="476"/>
-  <blank length="577"/>
-  <entry producer="44_playlist4" in="201" out="275"/>
-  <filter id="filter2">
-   <property name="channel">0</property>
-   <property name="mlt_service">panner</property>
-   <property name="kdenlive_id">audiopan</property>
-   <property name="tag">panner</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">0/-1/</property>
-   <property name="disable">0</property>
-   <property name="start">1</property>
-  </filter>
- </playlist>
- <producer title="Anonymous Submission" id="29_playlist5" in="0" out="2289">
-  <property name="length">00:01:35:10</property>
+ <producer title="Anonymous Submission" id="37_playlist7" in="0" out="2511">
+  <property name="length">00:01:44:16</property>
   <property name="eof">pause</property>
-  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0216_C0025.mov</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0153_C0017.mov</property>
   <property name="audio_index">2</property>
   <property name="video_index">0</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="kdenlive:file_size">2128857929</property>
-  <property name="kdenlive:file_hash">c6824e172ec1c8919a2a055efe346cc6</property>
-  <property name="kdenlive:clipname">tape cul - brothers horizontal</property>
+  <property name="kdenlive:file_size">2335232401</property>
+  <property name="kdenlive:file_hash">757c5bae8be2aba08127826634aabb48</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
   <property name="meta.media.nb_streams">2</property>
@@ -1963,12 +1910,12 @@
   <property name="meta.media.1.codec.color_trc">1</property>
   <property name="meta.media.1.codec.name">prores</property>
   <property name="meta.media.1.codec.long_name">ProRes</property>
-  <property name="meta.media.1.codec.bit_rate">176140323</property>
-  <property name="meta.attr.1.stream.creation_time.markup">2017-11-25T02:16:34.000000Z</property>
+  <property name="meta.media.1.codec.bit_rate">176141099</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2017-11-25T01:53:07.000000Z</property>
   <property name="meta.attr.1.stream.language.markup">eng</property>
   <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
   <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
-  <property name="meta.attr.1.stream.timecode.markup">02:16:34:01</property>
+  <property name="meta.attr.1.stream.timecode.markup">01:53:07:00</property>
   <property name="meta.media.2.stream.type">audio</property>
   <property name="meta.media.2.codec.sample_fmt">s32</property>
   <property name="meta.media.2.codec.sample_rate">48000</property>
@@ -1976,17 +1923,17 @@
   <property name="meta.media.2.codec.name">pcm_s24le</property>
   <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
   <property name="meta.media.2.codec.bit_rate">2304000</property>
-  <property name="meta.attr.2.stream.creation_time.markup">2017-11-25T02:16:34.000000Z</property>
+  <property name="meta.attr.2.stream.creation_time.markup">2017-11-25T01:53:07.000000Z</property>
   <property name="meta.attr.2.stream.language.markup">eng</property>
   <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
-  <property name="meta.attr.2.stream.timecode.markup">02:16:34:01</property>
+  <property name="meta.attr.2.stream.timecode.markup">01:53:07:00</property>
   <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
   <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM2</property>
   <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
   <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
   <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
-  <property name="meta.attr.creation_time.markup">2017-11-25T02:16:34.000000Z</property>
-  <property name="meta.attr.timecode.markup">02:16:34:01</property>
+  <property name="meta.attr.creation_time.markup">2017-11-25T01:53:07.000000Z</property>
+  <property name="meta.attr.timecode.markup">01:53:07:00</property>
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="meta.media.frame_rate_num">24</property>
@@ -1997,6 +1944,44 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">01:53:07:00</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+ </producer>
+ <producer title="Anonymous Submission" id="29_playlist7" in="0" out="2289">
+  <property name="length">00:01:35:10</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0216_C0025.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:file_size">2128857929</property>
+  <property name="kdenlive:file_hash">c6824e172ec1c8919a2a055efe346cc6</property>
+  <property name="kdenlive:clipname">tape cul - brothers horizontal</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">24</property>
   <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
@@ -2014,198 +1999,6 @@
   <property name="meta.attr.0.stream.language.markup">eng</property>
   <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
   <property name="meta.attr.0.stream.timecode.markup">02:16:34:01</property>
-  <property name="meta.attr.major_brand.markup">qt  </property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">qt  </property>
-  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
- </producer>
- <playlist id="playlist5">
-  <property name="kdenlive:track_name">Vidéo 3</property>
-  <property name="kdenlive:locked_track">0</property>
-  <blank length="4217"/>
-  <entry producer="29_playlist5" in="1614" out="1614"/>
-  <blank length="1"/>
-  <entry producer="29_playlist5" in="1614" out="1614"/>
-  <blank length="1"/>
-  <entry producer="29_playlist5" in="1615" out="1615"/>
-  <blank length="1"/>
-  <entry producer="29_playlist5" in="1613" out="1629"/>
-  <filter id="frei0r.rgbnoise">
-   <property name="version">0,9</property>
-   <property name="mlt_service">frei0r.rgbnoise</property>
-   <property name="kdenlive_id">frei0r.rgbnoise</property>
-   <property name="tag">frei0r.rgbnoise</property>
-   <property name="kdenlive_ix">2</property>
-   <property name="kdenlive_info">1/-1/</property>
-   <property name="0">0,112</property>
-   <property name="disable">1</property>
-  </filter>
- </playlist>
- <producer title="Anonymous Submission" id="46_playlist8" in="0" out="3737">
-  <property name="length">00:02:35:18</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0058_C0004.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:file_size">3474956585</property>
-  <property name="kdenlive:file_hash">ad22dd8a06e746adef0131909037660a</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.1.stream.type">video</property>
-  <property name="meta.media.1.stream.frame_rate">24</property>
-  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.1.codec.width">1920</property>
-  <property name="meta.media.1.codec.height">1080</property>
-  <property name="meta.media.1.codec.rotate">0</property>
-  <property name="meta.media.1.codec.frame_rate">2400</property>
-  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.1.codec.colorspace">709</property>
-  <property name="meta.media.1.codec.color_trc">1</property>
-  <property name="meta.media.1.codec.name">prores</property>
-  <property name="meta.media.1.codec.long_name">ProRes</property>
-  <property name="meta.media.1.codec.bit_rate">176138656</property>
-  <property name="meta.attr.1.stream.creation_time.markup">2017-11-25T00:58:13.000000Z</property>
-  <property name="meta.attr.1.stream.language.markup">eng</property>
-  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
-  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
-  <property name="meta.attr.1.stream.timecode.markup">00:58:13:00</property>
-  <property name="meta.media.2.stream.type">audio</property>
-  <property name="meta.media.2.codec.sample_fmt">s32</property>
-  <property name="meta.media.2.codec.sample_rate">48000</property>
-  <property name="meta.media.2.codec.channels">2</property>
-  <property name="meta.media.2.codec.name">pcm_s24le</property>
-  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
-  <property name="meta.media.2.codec.bit_rate">2304000</property>
-  <property name="meta.attr.2.stream.creation_time.markup">2017-11-25T00:58:13.000000Z</property>
-  <property name="meta.attr.2.stream.language.markup">eng</property>
-  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
-  <property name="meta.attr.2.stream.timecode.markup">00:58:13:00</property>
-  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
-  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM2</property>
-  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
-  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
-  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
-  <property name="meta.attr.creation_time.markup">2017-11-25T00:58:13.000000Z</property>
-  <property name="meta.attr.timecode.markup">00:58:13:00</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">24</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">24</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">12288</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">dnxhd</property>
-  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
-  <property name="meta.media.0.codec.bit_rate">176160768</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
-  <property name="meta.attr.0.stream.timecode.markup">00:58:13:00</property>
-  <property name="meta.attr.major_brand.markup">qt  </property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">qt  </property>
-  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
- </producer>
- <playlist id="playlist8">
-  <property name="kdenlive:track_name">Video 6</property>
-  <blank length="4063"/>
-  <entry producer="46_playlist8" in="3238" out="3275"/>
-  <blank length="137"/>
-  <entry producer="46_playlist8" in="3349" out="3386">
-   <filter id="pan_zoom" in="3349" out="3386">
-    <property name="background">colour:0x00000000</property>
-    <property name="mlt_service">affine</property>
-    <property name="kdenlive_id">pan_zoom</property>
-    <property name="tag">affine</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="transition.geometry">-48/-27:2017x1134:100</property>
-    <property name="transition.distort">0</property>
-    <property name="kdenlive:sync_in_out">1</property>
-    <property name="kdenlive_info"/>
-   </filter>
-  </entry>
-  <blank length="203"/>
-  <entry producer="46_playlist8" in="3509" out="3560"/>
-  <filter id="filter3">
-   <property name="delta">11</property>
-   <property name="every">100</property>
-   <property name="brightnessdelta_up">0</property>
-   <property name="brightnessdelta_down">0</property>
-   <property name="brightnessdelta_every">100</property>
-   <property name="unevendevelop_up">0</property>
-   <property name="unevendevelop_down">0</property>
-   <property name="unevendevelop_duration">0</property>
-   <property name="mlt_service">oldfilm</property>
-   <property name="kdenlive_id">oldfilm</property>
-   <property name="tag">oldfilm</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">0/-1/</property>
-   <property name="disable">1</property>
-  </filter>
-  <filter id="filter4" out="4530">
-   <property name="background">colour:0x00000000</property>
-   <property name="mlt_service">affine</property>
-   <property name="kdenlive_id">pan_zoom</property>
-   <property name="tag">affine</property>
-   <property name="kdenlive_ix">2</property>
-   <property name="kdenlive:sync_in_out">1</property>
-   <property name="kdenlive_info">0/-1/</property>
-   <property name="transition.geometry">-96/-54:2112x1188:100</property>
-   <property name="transition.distort">0</property>
-   <property name="disable">1</property>
-  </filter>
- </playlist>
- <producer title="Anonymous Submission" id="46_playlist6" in="0" out="3737">
-  <property name="length">00:02:35:18</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0058_C0004.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:file_size">3474956585</property>
-  <property name="kdenlive:file_hash">ad22dd8a06e746adef0131909037660a</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">24</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">12288</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">dnxhd</property>
-  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
-  <property name="meta.media.0.codec.bit_rate">176160768</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
-  <property name="meta.attr.0.stream.timecode.markup">00:58:13:00</property>
   <property name="meta.attr.major_brand.markup">qt  </property>
   <property name="meta.attr.minor_version.markup">512</property>
   <property name="meta.attr.compatible_brands.markup">qt  </property>
@@ -2303,15 +2096,490 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
+ <producer title="Anonymous Submission" id="30_playlist7" in="0" out="1766">
+  <property name="length">00:01:13:15</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0212_C0024.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:file_size">1642659481</property>
+  <property name="kdenlive:file_hash">bafd76a9a491d96d85f6a22fdc57e3f6</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">02:12:48:12</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist7">
+  <property name="kdenlive:track_name">Video 5</property>
+  <blank length="4089"/>
+  <entry producer="slowmotion:44:0,94:1:0" in="210" out="257"/>
+  <blank length="11"/>
+  <entry producer="44_playlist7" in="236" out="261"/>
+  <entry producer="37_playlist7" in="1163" out="1180"/>
+  <blank length="24"/>
+  <entry producer="29_playlist7" in="1614" out="1614"/>
+  <blank length="1"/>
+  <entry producer="29_playlist7" in="1614" out="1614"/>
+  <blank length="1"/>
+  <entry producer="29_playlist7" in="1615" out="1615"/>
+  <blank length="1"/>
+  <entry producer="29_playlist7" in="1613" out="1629"/>
+  <blank length="29"/>
+  <entry producer="44_playlist7" in="437" out="471"/>
+  <entry producer="slowmotion:39:1,32:1:0" in="678" out="727"/>
+  <blank length="11"/>
+  <entry producer="37_playlist7" in="1908" out="1973"/>
+  <blank length="50"/>
+  <entry producer="30_playlist7" in="1441" out="1529"/>
+  <filter id="filter4">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,4</property>
+   <property name="Gamma">0=0,447</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=0,504</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
+  <filter id="filter5">
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.colortap</property>
+   <property name="kdenlive_id">frei0r.colortap</property>
+   <property name="tag">frei0r.colortap</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="table">xpro</property>
+   <property name="disable">0</property>
+  </filter>
+  <filter id="filter6">
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
+   <property name="tag">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info"/>
+   <property name="R">0=1</property>
+   <property name="G">0=0,5</property>
+   <property name="B">0=0,375</property>
+   <property name="Action">0,5</property>
+   <property name="Keep luma">1</property>
+   <property name="Alpha controlled">0</property>
+   <property name="Luma formula">1,0</property>
+   <property name="disable"/>
+  </filter>
+  <filter id="filter7">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.saturat0r</property>
+   <property name="kdenlive_id">frei0r.saturat0r</property>
+   <property name="tag">frei0r.saturat0r</property>
+   <property name="kdenlive_ix">4</property>
+   <property name="kdenlive_info"/>
+   <property name="Saturation">0=0,07</property>
+   <property name="disable"/>
+  </filter>
+ </playlist>
+ <producer title="Anonymous Submission" id="44_playlist4" in="0" out="861">
+  <property name="length">00:00:35:22</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0136_C0010.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:file_size">801347945</property>
+  <property name="kdenlive:file_hash">d93236ebd49160c806fd2ecab0ea54e3</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">01:36:52:06</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist4">
+  <property name="kdenlive:track_name">Video 2</property>
+  <blank length="4885"/>
+  <entry producer="44_playlist4" in="201" out="275"/>
+  <filter id="filter8">
+   <property name="channel">0</property>
+   <property name="mlt_service">panner</property>
+   <property name="kdenlive_id">audiopan</property>
+   <property name="tag">panner</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info">0/-1/</property>
+   <property name="disable">0</property>
+   <property name="start">1</property>
+  </filter>
+ </playlist>
+ <playlist id="playlist5">
+  <property name="kdenlive:track_name">Vidéo 3</property>
+  <property name="kdenlive:locked_track">0</property>
+  <filter id="frei0r.rgbnoise">
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.rgbnoise</property>
+   <property name="kdenlive_id">frei0r.rgbnoise</property>
+   <property name="tag">frei0r.rgbnoise</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info">1/-1/</property>
+   <property name="0">0,112</property>
+   <property name="disable">1</property>
+  </filter>
+ </playlist>
+ <producer title="Anonymous Submission" id="46_playlist8" in="0" out="3737">
+  <property name="length">00:02:35:18</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0058_C0004.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:file_size">3474956585</property>
+  <property name="kdenlive:file_hash">ad22dd8a06e746adef0131909037660a</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.1.stream.type">video</property>
+  <property name="meta.media.1.stream.frame_rate">24</property>
+  <property name="meta.media.1.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.1.codec.width">1920</property>
+  <property name="meta.media.1.codec.height">1080</property>
+  <property name="meta.media.1.codec.rotate">0</property>
+  <property name="meta.media.1.codec.frame_rate">2400</property>
+  <property name="meta.media.1.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.1.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.1.codec.colorspace">709</property>
+  <property name="meta.media.1.codec.color_trc">1</property>
+  <property name="meta.media.1.codec.name">prores</property>
+  <property name="meta.media.1.codec.long_name">ProRes</property>
+  <property name="meta.media.1.codec.bit_rate">176138656</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2017-11-25T00:58:13.000000Z</property>
+  <property name="meta.attr.1.stream.language.markup">eng</property>
+  <property name="meta.attr.1.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.1.stream.encoder.markup">Apple ProRes 422 HQ</property>
+  <property name="meta.attr.1.stream.timecode.markup">00:58:13:00</property>
+  <property name="meta.media.2.stream.type">audio</property>
+  <property name="meta.media.2.codec.sample_fmt">s32</property>
+  <property name="meta.media.2.codec.sample_rate">48000</property>
+  <property name="meta.media.2.codec.channels">2</property>
+  <property name="meta.media.2.codec.name">pcm_s24le</property>
+  <property name="meta.media.2.codec.long_name">PCM signed 24-bit little-endian</property>
+  <property name="meta.media.2.codec.bit_rate">2304000</property>
+  <property name="meta.attr.2.stream.creation_time.markup">2017-11-25T00:58:13.000000Z</property>
+  <property name="meta.attr.2.stream.language.markup">eng</property>
+  <property name="meta.attr.2.stream.handler_name.markup">Apple Alias Data Handler</property>
+  <property name="meta.attr.2.stream.timecode.markup">00:58:13:00</property>
+  <property name="meta.attr.com.apple.proapps.manufacturer.markup">Blackmagic Design</property>
+  <property name="meta.attr.com.apple.proapps.cameraName.markup">CAM2</property>
+  <property name="meta.attr.com.apple.proapps.isGood.markup">0</property>
+  <property name="meta.attr.com.apple.proapps.customgamma.markup">com.blackmagic-design.cinemacamera.filmlog</property>
+  <property name="meta.attr.com.blackmagic-design.cinemacamera.uuid.markup">18E5E00548F94923B646613A73C01B56</property>
+  <property name="meta.attr.creation_time.markup">2017-11-25T00:58:13.000000Z</property>
+  <property name="meta.attr.timecode.markup">00:58:13:00</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">00:58:13:00</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <filter id="filter9">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,4</property>
+   <property name="Gamma">0=0,375</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=0,5</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
+  <filter id="filter10">
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.colortap</property>
+   <property name="kdenlive_id">frei0r.colortap</property>
+   <property name="tag">frei0r.colortap</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="table">xpro</property>
+  </filter>
+  <filter id="filter11">
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
+   <property name="tag">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info"/>
+   <property name="R">0=1</property>
+   <property name="G">0=0,5</property>
+   <property name="B">0=0,35</property>
+   <property name="Action">0,5</property>
+   <property name="Keep luma">1</property>
+   <property name="Alpha controlled">0</property>
+   <property name="Luma formula">1,0</property>
+  </filter>
+  <filter id="filter12">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.saturat0r</property>
+   <property name="kdenlive_id">frei0r.saturat0r</property>
+   <property name="tag">frei0r.saturat0r</property>
+   <property name="kdenlive_ix">4</property>
+   <property name="kdenlive_info"/>
+   <property name="Saturation">0=0,07</property>
+  </filter>
+ </producer>
+ <playlist id="playlist8">
+  <property name="kdenlive:track_name">Video 6</property>
+  <blank length="4063"/>
+  <entry producer="46_playlist8" in="3238" out="3275"/>
+  <blank length="137"/>
+  <entry producer="46_playlist8" in="3349" out="3386">
+   <filter id="pan_zoom" in="3349" out="3386">
+    <property name="background">colour:0x00000000</property>
+    <property name="mlt_service">affine</property>
+    <property name="kdenlive_id">pan_zoom</property>
+    <property name="tag">affine</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="transition.geometry">-48/-27:2017x1134:100</property>
+    <property name="transition.distort">0</property>
+    <property name="kdenlive:sync_in_out">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+   </filter>
+  </entry>
+  <blank length="203"/>
+  <entry producer="46_playlist8" in="3509" out="3560"/>
+  <filter id="filter13">
+   <property name="delta">11</property>
+   <property name="every">100</property>
+   <property name="brightnessdelta_up">0</property>
+   <property name="brightnessdelta_down">0</property>
+   <property name="brightnessdelta_every">100</property>
+   <property name="unevendevelop_up">0</property>
+   <property name="unevendevelop_down">0</property>
+   <property name="unevendevelop_duration">0</property>
+   <property name="mlt_service">oldfilm</property>
+   <property name="kdenlive_id">oldfilm</property>
+   <property name="tag">oldfilm</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info">0/-1/</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter14" out="4530">
+   <property name="background">colour:0x00000000</property>
+   <property name="mlt_service">affine</property>
+   <property name="kdenlive_id">pan_zoom</property>
+   <property name="tag">affine</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive:sync_in_out">1</property>
+   <property name="kdenlive_info">0/-1/</property>
+   <property name="transition.geometry">-96/-54:2112x1188:100</property>
+   <property name="transition.distort">0</property>
+   <property name="disable">1</property>
+  </filter>
+ </playlist>
+ <producer title="Anonymous Submission" id="46_playlist6" in="0" out="3737">
+  <property name="length">00:02:35:18</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0058_C0004.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:file_size">3474956585</property>
+  <property name="kdenlive:file_hash">ad22dd8a06e746adef0131909037660a</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">00:58:13:00</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <filter id="filter15">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,4</property>
+   <property name="Gamma">0=0,375</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=0,5</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+  </filter>
+  <filter id="filter16">
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.colortap</property>
+   <property name="kdenlive_id">frei0r.colortap</property>
+   <property name="tag">frei0r.colortap</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="table">xpro</property>
+  </filter>
+  <filter id="filter17">
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
+   <property name="tag">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info"/>
+   <property name="R">0=1</property>
+   <property name="G">0=0,5</property>
+   <property name="B">0=0,35</property>
+   <property name="Action">0,5</property>
+   <property name="Keep luma">1</property>
+   <property name="Alpha controlled">0</property>
+   <property name="Luma formula">1,0</property>
+  </filter>
+  <filter id="filter18">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.saturat0r</property>
+   <property name="kdenlive_id">frei0r.saturat0r</property>
+   <property name="tag">frei0r.saturat0r</property>
+   <property name="kdenlive_ix">4</property>
+   <property name="kdenlive_info"/>
+   <property name="Saturation">0=0,07</property>
+  </filter>
+ </producer>
  <playlist id="playlist6">
   <property name="kdenlive:track_name">Video 4</property>
   <blank length="4239"/>
   <entry producer="46_playlist6" in="3350" out="3350"/>
   <blank length="31"/>
   <entry producer="46_playlist6" in="3382" out="3382"/>
-  <blank length="32"/>
-  <entry producer="slowmotion:39:1,32:1:0" in="678" out="727"/>
-  <filter id="filter5">
+  <filter id="filter19">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
    <property name="kdenlive_id">audiopan</property>
@@ -2322,23 +2590,6 @@
    <property name="start">0</property>
   </filter>
  </playlist>
- <producer title="Anonymous Submission" id="producer0" in="0" out="5556">
-  <property name="length">00:03:51:13</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0328_C0001.mov</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:file_size">5165952393</property>
-  <property name="kdenlive:file_hash">3ba1af2b61c3f49ace504e0c5761963b</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="kdenlive:binid">48</property>
-  <property name="kdenlive:clipstate">0</property>
- </producer>
  <producer title="Anonymous Submission" id="48_playlist13" in="0" out="5556">
   <property name="length">00:03:51:13</property>
   <property name="eof">pause</property>
@@ -2425,21 +2676,63 @@
  </producer>
  <playlist id="playlist13">
   <property name="kdenlive:track_name">Vidéo 4</property>
-  <blank length="4353"/>
-  <entry producer="producer0" in="4932" out="4970"/>
-  <blank length="34"/>
+  <blank length="4347"/>
+  <entry producer="48_playlist13" in="4932" out="4997"/>
+  <blank length="13"/>
   <entry producer="48_playlist13" in="2034" out="2086"/>
   <blank length="26"/>
   <entry producer="48_playlist13" in="2098" out="2123"/>
-  <filter id="filter6">
-   <property name="channel">0</property>
-   <property name="mlt_service">panner</property>
-   <property name="kdenlive_id">audiopan</property>
-   <property name="tag">panner</property>
+  <filter id="filter20">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
    <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">0/-1/</property>
-   <property name="disable">0</property>
-   <property name="start">0</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,464</property>
+   <property name="Gamma">0=0,54425</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=0,549</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
+   <property name="disable"/>
+  </filter>
+  <filter id="filter21">
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.colortap</property>
+   <property name="kdenlive_id">frei0r.colortap</property>
+   <property name="tag">frei0r.colortap</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="table">xpro</property>
+  </filter>
+  <filter id="filter22">
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
+   <property name="tag">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info"/>
+   <property name="R">0=1</property>
+   <property name="G">0=0,5</property>
+   <property name="B">0=0,4</property>
+   <property name="Action">0,5</property>
+   <property name="Keep luma">1</property>
+   <property name="Alpha controlled">0</property>
+   <property name="Luma formula">1,0</property>
+   <property name="disable"/>
+  </filter>
+  <filter id="filter23">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.saturat0r</property>
+   <property name="kdenlive_id">frei0r.saturat0r</property>
+   <property name="tag">frei0r.saturat0r</property>
+   <property name="kdenlive_ix">4</property>
+   <property name="kdenlive_info"/>
+   <property name="Saturation">0=0,07</property>
+   <property name="disable"/>
   </filter>
  </playlist>
  <producer title="Anonymous Submission" id="47_playlist9" in="0" out="8682">
@@ -2525,6 +2818,53 @@
   <property name="meta.attr.minor_version.markup">512</property>
   <property name="meta.attr.compatible_brands.markup">qt  </property>
   <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+ </producer>
+ <producer title="Anonymous Submission" id="48_playlist9" in="0" out="5556">
+  <property name="length">00:03:51:13</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0328_C0001.mov</property>
+  <property name="audio_index">2</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:file_size">5165952393</property>
+  <property name="kdenlive:file_hash">3ba1af2b61c3f49ace504e0c5761963b</property>
+  <property name="global_feed">1</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">24</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">12288</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">176160768</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">03:28:42:12</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">24</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
  </producer>
  <producer id="slowmotion:47:0,5:1:0" in="0" out="17365">
   <property name="length">17366</property>
@@ -2614,24 +2954,76 @@
   <entry producer="47_playlist9" in="5326" out="5356"/>
   <blank length="180"/>
   <entry producer="47_playlist9" in="5504" out="5533"/>
-  <blank length="45"/>
+  <blank length="31"/>
+  <entry producer="48_playlist9" in="4984" out="4984">
+   <filter id="invert">
+    <property name="mlt_service">invert</property>
+    <property name="kdenlive_id">invert</property>
+    <property name="tag">invert</property>
+    <property name="kdenlive_ix">1</property>
+   </filter>
+  </entry>
+  <blank length="13"/>
   <entry producer="47_playlist9" in="7271" out="7305"/>
   <blank length="116"/>
   <entry producer="slowmotion:47:0,5:1:0" in="15052" out="15159"/>
-  <filter id="filter7">
-   <property name="channel">0</property>
-   <property name="mlt_service">panner</property>
-   <property name="kdenlive_id">audiopan</property>
-   <property name="tag">panner</property>
+  <filter id="filter30">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
    <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">0/-1/</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=0,464</property>
+   <property name="Gamma">0=0,44025</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=0,549</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
    <property name="disable">0</property>
-   <property name="start">0</property>
+  </filter>
+  <filter id="filter31">
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.colortap</property>
+   <property name="kdenlive_id">frei0r.colortap</property>
+   <property name="tag">frei0r.colortap</property>
+   <property name="kdenlive_ix">2</property>
+   <property name="kdenlive_info"/>
+   <property name="table">xpro</property>
+   <property name="disable">0</property>
+  </filter>
+  <filter id="filter32">
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
+   <property name="tag">frei0r.coloradj_RGB</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info"/>
+   <property name="R">0=1</property>
+   <property name="G">0=0,5</property>
+   <property name="B">0=0,4</property>
+   <property name="Action">0,5</property>
+   <property name="Keep luma">1</property>
+   <property name="Alpha controlled">0</property>
+   <property name="Luma formula">1,0</property>
+   <property name="disable">0</property>
+  </filter>
+  <filter id="filter33">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.saturat0r</property>
+   <property name="kdenlive_id">frei0r.saturat0r</property>
+   <property name="tag">frei0r.saturat0r</property>
+   <property name="kdenlive_ix">4</property>
+   <property name="kdenlive_info"/>
+   <property name="Saturation">0=0,07</property>
+   <property name="disable">0</property>
   </filter>
  </playlist>
  <playlist id="playlist12">
   <property name="kdenlive:track_name">Vidéo 1</property>
-  <filter id="filter8">
+  <filter id="filter34">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
    <property name="kdenlive_id">audiopan</property>
@@ -2713,7 +3105,7 @@
  </playlist>
  <playlist id="playlist0">
   <property name="kdenlive:track_name">noir</property>
-  <filter id="filter9">
+  <filter id="filter35">
    <property name="channel">0</property>
    <property name="mlt_service">panner</property>
    <property name="kdenlive_id">audiopan</property>
@@ -2728,7 +3120,6 @@
   <track producer="black_track"/>
   <track hide="video" producer="playlist1"/>
   <track hide="video" producer="playlist2"/>
-  <track hide="audio" producer="playlist3"/>
   <track hide="audio" producer="playlist10"/>
   <track hide="audio" producer="playlist7"/>
   <track hide="audio" producer="playlist4"/>
@@ -2839,14 +3230,6 @@
   <transition id="transition12">
    <property name="a_track">0</property>
    <property name="b_track">13</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition13">
-   <property name="a_track">0</property>
-   <property name="b_track">14</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
    <property name="sum">1</property>
