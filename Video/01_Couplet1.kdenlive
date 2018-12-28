@@ -678,9 +678,9 @@
    <property name="tag">frei0r.coloradj_RGB</property>
    <property name="kdenlive_ix">1</property>
    <property name="kdenlive_info"/>
-   <property name="R">0=0,485</property>
-   <property name="G">0=0,464</property>
-   <property name="B">0=0,511</property>
+   <property name="R">0=0,5</property>
+   <property name="G">0=0,475</property>
+   <property name="B">0=0,5</property>
    <property name="Action">0,5</property>
    <property name="Keep luma">1</property>
    <property name="Alpha controlled">0</property>
@@ -694,7 +694,24 @@
    <property name="tag">frei0r.saturat0r</property>
    <property name="kdenlive_ix">2</property>
    <property name="kdenlive_info"/>
-   <property name="Saturation">0=0,093</property>
+   <property name="Saturation">0=0,09</property>
+   <property name="disable">0</property>
+  </filter>
+  <filter id="frei0r.levels">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=1</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
    <property name="disable">0</property>
   </filter>
  </producer>
@@ -767,6 +784,7 @@
    <property name="kdenlive_info"/>
    <property name="0">1</property>
    <property name="1">0,234</property>
+   <property name="disable">0</property>
   </filter>
  </producer>
  <playlist id="main bin">
@@ -779,7 +797,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
-  <property name="kdenlive:docproperties.position">2187</property>
+  <property name="kdenlive:docproperties.position">2117</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -791,8 +809,8 @@
   <property name="kdenlive:docproperties.version">0.96</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">1436</property>
-  <property name="kdenlive:docproperties.zoneout">2280</property>
+  <property name="kdenlive:docproperties.zonein">1458</property>
+  <property name="kdenlive:docproperties.zoneout">2302</property>
   <property name="kdenlive:docproperties.zoom">5</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
@@ -890,186 +908,8 @@
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Video 1</property>
  </playlist>
- <producer title="Anonymous Submission" id="8_playlist10" in="0" out="2881">
-  <property name="length">00:02:00:02</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:file_size">6646002705</property>
-  <property name="kdenlive:file_hash">f22de9cde004f4cdccd2392a6b8453e7</property>
-  <property name="kdenlive:proxy">-</property>
-  <property name="proxy_out">2881</property>
-  <property name="kdenlive:originalurl">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
-  <property name="global_feed">1</property>
-  <property name="kdenlive:clipname">sniffed-eaten-mixed-jerked</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">60</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">15360</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">dnxhd</property>
-  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
-  <property name="meta.media.0.codec.bit_rate">440401920</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
-  <property name="meta.attr.0.stream.timecode.markup">09:41:37:09</property>
-  <property name="meta.attr.major_brand.markup">qt  </property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">qt  </property>
-  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">60</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <filter id="filter0">
-   <property name="version">0,9</property>
-   <property name="mlt_service">frei0r.sigmoidaltransfer</property>
-   <property name="kdenlive_id">frei0r.sigmoidaltransfer</property>
-   <property name="tag">frei0r.sigmoidaltransfer</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info"/>
-   <property name="0">1</property>
-   <property name="1">0,234</property>
-  </filter>
- </producer>
- <producer id="slowmotion:8:0,5:1:0" in="0" out="5764">
-  <property name="length">5765</property>
-  <property name="eof">pause</property>
-  <property name="resource">0,5:/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
-  <property name="aspect_ratio">1</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">60</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">15360</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">dnxhd</property>
-  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
-  <property name="meta.media.0.codec.bit_rate">440401920</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
-  <property name="meta.attr.0.stream.timecode.markup">09:41:37:09</property>
-  <property name="meta.attr.major_brand.markup">qt  </property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">qt  </property>
-  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="warp_speed">0,5</property>
-  <property name="warp_resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
-  <property name="mlt_service">timewarp</property>
-  <property name="meta.media.frame_rate_num">60</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <filter id="filter1">
-   <property name="version">0,9</property>
-   <property name="mlt_service">frei0r.sigmoidaltransfer</property>
-   <property name="kdenlive_id">frei0r.sigmoidaltransfer</property>
-   <property name="tag">frei0r.sigmoidaltransfer</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info"/>
-   <property name="0">1</property>
-   <property name="1">0,234</property>
-  </filter>
- </producer>
- <producer id="slowmotion:8:1,2:1:0" in="0" out="2401">
-  <property name="length">2402</property>
-  <property name="eof">pause</property>
-  <property name="resource">1,2:/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
-  <property name="aspect_ratio">1</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">60</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">15360</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">dnxhd</property>
-  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
-  <property name="meta.media.0.codec.bit_rate">440401920</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
-  <property name="meta.attr.0.stream.timecode.markup">09:41:37:09</property>
-  <property name="meta.attr.major_brand.markup">qt  </property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">qt  </property>
-  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
-  <property name="seekable">1</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="audio_index">-1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="warp_speed">1,2</property>
-  <property name="warp_resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
-  <property name="mlt_service">timewarp</property>
-  <property name="meta.media.frame_rate_num">60</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
-  <filter id="filter2">
-   <property name="version">0,9</property>
-   <property name="mlt_service">frei0r.sigmoidaltransfer</property>
-   <property name="kdenlive_id">frei0r.sigmoidaltransfer</property>
-   <property name="tag">frei0r.sigmoidaltransfer</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info"/>
-   <property name="0">1</property>
-   <property name="1">0,234</property>
-  </filter>
- </producer>
  <playlist id="playlist10">
   <property name="kdenlive:track_name">Video 8</property>
-  <blank length="2247"/>
-  <entry producer="8_playlist10" in="1680" out="1682"/>
-  <entry producer="8_playlist10" in="1680" out="1682"/>
-  <entry producer="8_playlist10" in="1680" out="1682"/>
-  <entry producer="slowmotion:8:0,5:1:0" in="3365" out="3375"/>
-  <entry producer="slowmotion:8:1,2:1:0" in="1407" out="1412"/>
-  <entry producer="8_playlist10" in="1695" out="1725"/>
  </playlist>
  <producer title="Anonymous Submission" id="2_playlist7" in="0" out="2072">
   <property name="length">00:01:26:09</property>
@@ -1326,62 +1166,10 @@
     <property name="kdenlive:sync_in_out">1</property>
    </filter>
   </entry>
-  <blank length="93"/>
-  <entry producer="4_playlist7" in="857" out="1068"/>
+  <blank length="112"/>
+  <entry producer="4_playlist7" in="876" out="1068"/>
   <entry producer="4_playlist7" in="1070" out="1109"/>
   <entry producer="4_playlist7" in="1114" out="1114"/>
-  <filter id="frei0r.levels">
-   <property name="version">0,3</property>
-   <property name="mlt_service">frei0r.levels</property>
-   <property name="kdenlive_id">frei0r.levels</property>
-   <property name="tag">frei0r.levels</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info"/>
-   <property name="Channel">0,3</property>
-   <property name="Input black level">0=0</property>
-   <property name="Input white level">0=0,35</property>
-   <property name="Gamma">0=0,3</property>
-   <property name="Black output">0=0</property>
-   <property name="White output">0=0,5</property>
-   <property name="Show histogram">0</property>
-   <property name="Histogram position">0,3</property>
-  </filter>
-  <filter id="frei0r.colortap">
-   <property name="version">0,9</property>
-   <property name="mlt_service">frei0r.colortap</property>
-   <property name="kdenlive_id">frei0r.colortap</property>
-   <property name="tag">frei0r.colortap</property>
-   <property name="kdenlive_ix">2</property>
-   <property name="kdenlive_info"/>
-   <property name="table">xpro</property>
-   <property name="disable">0</property>
-  </filter>
-  <filter id="filter3">
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.coloradj_RGB</property>
-   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-   <property name="tag">frei0r.coloradj_RGB</property>
-   <property name="kdenlive_ix">3</property>
-   <property name="kdenlive_info"/>
-   <property name="R">0=1</property>
-   <property name="G">0=0,5</property>
-   <property name="B">0=0,4</property>
-   <property name="Action">0,5</property>
-   <property name="Keep luma">1</property>
-   <property name="Alpha controlled">0</property>
-   <property name="Luma formula">1,0</property>
-   <property name="disable">0</property>
-  </filter>
-  <filter id="filter4">
-   <property name="version">0,3</property>
-   <property name="mlt_service">frei0r.saturat0r</property>
-   <property name="kdenlive_id">frei0r.saturat0r</property>
-   <property name="tag">frei0r.saturat0r</property>
-   <property name="kdenlive_ix">4</property>
-   <property name="kdenlive_info"/>
-   <property name="Saturation">0=0,07</property>
-   <property name="disable"/>
-  </filter>
  </playlist>
  <producer title="Anonymous Submission" id="2_playlist4" in="0" out="2072">
   <property name="length">00:01:26:09</property>
@@ -1867,10 +1655,9 @@
     <property name="reverse">0</property>
    </filter>
   </entry>
-  <blank length="29"/>
-  <entry producer="4_playlist4" in="772" out="805"/>
-  <entry producer="4_playlist4" in="832" out="890"/>
-  <blank length="105"/>
+  <blank length="78"/>
+  <entry producer="4_playlist4" in="847" out="867"/>
+  <blank length="128"/>
   <entry producer="3_playlist4" in="1173" out="1193">
    <filter id="filter5" in="1173" out="1193">
     <property name="background">colour:0x00000000</property>
@@ -1899,57 +1686,6 @@
     <property name="disable">0</property>
    </filter>
   </entry>
-  <filter id="filter7">
-   <property name="version">0,3</property>
-   <property name="mlt_service">frei0r.levels</property>
-   <property name="kdenlive_id">frei0r.levels</property>
-   <property name="tag">frei0r.levels</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info"/>
-   <property name="Channel">0,3</property>
-   <property name="Input black level">0=0</property>
-   <property name="Input white level">0=0,35</property>
-   <property name="Gamma">0=0,3</property>
-   <property name="Black output">0=0</property>
-   <property name="White output">0=0,5</property>
-   <property name="Show histogram">0</property>
-   <property name="Histogram position">0,3</property>
-  </filter>
-  <filter id="filter8">
-   <property name="version">0,9</property>
-   <property name="mlt_service">frei0r.colortap</property>
-   <property name="kdenlive_id">frei0r.colortap</property>
-   <property name="tag">frei0r.colortap</property>
-   <property name="kdenlive_ix">2</property>
-   <property name="kdenlive_info"/>
-   <property name="table">xpro</property>
-  </filter>
-  <filter id="filter9">
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.coloradj_RGB</property>
-   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-   <property name="tag">frei0r.coloradj_RGB</property>
-   <property name="kdenlive_ix">3</property>
-   <property name="kdenlive_info"/>
-   <property name="R">0=1</property>
-   <property name="G">0=0,5</property>
-   <property name="B">0=0,4</property>
-   <property name="Action">0,5</property>
-   <property name="Keep luma">1</property>
-   <property name="Alpha controlled">0</property>
-   <property name="Luma formula">1,0</property>
-   <property name="disable"/>
-  </filter>
-  <filter id="filter10">
-   <property name="version">0,3</property>
-   <property name="mlt_service">frei0r.saturat0r</property>
-   <property name="kdenlive_id">frei0r.saturat0r</property>
-   <property name="tag">frei0r.saturat0r</property>
-   <property name="kdenlive_ix">4</property>
-   <property name="kdenlive_info"/>
-   <property name="Saturation">0=0,07</property>
-   <property name="disable"/>
-  </filter>
  </playlist>
  <playlist id="playlist5">
   <property name="kdenlive:track_name">glitch + grain</property>
@@ -1980,76 +1716,192 @@
     <property name="disable"/>
    </filter>
   </entry>
-  <filter id="filter12">
-   <property name="version">0,3</property>
-   <property name="mlt_service">frei0r.levels</property>
-   <property name="kdenlive_id">frei0r.levels</property>
-   <property name="tag">frei0r.levels</property>
-   <property name="kdenlive_ix">2</property>
-   <property name="kdenlive_info"/>
-   <property name="Channel">0,3</property>
-   <property name="Input black level">0=0</property>
-   <property name="Input white level">0=0,35</property>
-   <property name="Gamma">0=0,3</property>
-   <property name="Black output">0=0</property>
-   <property name="White output">0=0,5</property>
-   <property name="Show histogram">0</property>
-   <property name="Histogram position">0,3</property>
-  </filter>
-  <filter id="filter13">
-   <property name="version">0,9</property>
-   <property name="mlt_service">frei0r.colortap</property>
-   <property name="kdenlive_id">frei0r.colortap</property>
-   <property name="tag">frei0r.colortap</property>
-   <property name="kdenlive_ix">3</property>
-   <property name="kdenlive_info"/>
-   <property name="table">xpro</property>
-  </filter>
-  <filter id="filter14">
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.coloradj_RGB</property>
-   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-   <property name="tag">frei0r.coloradj_RGB</property>
-   <property name="kdenlive_ix">4</property>
-   <property name="kdenlive_info"/>
-   <property name="R">0=1</property>
-   <property name="G">0=0,5</property>
-   <property name="B">0=0,5</property>
-   <property name="Action">0,5</property>
-   <property name="Keep luma">1</property>
-   <property name="Alpha controlled">0</property>
-   <property name="Luma formula">1,0</property>
-  </filter>
-  <filter id="filter15">
-   <property name="version">0,3</property>
-   <property name="mlt_service">frei0r.saturat0r</property>
-   <property name="kdenlive_id">frei0r.saturat0r</property>
-   <property name="tag">frei0r.saturat0r</property>
-   <property name="kdenlive_ix">5</property>
-   <property name="kdenlive_info"/>
-   <property name="Saturation">0=0,08</property>
-  </filter>
-  <filter id="frei0r.rgbnoise">
-   <property name="version">0,9</property>
-   <property name="mlt_service">frei0r.rgbnoise</property>
-   <property name="kdenlive_id">frei0r.rgbnoise</property>
-   <property name="tag">frei0r.rgbnoise</property>
-   <property name="kdenlive_ix">6</property>
-   <property name="kdenlive_info">1/-1/</property>
-   <property name="0">0,112</property>
-   <property name="disable">1</property>
-  </filter>
  </playlist>
+ <producer id="slowmotion:8:0,5:1:0" in="0" out="5764">
+  <property name="length">5765</property>
+  <property name="eof">pause</property>
+  <property name="resource">0,5:/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">60</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">15360</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">440401920</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">09:41:37:09</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">0,5</property>
+  <property name="warp_resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="meta.media.frame_rate_num">60</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <filter id="filter0">
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.sigmoidaltransfer</property>
+   <property name="kdenlive_id">frei0r.sigmoidaltransfer</property>
+   <property name="tag">frei0r.sigmoidaltransfer</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="0">1</property>
+   <property name="1">0,234</property>
+   <property name="disable">0</property>
+  </filter>
+ </producer>
+ <producer title="Anonymous Submission" id="8_playlist10" in="0" out="2881">
+  <property name="length">00:02:00:02</property>
+  <property name="eof">pause</property>
+  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="kdenlive:file_size">6646002705</property>
+  <property name="kdenlive:file_hash">f22de9cde004f4cdccd2392a6b8453e7</property>
+  <property name="kdenlive:proxy">-</property>
+  <property name="proxy_out">2881</property>
+  <property name="kdenlive:originalurl">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
+  <property name="global_feed">1</property>
+  <property name="kdenlive:clipname">sniffed-eaten-mixed-jerked</property>
+  <property name="xml">was here</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">60</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">15360</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">440401920</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">09:41:37:09</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="meta.media.frame_rate_num">60</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <filter id="filter1">
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.sigmoidaltransfer</property>
+   <property name="kdenlive_id">frei0r.sigmoidaltransfer</property>
+   <property name="tag">frei0r.sigmoidaltransfer</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="0">1</property>
+   <property name="1">0,234</property>
+   <property name="disable">0</property>
+  </filter>
+ </producer>
+ <producer id="slowmotion:8:1,2:1:0" in="0" out="2401">
+  <property name="length">2402</property>
+  <property name="eof">pause</property>
+  <property name="resource">1,2:/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
+  <property name="aspect_ratio">1</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">60</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.rotate">0</property>
+  <property name="meta.media.0.codec.frame_rate">15360</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.color_trc">1</property>
+  <property name="meta.media.0.codec.name">dnxhd</property>
+  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
+  <property name="meta.media.0.codec.bit_rate">440401920</property>
+  <property name="meta.attr.0.stream.language.markup">eng</property>
+  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.timecode.markup">09:41:37:09</property>
+  <property name="meta.attr.major_brand.markup">qt  </property>
+  <property name="meta.attr.minor_version.markup">512</property>
+  <property name="meta.attr.compatible_brands.markup">qt  </property>
+  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="audio_index">-1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="warp_speed">1,2</property>
+  <property name="warp_resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0941_C0001.mov</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="meta.media.frame_rate_num">60</property>
+  <property name="meta.media.frame_rate_den">1</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.color_trc">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+  <filter id="filter2">
+   <property name="version">0,9</property>
+   <property name="mlt_service">frei0r.sigmoidaltransfer</property>
+   <property name="kdenlive_id">frei0r.sigmoidaltransfer</property>
+   <property name="tag">frei0r.sigmoidaltransfer</property>
+   <property name="kdenlive_ix">1</property>
+   <property name="kdenlive_info"/>
+   <property name="0">1</property>
+   <property name="1">0,234</property>
+   <property name="disable">0</property>
+  </filter>
+ </producer>
  <playlist id="playlist8">
   <property name="kdenlive:track_name">Video 6</property>
   <blank length="1915"/>
   <entry producer="slowmotion:8:0,5:1:0" in="3014" out="3048"/>
-  <blank length="299"/>
-  <entry producer="10" in="1" out="1"/>
-  <blank length="2"/>
-  <entry producer="10" in="0" out="0"/>
-  <blank length="2"/>
-  <entry producer="10" in="0" out="0"/>
+  <blank length="297"/>
+  <entry producer="8_playlist10" in="1680" out="1682"/>
+  <entry producer="8_playlist10" in="1680" out="1682"/>
+  <entry producer="8_playlist10" in="1680" out="1682"/>
+  <entry producer="slowmotion:8:0,5:1:0" in="3365" out="3375"/>
+  <entry producer="slowmotion:8:1,2:1:0" in="1407" out="1412"/>
+  <entry producer="8_playlist10" in="1695" out="1725"/>
  </playlist>
  <producer title="Anonymous Submission" id="8_playlist6" in="0" out="2881">
   <property name="length">00:02:00:02</property>
@@ -2101,7 +1953,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter16">
+  <filter id="filter3">
    <property name="version">0,9</property>
    <property name="mlt_service">frei0r.sigmoidaltransfer</property>
    <property name="kdenlive_id">frei0r.sigmoidaltransfer</property>
@@ -2110,6 +1962,7 @@
    <property name="kdenlive_info"/>
    <property name="0">1</property>
    <property name="1">0,234</property>
+   <property name="disable">0</property>
   </filter>
  </producer>
  <playlist id="playlist6">
@@ -2127,47 +1980,34 @@
     <property name="reverse">0</property>
    </filter>
   </entry>
-  <blank length="125"/>
-  <entry producer="slowmotion:8:0,5:1:0" in="3014" out="3037">
+  <blank length="116"/>
+  <entry producer="slowmotion:8:0,5:1:0" in="3005" out="3037">
    <filter id="frei0r.vertigo">
     <property name="version">1,1</property>
     <property name="mlt_service">frei0r.vertigo</property>
     <property name="kdenlive_id">frei0r.vertigo</property>
     <property name="tag">frei0r.vertigo</property>
     <property name="kdenlive_ix">2</property>
-    <property name="PhaseIncrement">3014=0,02</property>
-    <property name="Zoomrate">3014=0,202</property>
+    <property name="PhaseIncrement">3005=0,02</property>
+    <property name="Zoomrate">3005=0,202</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
    </filter>
   </entry>
-  <blank length="4"/>
-  <entry producer="slowmotion:8:0,5:1:0" in="3042" out="3042">
+  <blank length="5"/>
+  <entry producer="slowmotion:8:0,5:1:0" in="3043" out="3044">
    <filter id="frei0r.rgbsplit0r">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.rgbsplit0r</property>
     <property name="kdenlive_id">frei0r.rgbsplit0r</property>
     <property name="tag">frei0r.rgbsplit0r</property>
     <property name="kdenlive_ix">2</property>
-    <property name="0">0,305</property>
-    <property name="1">0</property>
+    <property name="0">0</property>
+    <property name="1">0,123</property>
     <property name="kdenlive_info"/>
    </filter>
   </entry>
-  <entry producer="slowmotion:8:0,5:1:0" in="3042" out="3042">
-   <filter id="filter18">
-    <property name="version">0,1</property>
-    <property name="mlt_service">frei0r.rgbsplit0r</property>
-    <property name="kdenlive_id">frei0r.rgbsplit0r</property>
-    <property name="tag">frei0r.rgbsplit0r</property>
-    <property name="kdenlive_ix">2</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-    <property name="0">0,305</property>
-    <property name="1">0</property>
-   </filter>
-  </entry>
-  <blank length="26"/>
+  <blank length="25"/>
   <entry producer="8_playlist6" in="539" out="546"/>
   <entry producer="8_playlist6" in="1102" out="1109">
    <filter id="filter19">
@@ -2215,23 +2055,15 @@
     <property name="1">0,053</property>
     <property name="kdenlive_info"/>
    </filter>
-   <filter id="filter23">
+   <filter id="filter4">
     <property name="version">0,3</property>
     <property name="mlt_service">frei0r.saturat0r</property>
     <property name="kdenlive_id">frei0r.saturat0r</property>
     <property name="tag">frei0r.saturat0r</property>
     <property name="kdenlive_ix">3</property>
-    <property name="Saturation">1359=0,04</property>
+    <property name="Saturation">1359=0,06</property>
     <property name="kdenlive_info"/>
-   </filter>
-   <filter id="frei0r.hueshift0r">
-    <property name="version">0,3</property>
-    <property name="mlt_service">frei0r.hueshift0r</property>
-    <property name="kdenlive_id">frei0r.hueshift0r</property>
-    <property name="tag">frei0r.hueshift0r</property>
-    <property name="kdenlive_ix">4</property>
-    <property name="Hue">1359=0,322222</property>
-    <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
   </entry>
   <entry producer="8_playlist6" in="1360" out="1360">
@@ -2255,36 +2087,28 @@
     <property name="1">0,112</property>
     <property name="kdenlive_info"/>
    </filter>
-   <filter id="filter26">
-    <property name="version">0,3</property>
-    <property name="mlt_service">frei0r.saturat0r</property>
-    <property name="kdenlive_id">frei0r.saturat0r</property>
-    <property name="tag">frei0r.saturat0r</property>
-    <property name="kdenlive_ix">3</property>
-    <property name="Saturation">1360=0,04</property>
-    <property name="kdenlive_info"/>
-   </filter>
-   <filter id="filter27">
-    <property name="version">0,3</property>
-    <property name="mlt_service">frei0r.hueshift0r</property>
-    <property name="kdenlive_id">frei0r.hueshift0r</property>
-    <property name="tag">frei0r.hueshift0r</property>
-    <property name="kdenlive_ix">4</property>
-    <property name="Hue">1360=0,766667</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-   </filter>
-   <filter id="filter28">
+   <filter id="filter7">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
     <property name="tag">frei0r.glitch0r</property>
-    <property name="kdenlive_ix">5</property>
-    <property name="0">0,201</property>
-    <property name="1">0,072</property>
-    <property name="2">0,08</property>
-    <property name="3">0</property>
     <property name="kdenlive_info"/>
+    <property name="kdenlive_ix">3</property>
+    <property name="disable"/>
+    <property name="0">0,289</property>
+    <property name="1">0,052</property>
+    <property name="2">0,035</property>
+    <property name="3">0</property>
+   </filter>
+   <filter id="filter8">
+    <property name="version">0,3</property>
+    <property name="mlt_service">frei0r.saturat0r</property>
+    <property name="kdenlive_id">frei0r.saturat0r</property>
+    <property name="tag">frei0r.saturat0r</property>
+    <property name="kdenlive_info"/>
+    <property name="kdenlive_ix">4</property>
+    <property name="disable"/>
+    <property name="Saturation">1360=0,08</property>
    </filter>
   </entry>
   <entry producer="8_playlist6" in="1361" out="1361">
@@ -2319,30 +2143,36 @@
     <property name="kdenlive_info"/>
     <property name="disable"/>
    </filter>
-   <filter id="filter32">
-    <property name="version">0,3</property>
-    <property name="mlt_service">frei0r.hueshift0r</property>
-    <property name="kdenlive_id">frei0r.hueshift0r</property>
-    <property name="tag">frei0r.hueshift0r</property>
-    <property name="kdenlive_ix">4</property>
-    <property name="Hue">1361=0,0972222</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-   </filter>
-   <filter id="filter33">
+   <filter id="filter9">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
     <property name="tag">frei0r.glitch0r</property>
-    <property name="kdenlive_ix">5</property>
-    <property name="0">0,675</property>
-    <property name="1">0,072</property>
-    <property name="2">0,193</property>
+    <property name="kdenlive_ix">4</property>
+    <property name="0">0,257</property>
+    <property name="1">0,005</property>
+    <property name="2">0,066</property>
     <property name="3">0</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
    </filter>
+   <filter id="filter10">
+    <property name="version">0,3</property>
+    <property name="mlt_service">frei0r.saturat0r</property>
+    <property name="kdenlive_id">frei0r.saturat0r</property>
+    <property name="tag">frei0r.saturat0r</property>
+    <property name="kdenlive_info"/>
+    <property name="kdenlive_ix">5</property>
+    <property name="disable"/>
+    <property name="Saturation">1361=0,115</property>
+   </filter>
   </entry>
+  <blank length="236"/>
+  <entry producer="10" in="1" out="1"/>
+  <blank length="2"/>
+  <entry producer="10" in="0" out="0"/>
+  <blank length="2"/>
+  <entry producer="10" in="0" out="0"/>
  </playlist>
  <producer title="Anonymous Submission" id="4_playlist9" in="0" out="2260">
   <property name="length">00:01:34:05</property>
@@ -2580,30 +2410,47 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter34">
+  <filter id="filter12">
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.coloradj_RGB</property>
    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
    <property name="tag">frei0r.coloradj_RGB</property>
    <property name="kdenlive_ix">1</property>
    <property name="kdenlive_info"/>
-   <property name="R">0=0,485</property>
-   <property name="G">0=0,464</property>
-   <property name="B">0=0,511</property>
+   <property name="R">0=0,5</property>
+   <property name="G">0=0,475</property>
+   <property name="B">0=0,5</property>
    <property name="Action">0,5</property>
    <property name="Keep luma">1</property>
    <property name="Alpha controlled">0</property>
    <property name="Luma formula">1,0</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter35">
+  <filter id="filter13">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.saturat0r</property>
    <property name="kdenlive_id">frei0r.saturat0r</property>
    <property name="tag">frei0r.saturat0r</property>
    <property name="kdenlive_ix">2</property>
    <property name="kdenlive_info"/>
-   <property name="Saturation">0=0,093</property>
+   <property name="Saturation">0=0,09</property>
+   <property name="disable">0</property>
+  </filter>
+  <filter id="filter14">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=1</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
    <property name="disable">0</property>
   </filter>
  </producer>
@@ -2748,62 +2595,12 @@
     <property name="disable"/>
    </filter>
   </entry>
-  <blank length="14522"/>
+  <blank length="155"/>
+  <entry producer="4_playlist9" in="772" out="785"/>
+  <blank length="14353"/>
   <entry producer="3_playlist9" in="0" out="647"/>
   <entry producer="3_playlist9" in="648" out="1022"/>
   <entry producer="3_playlist9" in="1023" out="2299"/>
-  <filter id="filter36">
-   <property name="version">0,3</property>
-   <property name="mlt_service">frei0r.levels</property>
-   <property name="kdenlive_id">frei0r.levels</property>
-   <property name="tag">frei0r.levels</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info">0/-1/</property>
-   <property name="Channel">0,3</property>
-   <property name="Input black level">0=0</property>
-   <property name="Input white level">0=0,4</property>
-   <property name="Gamma">0=0,3</property>
-   <property name="Black output">0=0</property>
-   <property name="White output">0=0,5</property>
-   <property name="Show histogram">0</property>
-   <property name="Histogram position">0,3</property>
-   <property name="disable"/>
-  </filter>
-  <filter id="filter37">
-   <property name="version">0,9</property>
-   <property name="mlt_service">frei0r.colortap</property>
-   <property name="kdenlive_id">frei0r.colortap</property>
-   <property name="tag">frei0r.colortap</property>
-   <property name="kdenlive_ix">2</property>
-   <property name="kdenlive_info"/>
-   <property name="table">xpro</property>
-  </filter>
-  <filter id="filter38">
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.coloradj_RGB</property>
-   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-   <property name="tag">frei0r.coloradj_RGB</property>
-   <property name="kdenlive_ix">3</property>
-   <property name="kdenlive_info"/>
-   <property name="R">0=1</property>
-   <property name="G">0=0,5</property>
-   <property name="B">0=0,4</property>
-   <property name="Action">0,5</property>
-   <property name="Keep luma">1</property>
-   <property name="Alpha controlled">0</property>
-   <property name="Luma formula">1,0</property>
-   <property name="disable"/>
-  </filter>
-  <filter id="filter39">
-   <property name="version">0,3</property>
-   <property name="mlt_service">frei0r.saturat0r</property>
-   <property name="kdenlive_id">frei0r.saturat0r</property>
-   <property name="tag">frei0r.saturat0r</property>
-   <property name="kdenlive_ix">4</property>
-   <property name="kdenlive_info"/>
-   <property name="Saturation">0=0,07</property>
-   <property name="disable"/>
-  </filter>
  </playlist>
  <producer title="Anonymous Submission" id="3_playlist12" in="0" out="2299">
   <property name="length">00:01:35:20</property>
@@ -3212,30 +3009,47 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter40">
+  <filter id="filter15">
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.coloradj_RGB</property>
    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
    <property name="tag">frei0r.coloradj_RGB</property>
    <property name="kdenlive_ix">1</property>
    <property name="kdenlive_info"/>
-   <property name="R">0=0,485</property>
-   <property name="G">0=0,464</property>
-   <property name="B">0=0,511</property>
+   <property name="R">0=0,5</property>
+   <property name="G">0=0,475</property>
+   <property name="B">0=0,5</property>
    <property name="Action">0,5</property>
    <property name="Keep luma">1</property>
    <property name="Alpha controlled">0</property>
    <property name="Luma formula">1,0</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter41">
+  <filter id="filter16">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.saturat0r</property>
    <property name="kdenlive_id">frei0r.saturat0r</property>
    <property name="tag">frei0r.saturat0r</property>
    <property name="kdenlive_ix">2</property>
    <property name="kdenlive_info"/>
-   <property name="Saturation">0=0,093</property>
+   <property name="Saturation">0=0,09</property>
+   <property name="disable">0</property>
+  </filter>
+  <filter id="filter18">
+   <property name="version">0,3</property>
+   <property name="mlt_service">frei0r.levels</property>
+   <property name="kdenlive_id">frei0r.levels</property>
+   <property name="tag">frei0r.levels</property>
+   <property name="kdenlive_ix">3</property>
+   <property name="kdenlive_info"/>
+   <property name="Channel">0,3</property>
+   <property name="Input black level">0=0</property>
+   <property name="Input white level">0=1</property>
+   <property name="Gamma">0=0,25</property>
+   <property name="Black output">0=0</property>
+   <property name="White output">0=1</property>
+   <property name="Show histogram">0</property>
+   <property name="Histogram position">0,3</property>
    <property name="disable">0</property>
   </filter>
  </producer>
@@ -3265,57 +3079,6 @@
   <entry producer="9_playlist12" in="8808" out="8808"/>
   <blank length="1"/>
   <entry producer="9_playlist12" in="8810" out="8810"/>
-  <filter id="filter43">
-   <property name="version">0,3</property>
-   <property name="mlt_service">frei0r.levels</property>
-   <property name="kdenlive_id">frei0r.levels</property>
-   <property name="tag">frei0r.levels</property>
-   <property name="kdenlive_ix">1</property>
-   <property name="kdenlive_info"/>
-   <property name="Channel">0,3</property>
-   <property name="Input black level">0=0</property>
-   <property name="Input white level">0=0,4</property>
-   <property name="Gamma">0=0,3</property>
-   <property name="Black output">0=0</property>
-   <property name="White output">0=0,5</property>
-   <property name="Show histogram">0</property>
-   <property name="Histogram position">0,3</property>
-  </filter>
-  <filter id="filter44">
-   <property name="version">0,9</property>
-   <property name="mlt_service">frei0r.colortap</property>
-   <property name="kdenlive_id">frei0r.colortap</property>
-   <property name="tag">frei0r.colortap</property>
-   <property name="kdenlive_ix">2</property>
-   <property name="kdenlive_info"/>
-   <property name="table">xpro</property>
-  </filter>
-  <filter id="filter45">
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.coloradj_RGB</property>
-   <property name="kdenlive_id">frei0r.coloradj_RGB</property>
-   <property name="tag">frei0r.coloradj_RGB</property>
-   <property name="kdenlive_ix">3</property>
-   <property name="kdenlive_info"/>
-   <property name="R">0=1</property>
-   <property name="G">0=0,5</property>
-   <property name="B">0=0,4</property>
-   <property name="Action">0,5</property>
-   <property name="Keep luma">1</property>
-   <property name="Alpha controlled">0</property>
-   <property name="Luma formula">1,0</property>
-   <property name="disable"/>
-  </filter>
-  <filter id="filter46">
-   <property name="version">0,3</property>
-   <property name="mlt_service">frei0r.saturat0r</property>
-   <property name="kdenlive_id">frei0r.saturat0r</property>
-   <property name="tag">frei0r.saturat0r</property>
-   <property name="kdenlive_ix">4</property>
-   <property name="kdenlive_info"/>
-   <property name="Saturation">0=0,07</property>
-   <property name="disable"/>
-  </filter>
  </playlist>
  <playlist id="playlist0">
   <property name="kdenlive:track_name">noir</property>
@@ -3453,20 +3216,6 @@
    <property name="valign">middle</property>
    <property name="automatic">0</property>
    <property name="luma"/>
-  </transition>
-  <transition id="transition13" in="1943" out="1943">
-   <property name="a_track">8</property>
-   <property name="b_track">9</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.color_only</property>
-   <property name="force_track">0</property>
-  </transition>
-  <transition id="transition14" in="1944" out="1944">
-   <property name="a_track">8</property>
-   <property name="b_track">9</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.darken</property>
-   <property name="force_track">0</property>
   </transition>
   <transition id="transition15" in="1871" out="1871">
    <property name="a_track">6</property>
