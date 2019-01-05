@@ -739,8 +739,8 @@
   <property name="meta.attr.compatible_brands.markup">qt  </property>
   <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
  </producer>
- <producer id="27" in="0" out="144">
-  <property name="length">145</property>
+ <producer id="27" in="0" out="154">
+  <property name="length">155</property>
   <property name="eof">pause</property>
   <property name="resource">0x000000ff</property>
   <property name="aspect_ratio">1</property>
@@ -1383,7 +1383,7 @@ fb.com/lavraiecoop&lt;/content>
   &lt;position x="693" y="441">
    &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
   &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="198" font="FreeMono" letter-spacing="0" font-pixel-size="33" font-italic="0" alignment="4" font-weight="75" box-width="534.516" font-color="255,255,255,255">(c) Plagiat 2017 - 2018
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="198" font="FreeMono" letter-spacing="0" font-pixel-size="33" font-italic="0" alignment="4" font-weight="75" box-width="534.516" font-color="255,255,255,255">(c) Plagiat 2017 - 2019
 Copyleft - this art is free
 art. Feel free to use it
 following the terms of
@@ -1658,8 +1658,8 @@ PLAGIAT BROS&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer title="Anonymous Submission" id="56" in="0" out="201">
-  <property name="length">202</property>
+ <producer title="Anonymous Submission" id="56" in="0" out="278">
+  <property name="length">279</property>
   <property name="eof">pause</property>
   <property name="resource"/>
   <property name="progressive">1</property>
@@ -1690,8 +1690,8 @@ free softwares only&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer title="Anonymous Submission" id="58" in="0" out="201">
-  <property name="length">202</property>
+ <producer title="Anonymous Submission" id="58" in="0" out="275">
+  <property name="length">276</property>
   <property name="eof">pause</property>
   <property name="resource"/>
   <property name="progressive">1</property>
@@ -1721,8 +1721,8 @@ free softwares only&lt;/content>
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
- <producer title="Anonymous Submission" id="59" in="0" out="201">
-  <property name="length">202</property>
+ <producer title="Anonymous Submission" id="59" in="0" out="241">
+  <property name="length">242</property>
   <property name="eof">pause</property>
   <property name="resource"/>
   <property name="progressive">1</property>
@@ -1731,10 +1731,10 @@ free softwares only&lt;/content>
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:clipname">Free Softwares trad 2</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="120" LC_NUMERIC="fr_FR.utf8" width="1920" height="1080" out="120">
+  <property name="xmldata">&lt;kdenlivetitle duration="120" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="120">
  &lt;item type="QGraphicsTextItem" z-index="0">
-  &lt;position x="379" y="933">
-   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;position x="379" y="950">
+   &lt;transform rotation="4,0,0" zoom="100">1,0,0,0,0.997564,-6.81216e-05,0,0,1&lt;/transform>
   &lt;/position>
   &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="60" font="Sans Serif" letter-spacing="0" font-pixel-size="26" font-italic="0" alignment="4" font-weight="50" box-width="1162.17" font-color="255,255,255,255">
 This clip clop makes free software of gambling on networks and goat simulation program&lt;/content>
@@ -1796,13 +1796,12 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <property name="mlt_service">kdenlivetitle</property>
   <property name="kdenlive:clipname">Free Softwares trad 4</property>
   <property name="kdenlive:folderid">-1</property>
-  <property name="xmldata">&lt;kdenlivetitle duration="120" LC_NUMERIC="fr_FR.utf8" width="1920" height="1080" out="120">
+  <property name="xmldata">&lt;kdenlivetitle duration="120" LC_NUMERIC="fr_FR.UTF-8" width="1920" height="1080" out="120">
  &lt;item type="QGraphicsTextItem" z-index="0">
   &lt;position x="111" y="933">
    &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
   &lt;/position>
-  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="120" font="Sans Serif" letter-spacing="0" font-pixel-size="26" font-italic="0" alignment="4" font-weight="50" box-width="1697.53" font-color="255,255,255,255">
-
+  &lt;content line-spacing="0" shadow="0;#64000000;3;3;3" font-underline="0" box-height="90" font="Sans Serif" letter-spacing="0" font-pixel-size="26" font-italic="0" alignment="4" font-weight="50" box-width="1697.53" font-color="255,255,255,255">
 
 Этот Зажим Clop делает свободное программное обеспечение азартной игры на сетях и программе моделирования козла&lt;/content>
  &lt;/item>
@@ -1820,6 +1819,17 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <property name="meta.media.width">1920</property>
   <property name="meta.media.height">1080</property>
  </producer>
+ <producer id="62" in="0" out="161">
+  <property name="length">162</property>
+  <property name="eof">pause</property>
+  <property name="resource">0xffffffff</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">color</property>
+  <property name="kdenlive:clipname">Clip couleur</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:duration">120</property>
+  <property name="kdenlive:file_hash">039b56a692cd66eefeea44a17539e5a2</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.audiotargettrack">2</property>
   <property name="kdenlive:docproperties.decimalPoint">,</property>
@@ -1829,8 +1839,8 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <property name="kdenlive:docproperties.enableproxy">0</property>
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
-  <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
-  <property name="kdenlive:docproperties.position">6249</property>
+  <property name="kdenlive:docproperties.kdenliveversion">18.12.0</property>
+  <property name="kdenlive:docproperties.position">6071</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -1842,9 +1852,9 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <property name="kdenlive:docproperties.version">0.96</property>
   <property name="kdenlive:docproperties.verticalzoom">1</property>
   <property name="kdenlive:docproperties.videotargettrack">3</property>
-  <property name="kdenlive:docproperties.zonein">4649</property>
-  <property name="kdenlive:docproperties.zoneout">6615</property>
-  <property name="kdenlive:docproperties.zoom">10</property>
+  <property name="kdenlive:docproperties.zonein">5365</property>
+  <property name="kdenlive:docproperties.zoneout">6343</property>
+  <property name="kdenlive:docproperties.zoom">3</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -1855,13 +1865,13 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <property name="kdenlive:guide.137">Snare</property>
   <property name="kdenlive:guide.142,625">Fuck</property>
   <property name="kdenlive:docproperties.renderaudioquality">192</property>
-  <property name="kdenlive:docproperties.rendercategory">Sans perte / Haute qualité</property>
+  <property name="kdenlive:docproperties.rendercategory">Generic (HD for web, mobile devices...)</property>
   <property name="kdenlive:docproperties.renderendguide">0</property>
   <property name="kdenlive:docproperties.renderexportaudio">0</property>
   <property name="kdenlive:docproperties.renderguide">0</property>
   <property name="kdenlive:docproperties.renderplay">0</property>
-  <property name="kdenlive:docproperties.renderprofile">H.264 (libx264+aac)</property>
-  <property name="kdenlive:docproperties.renderquality">15</property>
+  <property name="kdenlive:docproperties.renderprofile">MP4 - the dominating format (H264/AAC)</property>
+  <property name="kdenlive:docproperties.renderquality">19</property>
   <property name="kdenlive:docproperties.renderratio">1</property>
   <property name="kdenlive:docproperties.renderrescale">0</property>
   <property name="kdenlive:docproperties.renderrescaleheight">180</property>
@@ -1875,6 +1885,40 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <property name="kdenlive:docproperties.renderurl">/home/bordun/Clip01_SnapshatAuHarem/Rendus/08_Outro.mp4</property>
   <property name="kdenlive:docproperties.renderzone">1</property>
   <property name="kdenlive:guide.116,208">Pont</property>
+  <property name="kdenlive:customeffects">&lt;customeffects>
+ &lt;effect type="custom" unique="1" id="rumble" tag="oldfilm" kdenlive_info="0/-1/" effectcolor="#c92c3e" disable="0">
+  &lt;name>rumble&lt;/name>
+  &lt;description>Moves the Picture up and down and random brightness change&lt;/description>
+  &lt;author>Marco Gittler&lt;/author>
+  &lt;parameter type="double" name="delta" value="11" min="0" max="400" default="14">
+   &lt;name>Y-Delta&lt;/name>
+  &lt;/parameter>
+  &lt;parameter type="double" suffix="%" name="every" value="100" min="0" max="100" default="20">
+   &lt;name>% of picture have a delta&lt;/name>
+  &lt;/parameter>
+  &lt;parameter type="double" name="brightnessdelta_up" value="0" min="0" max="100" default="20">
+   &lt;name>Brightness up&lt;/name>
+  &lt;/parameter>
+  &lt;parameter type="double" name="brightnessdelta_down" value="0" min="0" max="100" default="30">
+   &lt;name>Brightness down&lt;/name>
+  &lt;/parameter>
+  &lt;parameter type="double" suffix="%" name="brightnessdelta_every" value="100" min="0" max="100" default="70">
+   &lt;name>Brightness every&lt;/name>
+  &lt;/parameter>
+  &lt;parameter type="double" name="unevendevelop_up" value="0" min="0" max="100" default="60">
+   &lt;name>Unevendevelop up&lt;/name>
+  &lt;/parameter>
+  &lt;parameter type="double" name="unevendevelop_down" value="0" min="0" max="100" default="20">
+   &lt;name>Unevendevelop down&lt;/name>
+  &lt;/parameter>
+  &lt;parameter type="double" name="unevendevelop_duration" value="0" min="0" max="10000" default="70">
+   &lt;name>Unevendevelop Duration&lt;/name>
+  &lt;/parameter>
+  &lt;version>0,2&lt;/version>
+  &lt;version>0,2&lt;/version>
+ &lt;/effect>
+&lt;/customeffects>
+</property>
   <property name="xml_retain">1</property>
   <entry producer="1" in="0" out="4287"/>
   <blank length="3455"/>
@@ -1918,6 +1962,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <entry producer="59" in="0" out="201"/>
   <entry producer="60" in="0" out="201"/>
   <entry producer="61" in="0" out="201"/>
+  <entry producer="62" in="0" out="119"/>
  </playlist>
  <producer id="black" in="0" out="18669">
   <property name="length">18670</property>
@@ -2544,7 +2589,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry producer="42" in="41" out="119">
+  <entry producer="42" in="41" out="93">
    <filter id="filter29" in="41" out="44">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2555,7 +2600,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="disable"/>
     <property name="end">1</property>
    </filter>
-   <filter id="filter30" in="116" out="119">
+   <filter id="filter30" in="90" out="93">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2566,7 +2611,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry producer="43" in="0" out="78">
+  <entry producer="43" in="0" out="52">
    <filter id="filter31" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2577,7 +2622,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="disable"/>
     <property name="end">1</property>
    </filter>
-   <filter id="filter32" in="75" out="78">
+   <filter id="filter32" in="49" out="52">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2588,7 +2633,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry producer="45" in="0" out="78">
+  <entry producer="45" in="0" out="52">
    <filter id="filter33" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2599,7 +2644,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="disable"/>
     <property name="end">1</property>
    </filter>
-   <filter id="filter34" in="75" out="78">
+   <filter id="filter34" in="49" out="52">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2610,7 +2655,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="end">0</property>
    </filter>
   </entry>
-  <entry producer="46" in="41" out="119">
+  <entry producer="46" in="41" out="93">
    <filter id="filter35" in="41" out="44">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2621,18 +2666,26 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="disable"/>
     <property name="end">1</property>
    </filter>
-   <filter id="filter36" in="116" out="119">
+   <filter id="filter36" in="90" out="93">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="tag">brightness</property>
-    <property name="kdenlive_ix">2</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
+    <property name="kdenlive_ix">3</property>
     <property name="end">0</property>
    </filter>
+   <filter id="filter37" in="41" out="44">
+    <property name="start">0</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="tag">brightness</property>
+    <property name="kdenlive_ix">4</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+    <property name="end">1</property>
+   </filter>
   </entry>
-  <filter id="filter37">
+  <filter id="filter39">
    <property name="background">colour:0x00000000</property>
    <property name="mlt_service">affine</property>
    <property name="kdenlive_id">pan_zoom</property>
@@ -2648,29 +2701,6 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <property name="kdenlive:track_name">Video 4</property>
   <blank length="5095"/>
   <entry producer="32" in="0" out="404">
-   <filter id="filter38" out="3">
-    <property name="start">0</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_from_black</property>
-    <property name="tag">brightness</property>
-    <property name="kdenlive_ix">1</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-    <property name="end">1</property>
-   </filter>
-   <filter id="filter39" in="401" out="404">
-    <property name="start">1</property>
-    <property name="mlt_service">brightness</property>
-    <property name="kdenlive_id">fade_to_black</property>
-    <property name="tag">brightness</property>
-    <property name="kdenlive_ix">2</property>
-    <property name="kdenlive_info"/>
-    <property name="disable"/>
-    <property name="end">0</property>
-   </filter>
-  </entry>
-  <blank length="158"/>
-  <entry producer="44" in="0" out="157">
    <filter id="filter40" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
@@ -2681,7 +2711,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="disable"/>
     <property name="end">1</property>
    </filter>
-   <filter id="filter41" in="154" out="157">
+   <filter id="filter41" in="401" out="404">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2692,7 +2722,30 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="end">0</property>
    </filter>
   </entry>
-  <filter id="filter42">
+  <blank length="106"/>
+  <entry producer="44" in="0" out="105">
+   <filter id="filter42" out="3">
+    <property name="start">0</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_from_black</property>
+    <property name="tag">brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+    <property name="end">1</property>
+   </filter>
+   <filter id="filter43" in="102" out="105">
+    <property name="start">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="tag">brightness</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="kdenlive_info"/>
+    <property name="disable"/>
+    <property name="end">0</property>
+   </filter>
+  </entry>
+  <filter id="filter46">
    <property name="background">colour:0x00000000</property>
    <property name="mlt_service">affine</property>
    <property name="kdenlive_id">pan_zoom</property>
@@ -2706,9 +2759,9 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
  </playlist>
  <playlist id="playlist6">
   <property name="kdenlive:track_name">Video 5</property>
-  <blank length="5857"/>
-  <entry producer="48" in="0" out="187">
-   <filter id="filter43" out="3">
+  <blank length="5744"/>
+  <entry producer="48" in="19" out="187">
+   <filter id="filter47" in="19" out="22">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
@@ -2718,40 +2771,41 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="disable"/>
     <property name="end">1</property>
    </filter>
-   <filter id="filter44" in="184" out="187">
+   <filter id="filter48" in="184" out="187">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="tag">brightness</property>
     <property name="kdenlive_ix">2</property>
-    <property name="end">0</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
+    <property name="end">0</property>
    </filter>
   </entry>
-  <entry producer="56" in="19" out="200">
-   <filter id="filter45" in="95" out="200">
+  <blank length="36"/>
+  <entry producer="56" in="0" out="277">
+   <filter id="filter49" in="172" out="277">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
     <property name="tag">brightness</property>
     <property name="kdenlive_ix">1</property>
-    <property name="end">0</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
+    <property name="end">0</property>
    </filter>
-   <filter id="filter46" in="19" out="22">
+   <filter id="filter50" out="3">
     <property name="start">0</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_from_black</property>
     <property name="tag">brightness</property>
     <property name="kdenlive_ix">2</property>
-    <property name="end">1</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
+    <property name="end">1</property>
    </filter>
   </entry>
-  <filter id="filter47">
+  <filter id="filter51">
    <property name="background">colour:0x00000000</property>
    <property name="mlt_service">affine</property>
    <property name="kdenlive_id">pan_zoom</property>
@@ -2765,7 +2819,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
  </playlist>
  <playlist id="playlist11">
   <property name="kdenlive:track_name">Video 10</property>
-  <blank length="5971"/>
+  <blank length="5839"/>
   <entry producer="54" in="78" out="78"/>
   <blank length="3"/>
   <entry producer="54" in="78" out="78"/>
@@ -2777,7 +2831,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <entry producer="54" in="87" out="87"/>
   <blank length="1"/>
   <entry producer="54" in="89" out="129">
-   <filter id="filter48" in="126" out="129">
+   <filter id="filter52" in="126" out="129">
     <property name="start">1</property>
     <property name="mlt_service">brightness</property>
     <property name="kdenlive_id">fade_to_black</property>
@@ -2802,11 +2856,20 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
  </playlist>
  <playlist id="playlist12">
   <property name="kdenlive:track_name">Vidéo 1</property>
-  <blank length="6083"/>
-  <entry producer="58" in="38" out="173"/>
-  <blank length="35"/>
+  <blank length="5952"/>
+  <entry producer="58" in="0" out="274">
+   <filter id="filter54" in="169" out="274">
+    <property name="start">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="tag">brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="end">0</property>
+   </filter>
+  </entry>
+  <blank length="27"/>
   <entry producer="49" in="0" out="1">
-   <filter id="filter49">
+   <filter id="filter55">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -2822,7 +2885,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   </entry>
   <entry producer="49" in="2" out="226"/>
   <entry producer="49" in="227" out="229">
-   <filter id="filter50">
+   <filter id="filter56">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -2839,11 +2902,45 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
  </playlist>
  <playlist id="playlist13">
   <property name="kdenlive:track_name">Vidéo 2</property>
-  <blank length="6159"/>
-  <entry producer="59" in="80" out="139"/>
-  <blank length="93"/>
+  <blank length="6066"/>
+  <entry producer="59" in="80" out="240">
+   <filter id="filter57" in="135" out="240">
+    <property name="start">1</property>
+    <property name="mlt_service">brightness</property>
+    <property name="kdenlive_id">fade_to_black</property>
+    <property name="tag">brightness</property>
+    <property name="kdenlive_ix">1</property>
+    <property name="end">0</property>
+   </filter>
+   <filter id="rumble">
+    <property name="delta">2</property>
+    <property name="every">100</property>
+    <property name="brightnessdelta_up">0</property>
+    <property name="brightnessdelta_down">0</property>
+    <property name="brightnessdelta_every">100</property>
+    <property name="unevendevelop_up">0</property>
+    <property name="unevendevelop_down">0</property>
+    <property name="unevendevelop_duration">0</property>
+    <property name="mlt_service">oldfilm</property>
+    <property name="kdenlive_id">rumble</property>
+    <property name="tag">oldfilm</property>
+    <property name="kdenlive_info">0/-1/</property>
+    <property name="kdenlive_ix">2</property>
+    <property name="disable">0</property>
+   </filter>
+   <filter id="frei0r.saturat0r">
+    <property name="version">0,3</property>
+    <property name="mlt_service">frei0r.saturat0r</property>
+    <property name="kdenlive_id">frei0r.saturat0r</property>
+    <property name="tag">frei0r.saturat0r</property>
+    <property name="kdenlive_ix">3</property>
+    <property name="Saturation">80=1</property>
+    <property name="kdenlive_info"/>
+   </filter>
+  </entry>
+  <blank length="85"/>
   <entry producer="50" in="38" out="39">
-   <filter id="filter51">
+   <filter id="filter58">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -2859,7 +2956,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   </entry>
   <entry producer="50" in="40" out="206"/>
   <entry producer="50" in="207" out="209">
-   <filter id="filter52">
+   <filter id="filter59">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -2874,11 +2971,27 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    </filter>
   </entry>
  </playlist>
- <playlist id="playlist14">
+ <playlist id="playlist7">
   <property name="kdenlive:track_name">Vidéo 3</property>
-  <blank length="6362"/>
+  <blank length="6066"/>
+  <entry producer="62" in="0" out="160">
+   <filter id="filter60">
+    <property name="version">0,1</property>
+    <property name="mlt_service">frei0r.glitch0r</property>
+    <property name="kdenlive_id">frei0r.glitch0r</property>
+    <property name="tag">frei0r.glitch0r</property>
+    <property name="kdenlive_info"/>
+    <property name="kdenlive_ix">1</property>
+    <property name="disable"/>
+    <property name="0">1</property>
+    <property name="1">1</property>
+    <property name="2">0</property>
+    <property name="3">1</property>
+   </filter>
+  </entry>
+  <blank length="135"/>
   <entry producer="51" in="12" out="13">
-   <filter id="filter54">
+   <filter id="filter61">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -2894,7 +3007,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   </entry>
   <entry producer="51" in="14" out="130"/>
   <entry producer="51" in="131" out="133">
-   <filter id="filter55">
+   <filter id="filter62">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -2913,7 +3026,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <property name="kdenlive:track_name">Video 7</property>
   <blank length="6413"/>
   <entry producer="52" in="49" out="50">
-   <filter id="filter56">
+   <filter id="filter63">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -2929,7 +3042,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   </entry>
   <entry producer="52" in="51" out="116"/>
   <entry producer="52" in="117" out="119">
-   <filter id="filter57">
+   <filter id="filter64">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -2943,6 +3056,9 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
     <property name="3">0</property>
    </filter>
   </entry>
+ </playlist>
+ <playlist id="playlist14">
+  <property name="kdenlive:track_name">Vidéo 4</property>
  </playlist>
  <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="6613">
   <track producer="black_track"/>
@@ -2958,8 +3074,9 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   <track hide="audio" producer="playlist11"/>
   <track producer="playlist12"/>
   <track producer="playlist13"/>
+  <track producer="playlist7"/>
+  <track hide="both" producer="playlist8"/>
   <track producer="playlist14"/>
-  <track hide="audio" producer="playlist8"/>
   <transition id="transition0">
    <property name="a_track">0</property>
    <property name="b_track">1</property>
@@ -3074,125 +3191,21 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
   </transition>
   <transition id="transition14">
    <property name="a_track">0</property>
-   <property name="b_track">1</property>
+   <property name="b_track">15</property>
    <property name="mlt_service">mix</property>
    <property name="always_active">1</property>
    <property name="sum">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition15">
-   <property name="a_track">0</property>
-   <property name="b_track">2</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition16">
-   <property name="a_track">0</property>
-   <property name="b_track">3</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition17">
-   <property name="a_track">0</property>
-   <property name="b_track">4</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition18">
-   <property name="a_track">0</property>
-   <property name="b_track">5</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition19">
-   <property name="a_track">0</property>
-   <property name="b_track">6</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition20">
-   <property name="a_track">0</property>
-   <property name="b_track">7</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition21">
-   <property name="a_track">0</property>
-   <property name="b_track">8</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition22">
-   <property name="a_track">0</property>
-   <property name="b_track">9</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition23">
-   <property name="a_track">0</property>
-   <property name="b_track">10</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition24">
-   <property name="a_track">0</property>
-   <property name="b_track">11</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition25">
-   <property name="a_track">0</property>
-   <property name="b_track">12</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition26">
-   <property name="a_track">0</property>
+  <transition id="transition15" in="6063" out="6226">
+   <property name="a_track">12</property>
    <property name="b_track">13</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition27">
-   <property name="a_track">0</property>
-   <property name="b_track">14</property>
-   <property name="mlt_service">mix</property>
-   <property name="always_active">1</property>
-   <property name="sum">1</property>
-   <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition28" in="6062" out="6483">
-   <property name="a_track">13</property>
-   <property name="b_track">14</property>
    <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="mlt_service">frei0r.multiply</property>
    <property name="automatic">1</property>
-   <property name="force_track">0</property>
+   <property name="force_track">1</property>
   </transition>
-  <transition id="transition29" in="6083" out="6483">
+  <transition id="transition29" in="6248" out="6483">
    <property name="a_track">11</property>
    <property name="b_track">12</property>
    <property name="version">0,2</property>
@@ -3200,7 +3213,15 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="automatic">1</property>
    <property name="force_track">0</property>
   </transition>
-  <transition id="transition30" in="5857" out="6044">
+  <transition id="transition17" in="6066" out="6226">
+   <property name="a_track">11</property>
+   <property name="b_track">12</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">0</property>
+  </transition>
+  <transition id="transition18" in="5744" out="5912">
    <property name="a_track">9</property>
    <property name="b_track">10</property>
    <property name="start">0/0:100%x100%</property>
@@ -3220,9 +3241,8 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="operator">over</property>
    <property name="softness">0</property>
    <property name="valign">middle</property>
-   <property name="luma"/>
   </transition>
-  <transition id="transition31" in="6083" out="6483">
+  <transition id="transition31" in="6233" out="6483">
    <property name="a_track">9</property>
    <property name="b_track">11</property>
    <property name="version">0,2</property>
@@ -3230,7 +3250,15 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="automatic">1</property>
    <property name="force_track">1</property>
   </transition>
-  <transition id="transition32" in="6045" out="6483">
+  <transition id="transition19" in="5952" out="6226">
+   <property name="a_track">9</property>
+   <property name="b_track">11</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition20" in="6280" out="6483">
    <property name="a_track">9</property>
    <property name="b_track">13</property>
    <property name="version">0,2</property>
@@ -3238,17 +3266,17 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="automatic">1</property>
    <property name="force_track">1</property>
   </transition>
-  <transition id="transition33" in="4899" out="5815">
-   <property name="a_track">6</property>
-   <property name="b_track">7</property>
+  <transition id="transition16" in="6280" out="6483">
+   <property name="a_track">9</property>
+   <property name="b_track">14</property>
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.addition_alpha</property>
    <property name="automatic">1</property>
    <property name="force_track">1</property>
   </transition>
-  <transition id="transition34" in="5658" out="5815">
+  <transition id="transition21" in="4792" out="5711">
    <property name="a_track">6</property>
-   <property name="b_track">8</property>
+   <property name="b_track">7</property>
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.addition_alpha</property>
    <property name="automatic">1</property>
@@ -3262,7 +3290,15 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="automatic">1</property>
    <property name="force_track">1</property>
   </transition>
-  <transition id="transition36" in="5857" out="6044">
+  <transition id="transition22" in="5606" out="5711">
+   <property name="a_track">6</property>
+   <property name="b_track">8</property>
+   <property name="version">0,2</property>
+   <property name="mlt_service">frei0r.addition_alpha</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+  </transition>
+  <transition id="transition23" in="5949" out="6226">
    <property name="a_track">6</property>
    <property name="b_track">9</property>
    <property name="version">0,2</property>
@@ -3270,7 +3306,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="automatic">1</property>
    <property name="force_track">1</property>
   </transition>
-  <transition id="transition37" in="6045" out="6226">
+  <transition id="transition24" in="5744" out="5912">
    <property name="a_track">6</property>
    <property name="b_track">9</property>
    <property name="version">0,2</property>
@@ -3294,7 +3330,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="automatic">1</property>
    <property name="force_track">1</property>
   </transition>
-  <transition id="transition40">
+  <transition id="transition25">
    <property name="a_track">0</property>
    <property name="b_track">3</property>
    <property name="compositing">0</property>
@@ -3304,7 +3340,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition41">
+  <transition id="transition26">
    <property name="a_track">0</property>
    <property name="b_track">4</property>
    <property name="compositing">0</property>
@@ -3314,7 +3350,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition42">
+  <transition id="transition27">
    <property name="a_track">0</property>
    <property name="b_track">5</property>
    <property name="compositing">0</property>
@@ -3324,7 +3360,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition43">
+  <transition id="transition28">
    <property name="a_track">0</property>
    <property name="b_track">6</property>
    <property name="compositing">0</property>
@@ -3334,7 +3370,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition44">
+  <transition id="transition30">
    <property name="a_track">0</property>
    <property name="b_track">7</property>
    <property name="compositing">0</property>
@@ -3344,7 +3380,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition45">
+  <transition id="transition32">
    <property name="a_track">0</property>
    <property name="b_track">8</property>
    <property name="compositing">0</property>
@@ -3354,7 +3390,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition46">
+  <transition id="transition33">
    <property name="a_track">0</property>
    <property name="b_track">9</property>
    <property name="compositing">0</property>
@@ -3364,7 +3400,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition47">
+  <transition id="transition34">
    <property name="a_track">0</property>
    <property name="b_track">10</property>
    <property name="compositing">0</property>
@@ -3374,7 +3410,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition48">
+  <transition id="transition36">
    <property name="a_track">0</property>
    <property name="b_track">11</property>
    <property name="compositing">0</property>
@@ -3384,7 +3420,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition49">
+  <transition id="transition37">
    <property name="a_track">0</property>
    <property name="b_track">12</property>
    <property name="compositing">0</property>
@@ -3394,7 +3430,7 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition50">
+  <transition id="transition40">
    <property name="a_track">0</property>
    <property name="b_track">13</property>
    <property name="compositing">0</property>
@@ -3404,9 +3440,19 @@ Ce clip clop rend libre le logiciel de jeu sur les réseaux et le programme de s
    <property name="always_active">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition51">
+  <transition id="transition41">
    <property name="a_track">0</property>
    <property name="b_track">14</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">0</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="always_active">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition42">
+   <property name="a_track">0</property>
+   <property name="b_track">15</property>
    <property name="compositing">0</property>
    <property name="distort">0</property>
    <property name="rotate_center">0</property>
