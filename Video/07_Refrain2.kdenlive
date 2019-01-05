@@ -1398,7 +1398,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
-  <property name="kdenlive:docproperties.position">4513</property>
+  <property name="kdenlive:docproperties.position">4399</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -1412,7 +1412,7 @@
   <property name="kdenlive:docproperties.videotargettrack">-1</property>
   <property name="kdenlive:docproperties.zonein">4063</property>
   <property name="kdenlive:docproperties.zoneout">4671</property>
-  <property name="kdenlive:docproperties.zoom">5</property>
+  <property name="kdenlive:docproperties.zoom">1</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -2547,53 +2547,6 @@
   <property name="meta.attr.compatible_brands.markup">qt  </property>
   <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
  </producer>
- <producer title="Anonymous Submission" id="48_playlist9" in="0" out="5556">
-  <property name="length">00:03:51:13</property>
-  <property name="eof">pause</property>
-  <property name="resource">/media/bordun/Odile/SnapshatAuHarem/etalo/CAM2_2017-11-25_0328_C0001.mov</property>
-  <property name="audio_index">2</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
-  <property name="seekable">1</property>
-  <property name="aspect_ratio">1</property>
-  <property name="kdenlive:file_size">5165952393</property>
-  <property name="kdenlive:file_hash">3ba1af2b61c3f49ace504e0c5761963b</property>
-  <property name="global_feed">1</property>
-  <property name="xml">was here</property>
-  <property name="meta.media.nb_streams">2</property>
-  <property name="meta.media.0.stream.type">video</property>
-  <property name="meta.media.0.stream.frame_rate">24</property>
-  <property name="meta.media.0.stream.sample_aspect_ratio">1</property>
-  <property name="meta.media.0.codec.width">1920</property>
-  <property name="meta.media.0.codec.height">1080</property>
-  <property name="meta.media.0.codec.rotate">0</property>
-  <property name="meta.media.0.codec.frame_rate">12288</property>
-  <property name="meta.media.0.codec.pix_fmt">yuv422p10le</property>
-  <property name="meta.media.0.codec.sample_aspect_ratio">0</property>
-  <property name="meta.media.0.codec.colorspace">709</property>
-  <property name="meta.media.0.codec.color_trc">1</property>
-  <property name="meta.media.0.codec.name">dnxhd</property>
-  <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
-  <property name="meta.media.0.codec.bit_rate">176160768</property>
-  <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
-  <property name="meta.attr.0.stream.timecode.markup">03:28:42:12</property>
-  <property name="meta.attr.major_brand.markup">qt  </property>
-  <property name="meta.attr.minor_version.markup">512</property>
-  <property name="meta.attr.compatible_brands.markup">qt  </property>
-  <property name="meta.attr.encoder.markup">Lavf57.25.100</property>
-  <property name="meta.media.sample_aspect_num">1</property>
-  <property name="meta.media.sample_aspect_den">1</property>
-  <property name="meta.media.frame_rate_num">24</property>
-  <property name="meta.media.frame_rate_den">1</property>
-  <property name="meta.media.colorspace">709</property>
-  <property name="meta.media.color_trc">1</property>
-  <property name="meta.media.width">1920</property>
-  <property name="meta.media.height">1080</property>
-  <property name="meta.media.top_field_first">0</property>
-  <property name="meta.media.progressive">1</property>
- </producer>
  <producer id="slowmotion:47:0,5:1:0" in="0" out="17365">
   <property name="length">17366</property>
   <property name="eof">pause</property>
@@ -2682,9 +2635,7 @@
   <entry producer="47_playlist9" in="5326" out="5356"/>
   <blank length="180"/>
   <entry producer="47_playlist9" in="5504" out="5533"/>
-  <blank length="31"/>
-  <entry producer="48_playlist9" in="4985" out="4986"/>
-  <blank length="12"/>
+  <blank length="45"/>
   <entry producer="47_playlist9" in="7271" out="7305"/>
   <blank length="116"/>
   <entry producer="slowmotion:47:0,5:1:0" in="15052" out="15159"/>
@@ -2902,13 +2853,6 @@
    <property name="always_active">1</property>
    <property name="sum">1</property>
    <property name="internal_added">237</property>
-  </transition>
-  <transition id="transition13" in="4399" out="4400">
-   <property name="a_track">9</property>
-   <property name="b_track">10</property>
-   <property name="version">0,2</property>
-   <property name="mlt_service">frei0r.divide</property>
-   <property name="force_track">0</property>
   </transition>
  </tractor>
 </mlt>

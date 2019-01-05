@@ -797,7 +797,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
-  <property name="kdenlive:docproperties.position">2117</property>
+  <property name="kdenlive:docproperties.position">2083</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -811,7 +811,7 @@
   <property name="kdenlive:docproperties.videotargettrack">3</property>
   <property name="kdenlive:docproperties.zonein">1458</property>
   <property name="kdenlive:docproperties.zoneout">2302</property>
-  <property name="kdenlive:docproperties.zoom">5</property>
+  <property name="kdenlive:docproperties.zoom">7</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -2077,17 +2077,18 @@
     <property name="disable"/>
     <property name="reverse">0</property>
    </filter>
-   <filter id="filter25">
+   <filter id="filter7">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.rgbsplit0r</property>
     <property name="kdenlive_id">frei0r.rgbsplit0r</property>
     <property name="tag">frei0r.rgbsplit0r</property>
     <property name="kdenlive_ix">2</property>
     <property name="0">0,074</property>
-    <property name="1">0,112</property>
+    <property name="1">0,029</property>
     <property name="kdenlive_info"/>
+    <property name="disable"/>
    </filter>
-   <filter id="filter7">
+   <filter id="filter8">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
@@ -2100,7 +2101,7 @@
     <property name="2">0,035</property>
     <property name="3">0</property>
    </filter>
-   <filter id="filter8">
+   <filter id="filter9">
     <property name="version">0,3</property>
     <property name="mlt_service">frei0r.saturat0r</property>
     <property name="kdenlive_id">frei0r.saturat0r</property>
@@ -2143,20 +2144,20 @@
     <property name="kdenlive_info"/>
     <property name="disable"/>
    </filter>
-   <filter id="filter9">
+   <filter id="filter10">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.glitch0r</property>
     <property name="kdenlive_id">frei0r.glitch0r</property>
     <property name="tag">frei0r.glitch0r</property>
     <property name="kdenlive_ix">4</property>
-    <property name="0">0,257</property>
-    <property name="1">0,005</property>
-    <property name="2">0,066</property>
+    <property name="0">0,466</property>
+    <property name="1">0,164</property>
+    <property name="2">0,035</property>
     <property name="3">0</property>
     <property name="kdenlive_info"/>
     <property name="disable"/>
    </filter>
-   <filter id="filter10">
+   <filter id="filter12">
     <property name="version">0,3</property>
     <property name="mlt_service">frei0r.saturat0r</property>
     <property name="kdenlive_id">frei0r.saturat0r</property>
@@ -2410,7 +2411,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter12">
+  <filter id="filter13">
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.coloradj_RGB</property>
    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
@@ -2426,7 +2427,7 @@
    <property name="Luma formula">1,0</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter13">
+  <filter id="filter14">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.saturat0r</property>
    <property name="kdenlive_id">frei0r.saturat0r</property>
@@ -2436,7 +2437,7 @@
    <property name="Saturation">0=0,09</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter14">
+  <filter id="filter15">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>
@@ -3009,7 +3010,7 @@
   <property name="meta.media.height">1080</property>
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
-  <filter id="filter15">
+  <filter id="filter16">
    <property name="version">0,2</property>
    <property name="mlt_service">frei0r.coloradj_RGB</property>
    <property name="kdenlive_id">frei0r.coloradj_RGB</property>
@@ -3025,7 +3026,7 @@
    <property name="Luma formula">1,0</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter16">
+  <filter id="filter18">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.saturat0r</property>
    <property name="kdenlive_id">frei0r.saturat0r</property>
@@ -3035,7 +3036,7 @@
    <property name="Saturation">0=0,09</property>
    <property name="disable">0</property>
   </filter>
-  <filter id="filter18">
+  <filter id="filter23">
    <property name="version">0,3</property>
    <property name="mlt_service">frei0r.levels</property>
    <property name="kdenlive_id">frei0r.levels</property>

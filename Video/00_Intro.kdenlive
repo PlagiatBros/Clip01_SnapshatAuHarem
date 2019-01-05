@@ -1438,7 +1438,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
   <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
-  <property name="kdenlive:docproperties.position">1514</property>
+  <property name="kdenlive:docproperties.position">1038</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -1452,7 +1452,7 @@
   <property name="kdenlive:docproperties.videotargettrack">11</property>
   <property name="kdenlive:docproperties.zonein">975</property>
   <property name="kdenlive:docproperties.zoneout">1022</property>
-  <property name="kdenlive:docproperties.zoom">6</property>
+  <property name="kdenlive:docproperties.zoom">2</property>
   <property name="kdenlive:docmetadata.meta.attr.author.markup">Plagiat &amp; Joris Le Guidart</property>
   <property name="kdenlive:docmetadata.meta.attr.copyright.markup">Copyleft - Licence Art Libre 1.3</property>
   <property name="kdenlive:docmetadata.meta.attr.title.markup">Snapchat au Harem (part of)</property>
@@ -3290,13 +3290,13 @@
     <property name="kdenlive_info"/>
     <property name="disable">1</property>
    </filter>
-   <filter id="filter62" in="9283" out="9301">
+   <filter id="filter6" in="9283" out="9301">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
     <property name="tag">affine</property>
     <property name="kdenlive_ix">3</property>
-    <property name="transition.geometry">0=-96/-54:2112x1188:100;18=0/0:1920x1080:100</property>
+    <property name="transition.geometry">0=-96/-54:2112x1188:100;18=-51/-21:2016x1134:100</property>
     <property name="transition.distort">0</property>
     <property name="kdenlive:sync_in_out">1</property>
     <property name="kdenlive_info">0/-1/</property>
@@ -3538,7 +3538,7 @@
     <property name="disable">1</property>
     <property name="DelayTime">0,002</property>
    </filter>
-   <filter id="filter75">
+   <filter id="filter7">
     <property name="background">colour:0x00000000</property>
     <property name="mlt_service">affine</property>
     <property name="kdenlive_id">pan_zoom</property>
@@ -3546,7 +3546,7 @@
     <property name="kdenlive_ix">3</property>
     <property name="kdenlive_info">0/-1/</property>
     <property name="disable"/>
-    <property name="transition.geometry">0=-96/-54:2112x1188:100;18=0/0:1920x1080:100</property>
+    <property name="transition.geometry">0=-96/-54:2112x1188:100;18=-33/-12:2016x1134:100</property>
     <property name="transition.distort">0</property>
    </filter>
    <filter id="frei0r.vertigo">
