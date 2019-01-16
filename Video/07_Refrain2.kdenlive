@@ -1397,8 +1397,8 @@
   <property name="kdenlive:docproperties.enableproxy">0</property>
   <property name="kdenlive:docproperties.generateimageproxy">1</property>
   <property name="kdenlive:docproperties.generateproxy">1</property>
-  <property name="kdenlive:docproperties.kdenliveversion">18.08.3</property>
-  <property name="kdenlive:docproperties.position">4399</property>
+  <property name="kdenlive:docproperties.kdenliveversion">18.12.0</property>
+  <property name="kdenlive:docproperties.position">4594</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension">mov</property>
   <property name="kdenlive:docproperties.previewparameters">r=24 s=1920x1080 vb=36M threads=0 vcodec=dnxhd</property>
@@ -1858,7 +1858,7 @@
   <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
   <property name="meta.media.0.codec.bit_rate">176160768</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.timecode.markup">01:53:07:00</property>
   <property name="meta.attr.major_brand.markup">qt  </property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -2025,7 +2025,7 @@
   <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
   <property name="meta.media.0.codec.bit_rate">176160768</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.timecode.markup">02:12:48:12</property>
   <property name="meta.attr.major_brand.markup">qt  </property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -2063,8 +2063,8 @@
   <blank length="11"/>
   <entry producer="37_playlist7" in="1908" out="1973"/>
   <blank length="50"/>
-  <entry producer="30_playlist7" in="1441" out="1522"/>
-  <entry producer="30_playlist7" in="1523" out="1529">
+  <entry producer="30_playlist7" in="1441" out="1521"/>
+  <entry producer="30_playlist7" in="1522" out="1529">
    <filter id="frei0r.rgbsplit0r">
     <property name="version">0,1</property>
     <property name="mlt_service">frei0r.rgbsplit0r</property>
@@ -2230,7 +2230,7 @@
   <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
   <property name="meta.media.0.codec.bit_rate">176160768</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.timecode.markup">00:58:13:00</property>
   <property name="meta.attr.major_brand.markup">qt  </property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -2428,7 +2428,7 @@
   <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
   <property name="meta.media.0.codec.bit_rate">176160768</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.timecode.markup">03:28:42:12</property>
   <property name="meta.attr.major_brand.markup">qt  </property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -2568,7 +2568,7 @@
   <property name="meta.media.0.codec.long_name">VC3/DNxHD</property>
   <property name="meta.media.0.codec.bit_rate">176160768</property>
   <property name="meta.attr.0.stream.language.markup">eng</property>
-  <property name="meta.attr.0.stream.handler_name.markup">Core Media Data Handler</property>
+  <property name="meta.attr.0.stream.handler_name.markup">VideoHandler</property>
   <property name="meta.attr.0.stream.timecode.markup">02:59:56:09</property>
   <property name="meta.attr.major_brand.markup">qt  </property>
   <property name="meta.attr.minor_version.markup">512</property>
@@ -2637,8 +2637,8 @@
   <entry producer="47_playlist9" in="5504" out="5533"/>
   <blank length="45"/>
   <entry producer="47_playlist9" in="7271" out="7305"/>
-  <blank length="116"/>
-  <entry producer="slowmotion:47:0,5:1:0" in="15052" out="15159"/>
+  <blank length="115"/>
+  <entry producer="slowmotion:47:0,5:1:0" in="15052" out="15160"/>
  </playlist>
  <playlist id="playlist12">
   <property name="kdenlive:track_name">Vidéo 1</property>
